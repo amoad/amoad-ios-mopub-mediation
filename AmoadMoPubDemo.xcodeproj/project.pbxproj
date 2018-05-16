@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F64EB7965DFC1F447D60D58 /* Pods_AmoadMoPubDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5144549210852E67457F44DE /* Pods_AmoadMoPubDemoUITests.framework */; };
+		2526685EFF9BA2E75761BD69 /* Pods_AmoadMoPubDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F748FCF0CE6FF9A24E6318D /* Pods_AmoadMoPubDemo.framework */; };
+		4D1ABED1F1F8D99ACF562951 /* Pods_AmoadMoPubDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57312303AF41C3D9B8ADD6EC /* Pods_AmoadMoPubDemoTests.framework */; };
+		669189AE20ABE690003F2E3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669189AD20ABE690003F2E3B /* AppDelegate.swift */; };
+		669189B020ABE690003F2E3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669189AF20ABE690003F2E3B /* ViewController.swift */; };
+		669189B320ABE690003F2E3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669189B120ABE690003F2E3B /* Main.storyboard */; };
+		669189B520ABE692003F2E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669189B420ABE692003F2E3B /* Assets.xcassets */; };
+		669189B820ABE692003F2E3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669189B620ABE692003F2E3B /* LaunchScreen.storyboard */; };
+		669189C320ABE692003F2E3B /* AmoadMoPubDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669189C220ABE692003F2E3B /* AmoadMoPubDemoTests.swift */; };
+		669189CE20ABE692003F2E3B /* AmoadMoPubDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669189CD20ABE692003F2E3B /* AmoadMoPubDemoUITests.swift */; };
+		669189DD20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669189DC20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift */; };
+		669189DE20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669189DC20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift */; };
+		669189DF20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669189DC20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		669189BF20ABE692003F2E3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 669189A220ABE690003F2E3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 669189A920ABE690003F2E3B;
+			remoteInfo = AmoadMoPubDemo;
+		};
+		669189CA20ABE692003F2E3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 669189A220ABE690003F2E3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 669189A920ABE690003F2E3B;
+			remoteInfo = AmoadMoPubDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34B16EEDDD079FB4BB8C2BAD /* Pods-AmoadMoPubDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmoadMoPubDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmoadMoPubDemoUITests/Pods-AmoadMoPubDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		42C69CA8293CF78AB098ED5C /* Pods-AmoadMoPubDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmoadMoPubDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmoadMoPubDemoTests/Pods-AmoadMoPubDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5144549210852E67457F44DE /* Pods_AmoadMoPubDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmoadMoPubDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57312303AF41C3D9B8ADD6EC /* Pods_AmoadMoPubDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmoadMoPubDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F748FCF0CE6FF9A24E6318D /* Pods_AmoadMoPubDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmoadMoPubDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		669189AA20ABE690003F2E3B /* AmoadMoPubDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmoadMoPubDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		669189AD20ABE690003F2E3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		669189AF20ABE690003F2E3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		669189B220ABE690003F2E3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		669189B420ABE692003F2E3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		669189B720ABE692003F2E3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		669189B920ABE692003F2E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		669189BE20ABE692003F2E3B /* AmoadMoPubDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmoadMoPubDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		669189C220ABE692003F2E3B /* AmoadMoPubDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmoadMoPubDemoTests.swift; sourceTree = "<group>"; };
+		669189C420ABE692003F2E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		669189C920ABE692003F2E3B /* AmoadMoPubDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmoadMoPubDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		669189CD20ABE692003F2E3B /* AmoadMoPubDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmoadMoPubDemoUITests.swift; sourceTree = "<group>"; };
+		669189CF20ABE692003F2E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		669189DC20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmoadMoPubAdapterBanner.swift; sourceTree = "<group>"; };
+		669189E020ABE9D1003F2E3B /* AmoadMoPubDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AmoadMoPubDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		69F752D769801F5ADC1FBFEF /* Pods-AmoadMoPubDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmoadMoPubDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmoadMoPubDemoTests/Pods-AmoadMoPubDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		73ADF0C0B561E02C3A8A88B5 /* Pods-AmoadMoPubDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmoadMoPubDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmoadMoPubDemo/Pods-AmoadMoPubDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A5FC6D2721427FAC6998A189 /* Pods-AmoadMoPubDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmoadMoPubDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmoadMoPubDemo/Pods-AmoadMoPubDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F4317882DEB9F4F4811C7966 /* Pods-AmoadMoPubDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmoadMoPubDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmoadMoPubDemoUITests/Pods-AmoadMoPubDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		669189A720ABE690003F2E3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2526685EFF9BA2E75761BD69 /* Pods_AmoadMoPubDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669189BB20ABE692003F2E3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1ABED1F1F8D99ACF562951 /* Pods_AmoadMoPubDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669189C620ABE692003F2E3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F64EB7965DFC1F447D60D58 /* Pods_AmoadMoPubDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		669189A120ABE690003F2E3B = {
+			isa = PBXGroup;
+			children = (
+				669189AC20ABE690003F2E3B /* AmoadMoPubDemo */,
+				669189C120ABE692003F2E3B /* AmoadMoPubDemoTests */,
+				669189CC20ABE692003F2E3B /* AmoadMoPubDemoUITests */,
+				669189AB20ABE690003F2E3B /* Products */,
+				D8F9B6B4338F9DEEA87AD786 /* Pods */,
+				6BF4968567AB8305E65601BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		669189AB20ABE690003F2E3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				669189AA20ABE690003F2E3B /* AmoadMoPubDemo.app */,
+				669189BE20ABE692003F2E3B /* AmoadMoPubDemoTests.xctest */,
+				669189C920ABE692003F2E3B /* AmoadMoPubDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		669189AC20ABE690003F2E3B /* AmoadMoPubDemo */ = {
+			isa = PBXGroup;
+			children = (
+				669189DB20ABE820003F2E3B /* MoPubAdapter */,
+				669189AD20ABE690003F2E3B /* AppDelegate.swift */,
+				669189AF20ABE690003F2E3B /* ViewController.swift */,
+				669189B120ABE690003F2E3B /* Main.storyboard */,
+				669189B420ABE692003F2E3B /* Assets.xcassets */,
+				669189B620ABE692003F2E3B /* LaunchScreen.storyboard */,
+				669189B920ABE692003F2E3B /* Info.plist */,
+				669189E020ABE9D1003F2E3B /* AmoadMoPubDemo-Bridging-Header.h */,
+			);
+			path = AmoadMoPubDemo;
+			sourceTree = "<group>";
+		};
+		669189C120ABE692003F2E3B /* AmoadMoPubDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				669189C220ABE692003F2E3B /* AmoadMoPubDemoTests.swift */,
+				669189C420ABE692003F2E3B /* Info.plist */,
+			);
+			path = AmoadMoPubDemoTests;
+			sourceTree = "<group>";
+		};
+		669189CC20ABE692003F2E3B /* AmoadMoPubDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				669189CD20ABE692003F2E3B /* AmoadMoPubDemoUITests.swift */,
+				669189CF20ABE692003F2E3B /* Info.plist */,
+			);
+			path = AmoadMoPubDemoUITests;
+			sourceTree = "<group>";
+		};
+		669189DB20ABE820003F2E3B /* MoPubAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				669189DC20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift */,
+			);
+			path = MoPubAdapter;
+			sourceTree = "<group>";
+		};
+		6BF4968567AB8305E65601BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F748FCF0CE6FF9A24E6318D /* Pods_AmoadMoPubDemo.framework */,
+				57312303AF41C3D9B8ADD6EC /* Pods_AmoadMoPubDemoTests.framework */,
+				5144549210852E67457F44DE /* Pods_AmoadMoPubDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8F9B6B4338F9DEEA87AD786 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73ADF0C0B561E02C3A8A88B5 /* Pods-AmoadMoPubDemo.debug.xcconfig */,
+				A5FC6D2721427FAC6998A189 /* Pods-AmoadMoPubDemo.release.xcconfig */,
+				42C69CA8293CF78AB098ED5C /* Pods-AmoadMoPubDemoTests.debug.xcconfig */,
+				69F752D769801F5ADC1FBFEF /* Pods-AmoadMoPubDemoTests.release.xcconfig */,
+				F4317882DEB9F4F4811C7966 /* Pods-AmoadMoPubDemoUITests.debug.xcconfig */,
+				34B16EEDDD079FB4BB8C2BAD /* Pods-AmoadMoPubDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		669189A920ABE690003F2E3B /* AmoadMoPubDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 669189D220ABE692003F2E3B /* Build configuration list for PBXNativeTarget "AmoadMoPubDemo" */;
+			buildPhases = (
+				96E9ED343A74E28AA768D148 /* [CP] Check Pods Manifest.lock */,
+				669189A620ABE690003F2E3B /* Sources */,
+				669189A720ABE690003F2E3B /* Frameworks */,
+				669189A820ABE690003F2E3B /* Resources */,
+				3F9FB73BFD2224B440643AB9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmoadMoPubDemo;
+			productName = AmoadMoPubDemo;
+			productReference = 669189AA20ABE690003F2E3B /* AmoadMoPubDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		669189BD20ABE692003F2E3B /* AmoadMoPubDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 669189D520ABE692003F2E3B /* Build configuration list for PBXNativeTarget "AmoadMoPubDemoTests" */;
+			buildPhases = (
+				2A1AAB36CD828B42D12DA899 /* [CP] Check Pods Manifest.lock */,
+				669189BA20ABE692003F2E3B /* Sources */,
+				669189BB20ABE692003F2E3B /* Frameworks */,
+				669189BC20ABE692003F2E3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				669189C020ABE692003F2E3B /* PBXTargetDependency */,
+			);
+			name = AmoadMoPubDemoTests;
+			productName = AmoadMoPubDemoTests;
+			productReference = 669189BE20ABE692003F2E3B /* AmoadMoPubDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		669189C820ABE692003F2E3B /* AmoadMoPubDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 669189D820ABE692003F2E3B /* Build configuration list for PBXNativeTarget "AmoadMoPubDemoUITests" */;
+			buildPhases = (
+				0817496DE66C95474A81C09D /* [CP] Check Pods Manifest.lock */,
+				669189C520ABE692003F2E3B /* Sources */,
+				669189C620ABE692003F2E3B /* Frameworks */,
+				669189C720ABE692003F2E3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				669189CB20ABE692003F2E3B /* PBXTargetDependency */,
+			);
+			name = AmoadMoPubDemoUITests;
+			productName = AmoadMoPubDemoUITests;
+			productReference = 669189C920ABE692003F2E3B /* AmoadMoPubDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		669189A220ABE690003F2E3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Amoad;
+				TargetAttributes = {
+					669189A920ABE690003F2E3B = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					669189BD20ABE692003F2E3B = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 669189A920ABE690003F2E3B;
+					};
+					669189C820ABE692003F2E3B = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 669189A920ABE690003F2E3B;
+					};
+				};
+			};
+			buildConfigurationList = 669189A520ABE690003F2E3B /* Build configuration list for PBXProject "AmoadMoPubDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 669189A120ABE690003F2E3B;
+			productRefGroup = 669189AB20ABE690003F2E3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				669189A920ABE690003F2E3B /* AmoadMoPubDemo */,
+				669189BD20ABE692003F2E3B /* AmoadMoPubDemoTests */,
+				669189C820ABE692003F2E3B /* AmoadMoPubDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		669189A820ABE690003F2E3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669189B820ABE692003F2E3B /* LaunchScreen.storyboard in Resources */,
+				669189B520ABE692003F2E3B /* Assets.xcassets in Resources */,
+				669189B320ABE690003F2E3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669189BC20ABE692003F2E3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669189C720ABE692003F2E3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0817496DE66C95474A81C09D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmoadMoPubDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A1AAB36CD828B42D12DA899 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmoadMoPubDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F9FB73BFD2224B440643AB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AmoadMoPubDemo/Pods-AmoadMoPubDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/mopub-ios-sdk/MoPub.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MoPub.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmoadMoPubDemo/Pods-AmoadMoPubDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96E9ED343A74E28AA768D148 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmoadMoPubDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		669189A620ABE690003F2E3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669189B020ABE690003F2E3B /* ViewController.swift in Sources */,
+				669189DD20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift in Sources */,
+				669189AE20ABE690003F2E3B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669189BA20ABE692003F2E3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669189DE20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift in Sources */,
+				669189C320ABE692003F2E3B /* AmoadMoPubDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669189C520ABE692003F2E3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669189DF20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift in Sources */,
+				669189CE20ABE692003F2E3B /* AmoadMoPubDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		669189C020ABE692003F2E3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 669189A920ABE690003F2E3B /* AmoadMoPubDemo */;
+			targetProxy = 669189BF20ABE692003F2E3B /* PBXContainerItemProxy */;
+		};
+		669189CB20ABE692003F2E3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 669189A920ABE690003F2E3B /* AmoadMoPubDemo */;
+			targetProxy = 669189CA20ABE692003F2E3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		669189B120ABE690003F2E3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				669189B220ABE690003F2E3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		669189B620ABE692003F2E3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				669189B720ABE692003F2E3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		669189D020ABE692003F2E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "AmoadMoPubDemo/AmoadMoPubDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		669189D120ABE692003F2E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "AmoadMoPubDemo/AmoadMoPubDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		669189D320ABE692003F2E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73ADF0C0B561E02C3A8A88B5 /* Pods-AmoadMoPubDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmoadMoPubDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AmoadMoPubDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AmoadMoPubDemo/AmoadMoPubDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		669189D420ABE692003F2E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5FC6D2721427FAC6998A189 /* Pods-AmoadMoPubDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmoadMoPubDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AmoadMoPubDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AmoadMoPubDemo/AmoadMoPubDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		669189D620ABE692003F2E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42C69CA8293CF78AB098ED5C /* Pods-AmoadMoPubDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmoadMoPubDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AmoadMoPubDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmoadMoPubDemo.app/AmoadMoPubDemo";
+			};
+			name = Debug;
+		};
+		669189D720ABE692003F2E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69F752D769801F5ADC1FBFEF /* Pods-AmoadMoPubDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmoadMoPubDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AmoadMoPubDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmoadMoPubDemo.app/AmoadMoPubDemo";
+			};
+			name = Release;
+		};
+		669189D920ABE692003F2E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4317882DEB9F4F4811C7966 /* Pods-AmoadMoPubDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmoadMoPubDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AmoadMoPubDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmoadMoPubDemo;
+			};
+			name = Debug;
+		};
+		669189DA20ABE692003F2E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34B16EEDDD079FB4BB8C2BAD /* Pods-AmoadMoPubDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmoadMoPubDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AmoadMoPubDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmoadMoPubDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		669189A520ABE690003F2E3B /* Build configuration list for PBXProject "AmoadMoPubDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669189D020ABE692003F2E3B /* Debug */,
+				669189D120ABE692003F2E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		669189D220ABE692003F2E3B /* Build configuration list for PBXNativeTarget "AmoadMoPubDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669189D320ABE692003F2E3B /* Debug */,
+				669189D420ABE692003F2E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		669189D520ABE692003F2E3B /* Build configuration list for PBXNativeTarget "AmoadMoPubDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669189D620ABE692003F2E3B /* Debug */,
+				669189D720ABE692003F2E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		669189D820ABE692003F2E3B /* Build configuration list for PBXNativeTarget "AmoadMoPubDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669189D920ABE692003F2E3B /* Debug */,
+				669189DA20ABE692003F2E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 669189A220ABE690003F2E3B /* Project object */;
+}
