@@ -31,9 +31,5 @@ class ViewController: UIViewController, MPAdViewDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    func adViewDidLoadAd(_ view: MPAdView!) {
-        
-    }
 }
 
