@@ -20,6 +20,12 @@
 		669189DD20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669189DC20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift */; };
 		669189DE20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669189DC20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift */; };
 		669189DF20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669189DC20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift */; };
+		669189E320AC0619003F2E3B /* MoPub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669189E220AC0619003F2E3B /* MoPub.framework */; };
+		669189E520AC062F003F2E3B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669189E420AC062F003F2E3B /* AdSupport.framework */; };
+		669189E720AC063E003F2E3B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669189E620AC063E003F2E3B /* CoreMedia.framework */; };
+		669189E920AC064E003F2E3B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669189E820AC064E003F2E3B /* AVFoundation.framework */; };
+		669189EB20AC0666003F2E3B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669189EA20AC0666003F2E3B /* CoreTelephony.framework */; };
+		669189ED20AC0679003F2E3B /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669189EC20AC0679003F2E3B /* SafariServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +66,12 @@
 		669189CF20ABE692003F2E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		669189DC20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmoadMoPubAdapterBanner.swift; sourceTree = "<group>"; };
 		669189E020ABE9D1003F2E3B /* AmoadMoPubDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AmoadMoPubDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		669189E220AC0619003F2E3B /* MoPub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MoPub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		669189E420AC062F003F2E3B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		669189E620AC063E003F2E3B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		669189E820AC064E003F2E3B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		669189EA20AC0666003F2E3B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		669189EC20AC0679003F2E3B /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		69F752D769801F5ADC1FBFEF /* Pods-AmoadMoPubDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmoadMoPubDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmoadMoPubDemoTests/Pods-AmoadMoPubDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		73ADF0C0B561E02C3A8A88B5 /* Pods-AmoadMoPubDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmoadMoPubDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmoadMoPubDemo/Pods-AmoadMoPubDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A5FC6D2721427FAC6998A189 /* Pods-AmoadMoPubDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmoadMoPubDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmoadMoPubDemo/Pods-AmoadMoPubDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,6 +83,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				669189ED20AC0679003F2E3B /* SafariServices.framework in Frameworks */,
+				669189EB20AC0666003F2E3B /* CoreTelephony.framework in Frameworks */,
+				669189E920AC064E003F2E3B /* AVFoundation.framework in Frameworks */,
+				669189E720AC063E003F2E3B /* CoreMedia.framework in Frameworks */,
+				669189E520AC062F003F2E3B /* AdSupport.framework in Frameworks */,
+				669189E320AC0619003F2E3B /* MoPub.framework in Frameworks */,
 				2526685EFF9BA2E75761BD69 /* Pods_AmoadMoPubDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,6 +178,12 @@
 		6BF4968567AB8305E65601BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				669189EC20AC0679003F2E3B /* SafariServices.framework */,
+				669189EA20AC0666003F2E3B /* CoreTelephony.framework */,
+				669189E820AC064E003F2E3B /* AVFoundation.framework */,
+				669189E620AC063E003F2E3B /* CoreMedia.framework */,
+				669189E420AC062F003F2E3B /* AdSupport.framework */,
+				669189E220AC0619003F2E3B /* MoPub.framework */,
 				5F748FCF0CE6FF9A24E6318D /* Pods_AmoadMoPubDemo.framework */,
 				57312303AF41C3D9B8ADD6EC /* Pods_AmoadMoPubDemoTests.framework */,
 				5144549210852E67457F44DE /* Pods_AmoadMoPubDemoUITests.framework */,

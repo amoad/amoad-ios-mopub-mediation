@@ -12,5 +12,6 @@ import UIKit
 @objc(AmoadMoPubAdapterBanner)
 class AmoadMoPubAdapterBanner: MPBannerCustomEvent {
     public override func requestAd(with size: CGSize, customEventInfo info: [AnyHashable: Any]!) {
+        print("hoge:\(info)")
     }
 }
