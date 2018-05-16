@@ -26,6 +26,9 @@
 		669189E920AC064E003F2E3B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669189E820AC064E003F2E3B /* AVFoundation.framework */; };
 		669189EB20AC0666003F2E3B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669189EA20AC0666003F2E3B /* CoreTelephony.framework */; };
 		669189ED20AC0679003F2E3B /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669189EC20AC0679003F2E3B /* SafariServices.framework */; };
+		669189EF20AC178F003F2E3B /* AmoadMoPubUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669189EE20AC178F003F2E3B /* AmoadMoPubUtil.swift */; };
+		669189F020AC178F003F2E3B /* AmoadMoPubUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669189EE20AC178F003F2E3B /* AmoadMoPubUtil.swift */; };
+		669189F120AC178F003F2E3B /* AmoadMoPubUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669189EE20AC178F003F2E3B /* AmoadMoPubUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +75,7 @@
 		669189E820AC064E003F2E3B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		669189EA20AC0666003F2E3B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		669189EC20AC0679003F2E3B /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		669189EE20AC178F003F2E3B /* AmoadMoPubUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmoadMoPubUtil.swift; sourceTree = "<group>"; };
 		69F752D769801F5ADC1FBFEF /* Pods-AmoadMoPubDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmoadMoPubDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmoadMoPubDemoTests/Pods-AmoadMoPubDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		73ADF0C0B561E02C3A8A88B5 /* Pods-AmoadMoPubDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmoadMoPubDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmoadMoPubDemo/Pods-AmoadMoPubDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A5FC6D2721427FAC6998A189 /* Pods-AmoadMoPubDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmoadMoPubDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmoadMoPubDemo/Pods-AmoadMoPubDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -171,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				669189DC20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift */,
+				669189EE20AC178F003F2E3B /* AmoadMoPubUtil.swift */,
 			);
 			path = MoPubAdapter;
 			sourceTree = "<group>";
@@ -416,6 +421,7 @@
 			files = (
 				669189B020ABE690003F2E3B /* ViewController.swift in Sources */,
 				669189DD20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift in Sources */,
+				669189EF20AC178F003F2E3B /* AmoadMoPubUtil.swift in Sources */,
 				669189AE20ABE690003F2E3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +432,7 @@
 			files = (
 				669189DE20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift in Sources */,
 				669189C320ABE692003F2E3B /* AmoadMoPubDemoTests.swift in Sources */,
+				669189F020AC178F003F2E3B /* AmoadMoPubUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +442,7 @@
 			files = (
 				669189DF20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift in Sources */,
 				669189CE20ABE692003F2E3B /* AmoadMoPubDemoUITests.swift in Sources */,
+				669189F120AC178F003F2E3B /* AmoadMoPubUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
