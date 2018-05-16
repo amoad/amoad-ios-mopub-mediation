@@ -12,17 +12,15 @@ import UIKit
 class AmoadMoPubUtil {
     
     /// - Parameter info: MoPub CustomEventInfo Object
-    /// - Returns: LDOCustomEventClassData
+    /// - Returns: AmoadCustomEventClassData
     static func extractCustomEventClassData(info: [AnyHashable: Any]) -> AmoadCustomEventClassData? {
         
         let decoder = JSONDecoder()
         
         do {
-            
             let jsonData = try JSONSerialization.data(withJSONObject: info, options: .prettyPrinted)
             let customEventClassData = try decoder.decode(AmoadCustomEventClassData.self, from: jsonData)
             return customEventClassData
-            
         } catch {
             return nil
         }

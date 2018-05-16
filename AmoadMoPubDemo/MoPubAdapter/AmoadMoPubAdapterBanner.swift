@@ -13,5 +13,11 @@ import UIKit
 class AmoadMoPubAdapterBanner: MPBannerCustomEvent {
     public override func requestAd(with size: CGSize, customEventInfo info: [AnyHashable: Any]!) {
         print("requestAd-info:\(info)")
+        // Decording data from server
+        let customEventClassData = AmoadMoPubUtil.extractCustomEventClassData(info: info)
+        guard let _customEventClassData = customEventClassData else {
+            return
+        }
+        print("_customEventClassData:\(_customEventClassData)")
     }
 }
