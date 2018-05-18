@@ -768,7 +768,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AmoadMoPubDemo/AMoAdSdk",
 				);
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AmoadMoPubDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AmoadMoPubDemo/AmoadMoPubDemo-Bridging-Header.h";
@@ -792,7 +792,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AmoadMoPubDemo/AMoAdSdk",
 				);
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AmoadMoPubDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AmoadMoPubDemo/AmoadMoPubDemo-Bridging-Header.h";
