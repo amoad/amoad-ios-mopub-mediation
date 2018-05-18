@@ -35,24 +35,24 @@ class AmoadMoPubAdapterBanner: MPBannerCustomEvent {
             // デリゲートを設定する
             amoadView.delegate = self
             
-//            // 横方向を中央寄せ(AMoAdHorizontalAlignCenter)に指定
-//            amoadView.horizontalAlign = .center
-//
-//            // 縦方向を下寄せ(AMoAdVerticalAlignBottom) に指定
-//            amoadView.verticalAlign = .bottom
-//
-//            // ローテーション時のアニメーションを設定する
-//            amoadView.rotateTransition = .flipFromLeft
-//
-//            // クリック時のアニメーションを設定する
-//            amoadView.clickTransition = .jump
+            // 横方向を中央寄せ(AMoAdHorizontalAlignCenter)に指定
+            amoadView.horizontalAlign = .center
+
+            // 縦方向を下寄せ(AMoAdVerticalAlignBottom) に指定
+            amoadView.verticalAlign = .bottom
+
+            // ローテーション時のアニメーションを設定する
+            amoadView.rotateTransition = .flipFromLeft
+
+            // クリック時のアニメーションを設定する
+            amoadView.clickTransition = .jump
             
             // 広告ID（sid）を設定する
             amoadView.sid = customEventClassData.sid
             
-            let moPubBridgeAdapterView = AmoadMoPubBridgeAdapterView(frame: CGRect(x: 0, y: 0, width: amoadView.frame.size.width, height: amoadView.frame.size.height), ad: amoadView)
+//            let moPubBridgeAdapterView = AmoadMoPubBridgeAdapterView(frame: CGRect(x: 0, y: 0, width: amoadView.frame.size.width, height: amoadView.frame.size.height), ad: amoadView)
             
-            self.delegate.bannerCustomEvent(self, didLoadAd: moPubBridgeAdapterView)
+            self.delegate.bannerCustomEvent(self, didLoadAd: amoadView)
         }
     }
     
