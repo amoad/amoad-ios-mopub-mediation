@@ -52,6 +52,17 @@
 		66918A1B20AC24CB003F2E3B /* amoad_panel_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 66918A0320AC24CB003F2E3B /* amoad_panel_l.png */; };
 		66918A1D20AC25E9003F2E3B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66918A1C20AC25E9003F2E3B /* ImageIO.framework */; };
 		66918A1F20AC25F6003F2E3B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66918A1E20AC25F6003F2E3B /* StoreKit.framework */; };
+		66BFE40820AE918600EBE6DE /* AmoadMoPubBridgeAdapterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BFE40720AE918600EBE6DE /* AmoadMoPubBridgeAdapterView.swift */; };
+		66BFE40920AE918600EBE6DE /* AmoadMoPubBridgeAdapterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BFE40720AE918600EBE6DE /* AmoadMoPubBridgeAdapterView.swift */; };
+		66BFE40A20AE918600EBE6DE /* AmoadMoPubBridgeAdapterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BFE40720AE918600EBE6DE /* AmoadMoPubBridgeAdapterView.swift */; };
+		66BFE40B20AE9FF900EBE6DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669189AD20ABE690003F2E3B /* AppDelegate.swift */; };
+		66BFE40C20AE9FFA00EBE6DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669189AD20ABE690003F2E3B /* AppDelegate.swift */; };
+		66BFE40D20AE9FFD00EBE6DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669189AF20ABE690003F2E3B /* ViewController.swift */; };
+		66BFE40E20AE9FFE00EBE6DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669189AF20ABE690003F2E3B /* ViewController.swift */; };
+		66BFE40F20AEA00200EBE6DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669189B120ABE690003F2E3B /* Main.storyboard */; };
+		66BFE41020AEA00300EBE6DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669189B120ABE690003F2E3B /* Main.storyboard */; };
+		66BFE41120AEA00C00EBE6DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669189B620ABE692003F2E3B /* LaunchScreen.storyboard */; };
+		66BFE41220AEA00D00EBE6DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669189B620ABE692003F2E3B /* LaunchScreen.storyboard */; };
 		66F7C3D020AC3B900055CB01 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7C3CF20AC3B900055CB01 /* BannerViewController.swift */; };
 		66F7C3D120AC3B900055CB01 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7C3CF20AC3B900055CB01 /* BannerViewController.swift */; };
 		66F7C3D220AC3B900055CB01 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7C3CF20AC3B900055CB01 /* BannerViewController.swift */; };
@@ -130,6 +141,7 @@
 		66918A0620AC24CB003F2E3B /* AMoAdList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdList.h; sourceTree = "<group>"; };
 		66918A1C20AC25E9003F2E3B /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		66918A1E20AC25F6003F2E3B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		66BFE40720AE918600EBE6DE /* AmoadMoPubBridgeAdapterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmoadMoPubBridgeAdapterView.swift; sourceTree = "<group>"; };
 		66F7C3CF20AC3B900055CB01 /* BannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
 		66F7C3D720AC3CC20055CB01 /* b320_50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b320_50@2x.png"; sourceTree = "<group>"; };
 		66F7C3DB20AC40230055CB01 /* Banner.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Banner.storyboard; sourceTree = "<group>"; };
@@ -240,6 +252,7 @@
 			children = (
 				669189DC20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift */,
 				669189EE20AC178F003F2E3B /* AmoadMoPubUtil.swift */,
+				66BFE40720AE918600EBE6DE /* AmoadMoPubBridgeAdapterView.swift */,
 			);
 			path = MoPubAdapter;
 			sourceTree = "<group>";
@@ -441,9 +454,11 @@
 				66918A0820AC24CB003F2E3B /* amoad_link_btn_h.png in Resources */,
 				66918A1420AC24CB003F2E3B /* amoad_close_btn_h.png in Resources */,
 				66918A1A20AC24CB003F2E3B /* amoad_panel_l.png in Resources */,
+				66BFE41120AEA00C00EBE6DE /* LaunchScreen.storyboard in Resources */,
 				66918A1720AC24CB003F2E3B /* amoad_close_btn.png in Resources */,
 				66918A0E20AC24CB003F2E3B /* amoad_panel.png in Resources */,
 				66F7C3D920AC3CC20055CB01 /* b320_50@2x.png in Resources */,
+				66BFE40F20AEA00200EBE6DE /* Main.storyboard in Resources */,
 				66F7C3DD20AC40230055CB01 /* Banner.storyboard in Resources */,
 				66918A0B20AC24CB003F2E3B /* amoad_link_btn.png in Resources */,
 			);
@@ -456,9 +471,11 @@
 				66918A0920AC24CB003F2E3B /* amoad_link_btn_h.png in Resources */,
 				66918A1520AC24CB003F2E3B /* amoad_close_btn_h.png in Resources */,
 				66918A1B20AC24CB003F2E3B /* amoad_panel_l.png in Resources */,
+				66BFE41220AEA00D00EBE6DE /* LaunchScreen.storyboard in Resources */,
 				66918A1820AC24CB003F2E3B /* amoad_close_btn.png in Resources */,
 				66918A0F20AC24CB003F2E3B /* amoad_panel.png in Resources */,
 				66F7C3DA20AC3CC20055CB01 /* b320_50@2x.png in Resources */,
+				66BFE41020AEA00300EBE6DE /* Main.storyboard in Resources */,
 				66F7C3DE20AC40230055CB01 /* Banner.storyboard in Resources */,
 				66918A0C20AC24CB003F2E3B /* amoad_link_btn.png in Resources */,
 			);
@@ -550,6 +567,7 @@
 				669189B020ABE690003F2E3B /* ViewController.swift in Sources */,
 				669189DD20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift in Sources */,
 				669189EF20AC178F003F2E3B /* AmoadMoPubUtil.swift in Sources */,
+				66BFE40820AE918600EBE6DE /* AmoadMoPubBridgeAdapterView.swift in Sources */,
 				669189AE20ABE690003F2E3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -558,8 +576,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66BFE40B20AE9FF900EBE6DE /* AppDelegate.swift in Sources */,
+				66BFE40920AE918600EBE6DE /* AmoadMoPubBridgeAdapterView.swift in Sources */,
 				669189DE20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift in Sources */,
 				669189C320ABE692003F2E3B /* AmoadMoPubDemoTests.swift in Sources */,
+				66BFE40D20AE9FFD00EBE6DE /* ViewController.swift in Sources */,
 				66F7C3D120AC3B900055CB01 /* BannerViewController.swift in Sources */,
 				669189F020AC178F003F2E3B /* AmoadMoPubUtil.swift in Sources */,
 			);
@@ -569,8 +590,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66BFE40C20AE9FFA00EBE6DE /* AppDelegate.swift in Sources */,
+				66BFE40A20AE918600EBE6DE /* AmoadMoPubBridgeAdapterView.swift in Sources */,
 				669189DF20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift in Sources */,
 				669189CE20ABE692003F2E3B /* AmoadMoPubDemoUITests.swift in Sources */,
+				66BFE40E20AE9FFE00EBE6DE /* ViewController.swift in Sources */,
 				66F7C3D220AC3B900055CB01 /* BannerViewController.swift in Sources */,
 				669189F120AC178F003F2E3B /* AmoadMoPubUtil.swift in Sources */,
 			);

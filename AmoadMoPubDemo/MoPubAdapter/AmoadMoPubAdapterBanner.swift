@@ -50,9 +50,9 @@ class AmoadMoPubAdapterBanner: MPBannerCustomEvent {
             // 広告ID（sid）を設定する
             amoadView.sid = customEventClassData.sid
             
-            let adView:UIView = amoadView
+            let moPubBridgeAdapterView = AmoadMoPubBridgeAdapterView(frame: CGRect(x: 0, y: 0, width: amoadView.frame.size.width, height: amoadView.frame.size.height), ad: amoadView)
             
-            self.delegate.bannerCustomEvent(self, didLoadAd: adView)
+            self.delegate.bannerCustomEvent(self, didLoadAd: moPubBridgeAdapterView)
         }
     }
     
