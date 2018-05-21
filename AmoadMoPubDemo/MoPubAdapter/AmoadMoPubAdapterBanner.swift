@@ -30,7 +30,9 @@ class AmoadMoPubAdapterBanner: MPBannerCustomEvent {
         AMoAdLogger.shared().trace = true
         AMoAdView.setEnvStaging(true)
         
-        if let amoadView = AMoAdView.init(frame: CGRect(x:0,y:0,width:size.width,height:size.height)) {
+        let frameSize = CGRect(x:0,y:0,width:size.width,height:size.height)
+        
+        if let amoadView = AMoAdView.init(frame: frameSize) {
             
             // デリゲートを設定する
             amoadView.delegate = self
