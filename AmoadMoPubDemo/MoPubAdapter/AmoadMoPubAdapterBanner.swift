@@ -51,22 +51,21 @@ class AmoadMoPubAdapterBanner: MPBannerCustomEvent {
             
             // 広告ID（sid）を設定する
             amoadView.sid = customEventClassData.sid
-            
-//            let moPubBridgeAdapterView = AmoadMoPubBridgeAdapterView(frame: CGRect(x: 0, y: 0, width: amoadView.frame.size.width, height: amoadView.frame.size.height), ad: amoadView)
-            
-            self.delegate.bannerCustomEvent(self, didLoadAd: amoadView)
         }
     }
     
     func AMoAdViewDidReceiveAd(_ amoadView: AMoAdView!) {
         print("正常に広告を受信した")
+        self.delegate.bannerCustomEvent(self, didLoadAd: amoadView)
     }
     
     func AMoAdViewDidFailToReceiveAd(_ amoadView: AMoAdView!, error: NSError!) {
         print("広告の取得に失敗した（error:\(error)）")
+        self.delegate.bannerCustomEvent(self, didFailToLoadAdWithError: nil)
     }
     
     func AMoAdViewDidReceiveEmptyAd(_ amoadView: AMoAdView!) {
         print("空の広告を受信した")
+        self.delegate.bannerCustomEvent(self, didFailToLoadAdWithError: nil)
     }
 }
