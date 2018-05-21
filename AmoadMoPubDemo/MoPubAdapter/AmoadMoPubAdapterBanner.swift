@@ -13,7 +13,7 @@ import UIKit
 class AmoadMoPubAdapterBanner: MPBannerCustomEvent {
     
     public override func requestAd(with size: CGSize, customEventInfo info: [AnyHashable: Any]!) {
-        
+
         // Decording data from server
         let customEventClassData = AmoadMoPubUtil.extractCustomEventClassData(info: info)
         guard let _customEventClassData = customEventClassData else {
@@ -51,12 +51,14 @@ class AmoadMoPubAdapterBanner: MPBannerCustomEvent {
             
             // 広告ID（sid）を設定する
             amoadView.sid = customEventClassData.sid
+            
+            self.delegate.bannerCustomEvent(self, didLoadAd: amoadView)
         }
     }
     
     func AMoAdViewDidReceiveAd(_ amoadView: AMoAdView!) {
         print("正常に広告を受信した")
-        self.delegate.bannerCustomEvent(self, didLoadAd: amoadView)
+//        self.delegate.bannerCustomEvent(self, didLoadAd: amoadView)
     }
     
     func AMoAdViewDidFailToReceiveAd(_ amoadView: AMoAdView!, error: NSError!) {
