@@ -17,7 +17,29 @@
                     <view key="view" contentMode="scaleToFill" id="N51-np-XVr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5VA-Ii-dKJ">
+                                <rect key="frame" x="168" y="218.5" width="38" height="30"/>
+                                <state key="normal" title="Show"/>
+                                <connections>
+                                    <action selector="showInterstitial:" destination="eAC-xC-9wg" eventType="touchUpInside" id="leH-tC-9dA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdk-U8-oVh">
+                                <rect key="frame" x="170" y="118.5" width="34" height="30"/>
+                                <state key="normal" title="Load"/>
+                                <connections>
+                                    <action selector="loadInterstitial:" destination="eAC-xC-9wg" eventType="touchUpInside" id="OzO-c3-DtS"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xdk-U8-oVh" firstAttribute="centerX" secondItem="N51-np-XVr" secondAttribute="centerX" id="YBQ-oF-sun"/>
+                            <constraint firstItem="5VA-Ii-dKJ" firstAttribute="centerX" secondItem="N51-np-XVr" secondAttribute="centerX" id="oLL-kQ-h2u"/>
+                            <constraint firstItem="5VA-Ii-dKJ" firstAttribute="centerY" secondItem="N51-np-XVr" secondAttribute="centerY" constant="-100" id="pLK-yh-KcW"/>
+                            <constraint firstItem="xdk-U8-oVh" firstAttribute="centerY" secondItem="N51-np-XVr" secondAttribute="centerY" constant="-200" id="rZv-ft-8Yb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Lmb-5E-qGq"/>
                     </view>
                 </viewController>

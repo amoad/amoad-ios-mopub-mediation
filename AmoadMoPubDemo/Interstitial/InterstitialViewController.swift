@@ -17,8 +17,6 @@ class InterstitialViewController: UIViewController {
         // Do any additional setup after loading the view.
         let adUnitId_interstitial = "5bb5154853ee42c3ae86eb8b1eb8b3a5"
         adController = MPInterstitialAdController(forAdUnitId: adUnitId_interstitial)
-        self.adController?.loadAd()
-//        self.adController?.show(from: self)
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,7 +24,14 @@ class InterstitialViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func loadInterstitial(_ sender: Any) {
+        self.adController?.loadAd()
+    }
+    
+    @IBAction func showInterstitial(_ sender: Any) {
+        self.adController?.show(from: self)
+    }
+    
     /*
     // MARK: - Navigation
 
