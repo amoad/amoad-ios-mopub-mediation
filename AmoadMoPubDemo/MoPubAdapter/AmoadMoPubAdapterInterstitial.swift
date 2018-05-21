@@ -19,7 +19,18 @@ class AmoadMoPubAdapterInterstitial: MPInterstitialCustomEvent {
         
         guard let _customEventClassData = customEventClassData else {
             return
-        }        
+        }
+        
+        // Sending adData to amoadSDK
+        self.preparedInterstitial(customEventClassData: _customEventClassData)
+    }
+    
+    public override func showInterstitial(fromRootViewController rootViewController: UIViewController!) {
+        self.delegate.interstitialCustomEventWillAppear(self)
+        self.delegate.interstitialCustomEventDidAppear(self)
     }
 
+    fileprivate func preparedInterstitial(customEventClassData: AmoadCustomEventClassData) {
+        
+    }
 }

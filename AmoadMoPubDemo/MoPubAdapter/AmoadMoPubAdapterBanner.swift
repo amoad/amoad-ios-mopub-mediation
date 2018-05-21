@@ -21,10 +21,10 @@ class AmoadMoPubAdapterBanner: MPBannerCustomEvent {
         }
         
         // Sending adData to amoadSDK
-        self.setBannerAd(size: size, customEventClassData: _customEventClassData)
+        self.preparedBanner(size: size, customEventClassData: _customEventClassData)
     }
     
-    fileprivate func setBannerAd(size: CGSize, customEventClassData: AmoadCustomEventClassData) {
+    fileprivate func preparedBanner(size: CGSize, customEventClassData: AmoadCustomEventClassData) {
         
         AMoAdLogger.shared().logging = true
         AMoAdLogger.shared().trace = true
