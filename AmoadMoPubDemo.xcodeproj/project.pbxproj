@@ -78,6 +78,12 @@
 		66F40D5420B293F600E6DB15 /* AmoadMoPubAdapterInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F40D5320B293F600E6DB15 /* AmoadMoPubAdapterInterstitial.swift */; };
 		66F40D5520B293F600E6DB15 /* AmoadMoPubAdapterInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F40D5320B293F600E6DB15 /* AmoadMoPubAdapterInterstitial.swift */; };
 		66F40D5620B293F600E6DB15 /* AmoadMoPubAdapterInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F40D5320B293F600E6DB15 /* AmoadMoPubAdapterInterstitial.swift */; };
+		66F40D5A20B2C33900E6DB15 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F40D5920B2C33900E6DB15 /* InterstitialViewController.swift */; };
+		66F40D5B20B2C33900E6DB15 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F40D5920B2C33900E6DB15 /* InterstitialViewController.swift */; };
+		66F40D5C20B2C33900E6DB15 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F40D5920B2C33900E6DB15 /* InterstitialViewController.swift */; };
+		66F40D5E20B2C34800E6DB15 /* Interstitial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F40D5D20B2C34800E6DB15 /* Interstitial.storyboard */; };
+		66F40D5F20B2C34800E6DB15 /* Interstitial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F40D5D20B2C34800E6DB15 /* Interstitial.storyboard */; };
+		66F40D6020B2C34800E6DB15 /* Interstitial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F40D5D20B2C34800E6DB15 /* Interstitial.storyboard */; };
 		66F7C3D020AC3B900055CB01 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7C3CF20AC3B900055CB01 /* BannerViewController.swift */; };
 		66F7C3D120AC3B900055CB01 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7C3CF20AC3B900055CB01 /* BannerViewController.swift */; };
 		66F7C3D220AC3B900055CB01 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7C3CF20AC3B900055CB01 /* BannerViewController.swift */; };
@@ -162,6 +168,8 @@
 		66F40D4B20B285D700E6DB15 /* InfeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfeedViewController.swift; sourceTree = "<group>"; };
 		66F40D4F20B285E300E6DB15 /* Infeed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Infeed.storyboard; sourceTree = "<group>"; };
 		66F40D5320B293F600E6DB15 /* AmoadMoPubAdapterInterstitial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmoadMoPubAdapterInterstitial.swift; sourceTree = "<group>"; };
+		66F40D5920B2C33900E6DB15 /* InterstitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialViewController.swift; sourceTree = "<group>"; };
+		66F40D5D20B2C34800E6DB15 /* Interstitial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interstitial.storyboard; sourceTree = "<group>"; };
 		66F7C3CF20AC3B900055CB01 /* BannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
 		66F7C3D720AC3CC20055CB01 /* b320_50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b320_50@2x.png"; sourceTree = "<group>"; };
 		66F7C3DB20AC40230055CB01 /* Banner.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Banner.storyboard; sourceTree = "<group>"; };
@@ -245,6 +253,7 @@
 				669189B920ABE692003F2E3B /* Info.plist */,
 				669189E020ABE9D1003F2E3B /* AmoadMoPubDemo-Bridging-Header.h */,
 				66F7C3CE20AC3B500055CB01 /* Banner */,
+				66F40D5820B2C30900E6DB15 /* Interstitial */,
 				66F40D4A20B285A000E6DB15 /* Infeed */,
 				66F40D4120B27C4C00E6DB15 /* Afio */,
 			);
@@ -323,6 +332,15 @@
 				66F40D4F20B285E300E6DB15 /* Infeed.storyboard */,
 			);
 			path = Infeed;
+			sourceTree = "<group>";
+		};
+		66F40D5820B2C30900E6DB15 /* Interstitial */ = {
+			isa = PBXGroup;
+			children = (
+				66F40D5920B2C33900E6DB15 /* InterstitialViewController.swift */,
+				66F40D5D20B2C34800E6DB15 /* Interstitial.storyboard */,
+			);
+			path = Interstitial;
 			sourceTree = "<group>";
 		};
 		66F7C3CE20AC3B500055CB01 /* Banner */ = {
@@ -478,6 +496,7 @@
 				66F40D4720B27C9000E6DB15 /* Afio.storyboard in Resources */,
 				66918A0720AC24CB003F2E3B /* amoad_link_btn_h.png in Resources */,
 				66F40D5020B285E300E6DB15 /* Infeed.storyboard in Resources */,
+				66F40D5E20B2C34800E6DB15 /* Interstitial.storyboard in Resources */,
 				66F7C3DC20AC40230055CB01 /* Banner.storyboard in Resources */,
 				66F7C3D820AC3CC20055CB01 /* b320_50@2x.png in Resources */,
 				66918A1920AC24CB003F2E3B /* amoad_panel_l.png in Resources */,
@@ -495,6 +514,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66918A0820AC24CB003F2E3B /* amoad_link_btn_h.png in Resources */,
+				66F40D5F20B2C34800E6DB15 /* Interstitial.storyboard in Resources */,
 				66918A1420AC24CB003F2E3B /* amoad_close_btn_h.png in Resources */,
 				66918A1A20AC24CB003F2E3B /* amoad_panel_l.png in Resources */,
 				66F40D4820B27C9000E6DB15 /* Afio.storyboard in Resources */,
@@ -514,6 +534,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66918A0920AC24CB003F2E3B /* amoad_link_btn_h.png in Resources */,
+				66F40D6020B2C34800E6DB15 /* Interstitial.storyboard in Resources */,
 				66918A1520AC24CB003F2E3B /* amoad_close_btn_h.png in Resources */,
 				66918A1B20AC24CB003F2E3B /* amoad_panel_l.png in Resources */,
 				66F40D4920B27C9000E6DB15 /* Afio.storyboard in Resources */,
@@ -614,6 +635,7 @@
 				669189B020ABE690003F2E3B /* ViewController.swift in Sources */,
 				66F40D5420B293F600E6DB15 /* AmoadMoPubAdapterInterstitial.swift in Sources */,
 				669189DD20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift in Sources */,
+				66F40D5A20B2C33900E6DB15 /* InterstitialViewController.swift in Sources */,
 				669189EF20AC178F003F2E3B /* AmoadMoPubUtil.swift in Sources */,
 				66BFE40820AE918600EBE6DE /* AmoadMoPubBridgeAdapterView.swift in Sources */,
 				669189AE20ABE690003F2E3B /* AppDelegate.swift in Sources */,
@@ -628,6 +650,7 @@
 			files = (
 				66BFE40B20AE9FF900EBE6DE /* AppDelegate.swift in Sources */,
 				66F40D4D20B285D700E6DB15 /* InfeedViewController.swift in Sources */,
+				66F40D5B20B2C33900E6DB15 /* InterstitialViewController.swift in Sources */,
 				66F40D4420B27C8300E6DB15 /* AfioViewController.swift in Sources */,
 				66BFE40920AE918600EBE6DE /* AmoadMoPubBridgeAdapterView.swift in Sources */,
 				66F40D5520B293F600E6DB15 /* AmoadMoPubAdapterInterstitial.swift in Sources */,
@@ -645,6 +668,7 @@
 			files = (
 				66BFE40C20AE9FFA00EBE6DE /* AppDelegate.swift in Sources */,
 				66F40D4E20B285D700E6DB15 /* InfeedViewController.swift in Sources */,
+				66F40D5C20B2C33900E6DB15 /* InterstitialViewController.swift in Sources */,
 				66F40D4520B27C8300E6DB15 /* AfioViewController.swift in Sources */,
 				66BFE40A20AE918600EBE6DE /* AmoadMoPubBridgeAdapterView.swift in Sources */,
 				66F40D5620B293F600E6DB15 /* AmoadMoPubAdapterInterstitial.swift in Sources */,

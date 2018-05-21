@@ -15,7 +15,7 @@ class AmoadMoPubAdapterInterstitial: MPInterstitialCustomEvent {
     var customEventClassData: AmoadCustomEventClassData?
     
     public override func requestInterstitial(withCustomEventInfo info: [AnyHashable: Any]!) {
-        
+        print("hogetes")
         // Decording data from server
         self.customEventClassData = AmoadMoPubUtil.extractCustomEventClassData(info: info)
         
