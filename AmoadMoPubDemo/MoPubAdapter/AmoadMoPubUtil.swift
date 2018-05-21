@@ -11,6 +11,21 @@ import UIKit
 
 class AmoadMoPubUtil {
     
+    static func getAdSize(bannerSize: AMoAdBannerSize) -> CGSize {
+        switch bannerSize {
+        case .b320x50:
+            return AMoAdView.size(with: .b320x50)
+        case .b320x100:
+            return AMoAdView.size(with: .b320x100)
+        case .b300x250:
+            return AMoAdView.size(with: .b300x250)
+        case .b300x100:
+            return AMoAdView.size(with: .b320x100)
+        case .b728x90:
+            return AMoAdView.size(with: .b728x90)
+        }
+    }
+
     /// - Parameter info: MoPub CustomEventInfo Object
     /// - Returns: AmoadCustomEventClassData
     static func extractCustomEventClassData(info: [AnyHashable: Any]) -> AmoadCustomEventClassData? {

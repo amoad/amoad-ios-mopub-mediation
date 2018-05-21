@@ -11,9 +11,7 @@ import UIKit
 class BannerViewController: UIViewController, MPAdViewDelegate {
 
     let adUnitIDs = "f856a200dc57449e81c5a6edddb656c0"
-    let bannerSize = CGSize(width: 320, height: 50)
-    var mpAdView: MPAdView?
-    var adViewSize: CGSize?
+    let bannerSize = AmoadMoPubUtil.getAdSize(bannerSize: AMoAdBannerSize.b320x50)
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +20,6 @@ class BannerViewController: UIViewController, MPAdViewDelegate {
         let adView = MPAdView(adUnitId: self.adUnitIDs, size: self.bannerSize)
         if let adView = adView {
             adView.delegate = self
-//        adView?.isHidden = true
             adView.frame = CGRect(x:0, y:self.view.bounds.size.height - MOPUB_BANNER_SIZE.height, width:MOPUB_BANNER_SIZE.width, height:MOPUB_BANNER_SIZE.height)
             self.view.addSubview(adView)
             adView.loadAd()
