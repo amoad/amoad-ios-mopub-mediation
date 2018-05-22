@@ -15,14 +15,14 @@ class AmoadMoPubAdapterInterstitial: MPInterstitialCustomEvent {
     var customEventClassData: AmoadCustomEventClassData?
     
     public override func requestInterstitial(withCustomEventInfo info: [AnyHashable: Any]!) {
-        print("hogetes")
+        
         // Decording data from server
         self.customEventClassData = AmoadMoPubUtil.extractCustomEventClassData(info: info)
         
         guard let _customEventClassData = self.customEventClassData else {
             return
         }
-        print("hoge:\(_customEventClassData)")
+        
         // Sending adData to amoadSDK
         self.preparedInterstitial(customEventClassData: _customEventClassData)
     }
@@ -62,14 +62,24 @@ class AmoadMoPubAdapterInterstitial: MPInterstitialCustomEvent {
             switch result {
             case .click:
                 print("リンクボタンがクリックされたので閉じました")
+                self.delegate.interstitialCustomEventWillDisappear(self)
+                self.delegate.interstitialCustomEventDidDisappear(self)
             case .close:
                 print("閉じるボタンがクリックされたので閉じました")
+                self.delegate.interstitialCustomEventWillDisappear(self)
+                self.delegate.interstitialCustomEventDidDisappear(self)
             case .closeFromApp:
                 print("既に開かれているので開きませんでした")
+                self.delegate.interstitialCustomEventWillDisappear(self)
+                self.delegate.interstitialCustomEventDidDisappear(self)
             case .duplicated:
                 print("アプリから閉じられました")
+                self.delegate.interstitialCustomEventWillDisappear(self)
+                self.delegate.interstitialCustomEventDidDisappear(self)
             case .failure:
                 print("広告の取得に失敗しました:\(String(describing: err))")
+                self.delegate.interstitialCustomEventWillDisappear(self)
+                self.delegate.interstitialCustomEventDidDisappear(self)
             }
         })
 

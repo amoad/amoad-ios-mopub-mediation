@@ -15,7 +15,7 @@ class InterstitialViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let adUnitId_interstitial = "5bb5154853ee42c3ae86eb8b1eb8b3a5"
+        let adUnitId_interstitial = "a19cbb17697240d6b0a467b9479842d1"
         adController = MPInterstitialAdController(forAdUnitId: adUnitId_interstitial)
     }
 
