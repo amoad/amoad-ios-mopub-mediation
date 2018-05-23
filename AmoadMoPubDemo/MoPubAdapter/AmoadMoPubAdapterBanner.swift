@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 @objc(AmoadMoPubAdapterBanner)
-class AmoadMoPubAdapterBanner: MPBannerCustomEvent {
+class AmoadMoPubAdapterBanner: MPBannerCustomEvent, AMoAdViewDelegate {
     
     public override func requestAd(with size: CGSize, customEventInfo info: [AnyHashable: Any]!) {
 
@@ -26,8 +26,6 @@ class AmoadMoPubAdapterBanner: MPBannerCustomEvent {
     
     fileprivate func preparedBanner(size: CGSize, customEventClassData: AmoadCustomEventClassDataForDisplay) {
         
-        AMoAdLogger.shared().logging = true
-        AMoAdLogger.shared().trace = true
         AMoAdView.setEnvStaging(true)
         
         let frameSize = CGRect(x:0,y:0,width:size.width,height:size.height)
@@ -42,5 +40,20 @@ class AmoadMoPubAdapterBanner: MPBannerCustomEvent {
             
             self.delegate.bannerCustomEvent(self, didLoadAd: amoadView)
         }
+    }
+    
+    func aMoAdViewDidReceiveAd(_ amoadView: AMoAdView!) {
+        print("正常に広告を受信した")
+        self.delegate.bannerCustomEvent(self, didLoadAd: amoadView)
+    }
+    
+    func aMoAdViewDidFail(toReceiveAd amoadView: AMoAdView!, error: Error!) {
+        print("広告の取得に失敗した（error:\(error)）")
+        self.delegate.bannerCustomEvent(self, didFailToLoadAdWithError: nil)
+    }
+    
+    func aMoAdViewDidReceiveEmptyAd(_ amoadView: AMoAdView!) {
+        print("空の広告を受信した")
+        self.delegate.bannerCustomEvent(self, didFailToLoadAdWithError: nil)
     }
 }
