@@ -14,6 +14,8 @@
 		665EF69E20B410DA00CBD2A3 /* AfioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665EF69D20B410DA00CBD2A3 /* AfioView.xib */; };
 		665EF6A020B4129D00CBD2A3 /* button_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 665EF69F20B4129D00CBD2A3 /* button_highlighted.png */; };
 		665EF6A220B412B100CBD2A3 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 665EF6A120B412B100CBD2A3 /* button.png */; };
+		666348CE20B5573F003DAA2D /* InterstitialAfioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666348CD20B5573F003DAA2D /* InterstitialAfioViewController.swift */; };
+		666348D020B55756003DAA2D /* InterstitialAfio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666348CF20B55756003DAA2D /* InterstitialAfio.storyboard */; };
 		669189AE20ABE690003F2E3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669189AD20ABE690003F2E3B /* AppDelegate.swift */; };
 		669189B020ABE690003F2E3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669189AF20ABE690003F2E3B /* ViewController.swift */; };
 		669189B320ABE690003F2E3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669189B120ABE690003F2E3B /* Main.storyboard */; };
@@ -126,6 +128,8 @@
 		665EF69D20B410DA00CBD2A3 /* AfioView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AfioView.xib; sourceTree = "<group>"; };
 		665EF69F20B4129D00CBD2A3 /* button_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_highlighted.png; sourceTree = "<group>"; };
 		665EF6A120B412B100CBD2A3 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		666348CD20B5573F003DAA2D /* InterstitialAfioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialAfioViewController.swift; sourceTree = "<group>"; };
+		666348CF20B55756003DAA2D /* InterstitialAfio.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InterstitialAfio.storyboard; sourceTree = "<group>"; };
 		669189AA20ABE690003F2E3B /* AmoadMoPubDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmoadMoPubDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		669189AD20ABE690003F2E3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		669189AF20ABE690003F2E3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -226,6 +230,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		666348CC20B556CA003DAA2D /* InterstitialAfio */ = {
+			isa = PBXGroup;
+			children = (
+				666348CD20B5573F003DAA2D /* InterstitialAfioViewController.swift */,
+				666348CF20B55756003DAA2D /* InterstitialAfio.storyboard */,
+			);
+			path = InterstitialAfio;
+			sourceTree = "<group>";
+		};
 		669189A120ABE690003F2E3B = {
 			isa = PBXGroup;
 			children = (
@@ -263,7 +276,8 @@
 				66F7C3CE20AC3B500055CB01 /* Banner */,
 				66F40D5820B2C30900E6DB15 /* Interstitial */,
 				66F40D4A20B285A000E6DB15 /* Infeed */,
-				66F40D4120B27C4C00E6DB15 /* Afio */,
+				66F40D4120B27C4C00E6DB15 /* InfeedAfio */,
+				666348CC20B556CA003DAA2D /* InterstitialAfio */,
 			);
 			path = AmoadMoPubDemo;
 			sourceTree = "<group>";
@@ -325,7 +339,7 @@
 			path = AMoAdSdk;
 			sourceTree = "<group>";
 		};
-		66F40D4120B27C4C00E6DB15 /* Afio */ = {
+		66F40D4120B27C4C00E6DB15 /* InfeedAfio */ = {
 			isa = PBXGroup;
 			children = (
 				665EF6A120B412B100CBD2A3 /* button.png */,
@@ -334,7 +348,7 @@
 				66F40D4620B27C9000E6DB15 /* Afio.storyboard */,
 				665EF69D20B410DA00CBD2A3 /* AfioView.xib */,
 			);
-			path = Afio;
+			path = InfeedAfio;
 			sourceTree = "<group>";
 		};
 		66F40D4A20B285A000E6DB15 /* Infeed */ = {
@@ -505,6 +519,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66918A1620AC24CB003F2E3B /* amoad_close_btn.png in Resources */,
+				666348D020B55756003DAA2D /* InterstitialAfio.storyboard in Resources */,
 				66F40D4720B27C9000E6DB15 /* Afio.storyboard in Resources */,
 				66918A0720AC24CB003F2E3B /* amoad_link_btn_h.png in Resources */,
 				66F40D5020B285E300E6DB15 /* Infeed.storyboard in Resources */,
@@ -647,6 +662,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66F7C3D020AC3B900055CB01 /* BannerViewController.swift in Sources */,
+				666348CE20B5573F003DAA2D /* InterstitialAfioViewController.swift in Sources */,
 				669189B020ABE690003F2E3B /* ViewController.swift in Sources */,
 				66F40D5420B293F600E6DB15 /* AmoadMoPubAdapterInterstitial.swift in Sources */,
 				669189DD20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift in Sources */,
