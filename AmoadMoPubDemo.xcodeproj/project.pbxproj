@@ -10,6 +10,10 @@
 		1F64EB7965DFC1F447D60D58 /* Pods_AmoadMoPubDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5144549210852E67457F44DE /* Pods_AmoadMoPubDemoUITests.framework */; };
 		2526685EFF9BA2E75761BD69 /* Pods_AmoadMoPubDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F748FCF0CE6FF9A24E6318D /* Pods_AmoadMoPubDemo.framework */; };
 		4D1ABED1F1F8D99ACF562951 /* Pods_AmoadMoPubDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57312303AF41C3D9B8ADD6EC /* Pods_AmoadMoPubDemoTests.framework */; };
+		665EF69C20B3F5DB00CBD2A3 /* AmoadMoPubAdapterInfeedAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665EF69B20B3F5DB00CBD2A3 /* AmoadMoPubAdapterInfeedAfio.swift */; };
+		665EF69E20B410DA00CBD2A3 /* AfioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665EF69D20B410DA00CBD2A3 /* AfioView.xib */; };
+		665EF6A020B4129D00CBD2A3 /* button_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 665EF69F20B4129D00CBD2A3 /* button_highlighted.png */; };
+		665EF6A220B412B100CBD2A3 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 665EF6A120B412B100CBD2A3 /* button.png */; };
 		669189AE20ABE690003F2E3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669189AD20ABE690003F2E3B /* AppDelegate.swift */; };
 		669189B020ABE690003F2E3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669189AF20ABE690003F2E3B /* ViewController.swift */; };
 		669189B320ABE690003F2E3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669189B120ABE690003F2E3B /* Main.storyboard */; };
@@ -118,6 +122,10 @@
 		5144549210852E67457F44DE /* Pods_AmoadMoPubDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmoadMoPubDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57312303AF41C3D9B8ADD6EC /* Pods_AmoadMoPubDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmoadMoPubDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F748FCF0CE6FF9A24E6318D /* Pods_AmoadMoPubDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmoadMoPubDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		665EF69B20B3F5DB00CBD2A3 /* AmoadMoPubAdapterInfeedAfio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmoadMoPubAdapterInfeedAfio.swift; sourceTree = "<group>"; };
+		665EF69D20B410DA00CBD2A3 /* AfioView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AfioView.xib; sourceTree = "<group>"; };
+		665EF69F20B4129D00CBD2A3 /* button_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_highlighted.png; sourceTree = "<group>"; };
+		665EF6A120B412B100CBD2A3 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 		669189AA20ABE690003F2E3B /* AmoadMoPubDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmoadMoPubDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		669189AD20ABE690003F2E3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		669189AF20ABE690003F2E3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -283,6 +291,7 @@
 			children = (
 				669189DC20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift */,
 				66F40D5320B293F600E6DB15 /* AmoadMoPubAdapterInterstitial.swift */,
+				665EF69B20B3F5DB00CBD2A3 /* AmoadMoPubAdapterInfeedAfio.swift */,
 				669189EE20AC178F003F2E3B /* AmoadMoPubUtil.swift */,
 				66BFE40720AE918600EBE6DE /* AmoadMoPubBridgeAdapterView.swift */,
 			);
@@ -319,8 +328,11 @@
 		66F40D4120B27C4C00E6DB15 /* Afio */ = {
 			isa = PBXGroup;
 			children = (
+				665EF6A120B412B100CBD2A3 /* button.png */,
+				665EF69F20B4129D00CBD2A3 /* button_highlighted.png */,
 				66F40D4220B27C8300E6DB15 /* AfioViewController.swift */,
 				66F40D4620B27C9000E6DB15 /* Afio.storyboard */,
+				665EF69D20B410DA00CBD2A3 /* AfioView.xib */,
 			);
 			path = Afio;
 			sourceTree = "<group>";
@@ -497,7 +509,10 @@
 				66918A0720AC24CB003F2E3B /* amoad_link_btn_h.png in Resources */,
 				66F40D5020B285E300E6DB15 /* Infeed.storyboard in Resources */,
 				66F40D5E20B2C34800E6DB15 /* Interstitial.storyboard in Resources */,
+				665EF6A020B4129D00CBD2A3 /* button_highlighted.png in Resources */,
 				66F7C3DC20AC40230055CB01 /* Banner.storyboard in Resources */,
+				665EF6A220B412B100CBD2A3 /* button.png in Resources */,
+				665EF69E20B410DA00CBD2A3 /* AfioView.xib in Resources */,
 				66F7C3D820AC3CC20055CB01 /* b320_50@2x.png in Resources */,
 				66918A1920AC24CB003F2E3B /* amoad_panel_l.png in Resources */,
 				66918A0D20AC24CB003F2E3B /* amoad_panel.png in Resources */,
@@ -638,6 +653,7 @@
 				66F40D5A20B2C33900E6DB15 /* InterstitialViewController.swift in Sources */,
 				669189EF20AC178F003F2E3B /* AmoadMoPubUtil.swift in Sources */,
 				66BFE40820AE918600EBE6DE /* AmoadMoPubBridgeAdapterView.swift in Sources */,
+				665EF69C20B3F5DB00CBD2A3 /* AmoadMoPubAdapterInfeedAfio.swift in Sources */,
 				669189AE20ABE690003F2E3B /* AppDelegate.swift in Sources */,
 				66F40D4320B27C8300E6DB15 /* AfioViewController.swift in Sources */,
 				66F40D4C20B285D700E6DB15 /* InfeedViewController.swift in Sources */,

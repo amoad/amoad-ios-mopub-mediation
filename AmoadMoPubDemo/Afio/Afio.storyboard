@@ -6,7 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,9 +17,23 @@
                     <view key="view" contentMode="scaleToFill" id="wf0-1N-Cz7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YH1-e4-Muq">
+                                <rect key="frame" x="16" y="36" width="343" height="615"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="KsB-ck-dXy"/>
+                        <constraints>
+                            <constraint firstItem="YH1-e4-Muq" firstAttribute="top" secondItem="wf0-1N-Cz7" secondAttribute="topMargin" constant="16" id="WaH-wf-Jba"/>
+                            <constraint firstItem="YH1-e4-Muq" firstAttribute="leading" secondItem="wf0-1N-Cz7" secondAttribute="leadingMargin" id="dfD-oS-3y8"/>
+                            <constraint firstItem="YH1-e4-Muq" firstAttribute="trailing" secondItem="wf0-1N-Cz7" secondAttribute="trailingMargin" id="h3w-UL-5Q5"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="YH1-e4-Muq" secondAttribute="bottom" constant="16" id="s35-jO-ran"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="adView" destination="YH1-e4-Muq" id="wVm-Ti-8St"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o5P-Kv-xka" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

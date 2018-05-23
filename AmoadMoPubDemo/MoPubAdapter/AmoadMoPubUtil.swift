@@ -40,9 +40,29 @@ class AmoadMoPubUtil {
             return nil
         }
     }
+    
+    /// - Parameter info: MoPub CustomEventInfo Object
+    /// - Returns: AmoadCustomEventClassDataAfio
+    static func extractCustomEventClassDataAfio(info: [AnyHashable: Any]) -> AmoadCustomEventClassDataAfio? {
+        
+        let decoder = JSONDecoder()
+        
+        do {
+            let jsonData = try JSONSerialization.data(withJSONObject: info, options: .prettyPrinted)
+            let customEventClassData = try decoder.decode(AmoadCustomEventClassDataAfio.self, from: jsonData)
+            return customEventClassData
+        } catch {
+            return nil
+        }
+    }
 }
 
 struct AmoadCustomEventClassData: Codable {
     var sid: String
+}
+
+struct AmoadCustomEventClassDataAfio: Codable {
+    var sid: String
+    var file: String
 }
 
