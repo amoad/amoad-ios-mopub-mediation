@@ -16,6 +16,7 @@
 		665EF6A220B412B100CBD2A3 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 665EF6A120B412B100CBD2A3 /* button.png */; };
 		666348CE20B5573F003DAA2D /* InterstitialAfioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666348CD20B5573F003DAA2D /* InterstitialAfioViewController.swift */; };
 		666348D020B55756003DAA2D /* InterstitialAfio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666348CF20B55756003DAA2D /* InterstitialAfio.storyboard */; };
+		666348D220B55C68003DAA2D /* AmoadMoPubAdapterInterstitialAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666348D120B55C68003DAA2D /* AmoadMoPubAdapterInterstitialAfio.swift */; };
 		669189AE20ABE690003F2E3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669189AD20ABE690003F2E3B /* AppDelegate.swift */; };
 		669189B020ABE690003F2E3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669189AF20ABE690003F2E3B /* ViewController.swift */; };
 		669189B320ABE690003F2E3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669189B120ABE690003F2E3B /* Main.storyboard */; };
@@ -130,6 +131,7 @@
 		665EF6A120B412B100CBD2A3 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 		666348CD20B5573F003DAA2D /* InterstitialAfioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialAfioViewController.swift; sourceTree = "<group>"; };
 		666348CF20B55756003DAA2D /* InterstitialAfio.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InterstitialAfio.storyboard; sourceTree = "<group>"; };
+		666348D120B55C68003DAA2D /* AmoadMoPubAdapterInterstitialAfio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmoadMoPubAdapterInterstitialAfio.swift; sourceTree = "<group>"; };
 		669189AA20ABE690003F2E3B /* AmoadMoPubDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmoadMoPubDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		669189AD20ABE690003F2E3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		669189AF20ABE690003F2E3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -306,6 +308,7 @@
 				669189DC20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift */,
 				66F40D5320B293F600E6DB15 /* AmoadMoPubAdapterInterstitial.swift */,
 				665EF69B20B3F5DB00CBD2A3 /* AmoadMoPubAdapterInfeedAfio.swift */,
+				666348D120B55C68003DAA2D /* AmoadMoPubAdapterInterstitialAfio.swift */,
 				669189EE20AC178F003F2E3B /* AmoadMoPubUtil.swift */,
 				66BFE40720AE918600EBE6DE /* AmoadMoPubBridgeAdapterView.swift */,
 			);
@@ -665,6 +668,7 @@
 				666348CE20B5573F003DAA2D /* InterstitialAfioViewController.swift in Sources */,
 				669189B020ABE690003F2E3B /* ViewController.swift in Sources */,
 				66F40D5420B293F600E6DB15 /* AmoadMoPubAdapterInterstitial.swift in Sources */,
+				666348D220B55C68003DAA2D /* AmoadMoPubAdapterInterstitialAfio.swift in Sources */,
 				669189DD20ABE8C2003F2E3B /* AmoadMoPubAdapterBanner.swift in Sources */,
 				66F40D5A20B2C33900E6DB15 /* InterstitialViewController.swift in Sources */,
 				669189EF20AC178F003F2E3B /* AmoadMoPubUtil.swift in Sources */,
