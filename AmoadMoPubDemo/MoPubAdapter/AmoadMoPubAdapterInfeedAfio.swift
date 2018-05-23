@@ -14,7 +14,7 @@ class AmoadMoPubAdapterInfeedAfio: MPBannerCustomEvent, AMoAdNativeAppDelegate {
     
     public override func requestAd(with size: CGSize, customEventInfo info: [AnyHashable: Any]!) {
         // Decording data from server
-        let customEventClassData = AmoadMoPubUtil.extractCustomEventClassDataAfio(info: info)
+        let customEventClassData = AmoadMoPubUtil.extractCustomEventClassDataForInfeedAfio(info: info)
         guard let _customEventClassData = customEventClassData else {
             return
         }
@@ -23,7 +23,7 @@ class AmoadMoPubAdapterInfeedAfio: MPBannerCustomEvent, AMoAdNativeAppDelegate {
         self.preparedInfeedAfio(size: size, customEventClassData: _customEventClassData)
     }
     
-    fileprivate func preparedInfeedAfio(size: CGSize, customEventClassData: AmoadCustomEventClassDataAfio) {
+    fileprivate func preparedInfeedAfio(size: CGSize, customEventClassData: AmoadCustomEventClassDataForInfeedAfio) {
         
         AMoAdNativeViewManager.shared().setEnvStaging(true)
         
@@ -32,6 +32,7 @@ class AmoadMoPubAdapterInfeedAfio: MPBannerCustomEvent, AMoAdNativeAppDelegate {
         
         // 広告準備
         AMoAdNativeViewManager.shared().prepareAd(withSid: customEventClassData.sid, iconPreloading: true, imagePreloading: true)
+        
         // 広告取得
         AMoAdNativeViewManager.shared().renderAd(withSid: customEventClassData.sid, tag: "", view: view, delegate: self)
         

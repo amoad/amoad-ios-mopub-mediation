@@ -12,12 +12,12 @@ import UIKit
 @objc(AmoadMoPubAdapterInterstitial)
 class AmoadMoPubAdapterInterstitial: MPInterstitialCustomEvent {
     
-    var customEventClassData: AmoadCustomEventClassData?
+    var customEventClassData: AmoadCustomEventClassDataForDisplay?
     
     public override func requestInterstitial(withCustomEventInfo info: [AnyHashable: Any]!) {
         
         // Decording data from server
-        self.customEventClassData = AmoadMoPubUtil.extractCustomEventClassData(info: info)
+        self.customEventClassData = AmoadMoPubUtil.extractCustomEventClassDataForDisplay(info: info)
         
         guard let _customEventClassData = self.customEventClassData else {
             return
@@ -27,7 +27,7 @@ class AmoadMoPubAdapterInterstitial: MPInterstitialCustomEvent {
         self.preparedInterstitial(customEventClassData: _customEventClassData)
     }
     
-    fileprivate func preparedInterstitial(customEventClassData: AmoadCustomEventClassData) {
+    fileprivate func preparedInterstitial(customEventClassData: AmoadCustomEventClassDataForDisplay) {
         
         AMoAdLogger.shared().logging = true
         AMoAdLogger.shared().trace = true

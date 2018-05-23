@@ -11,7 +11,7 @@ import UIKit
 class BannerViewController: UIViewController, MPAdViewDelegate {
 
     let adUnitIDs = "f856a200dc57449e81c5a6edddb656c0"
-    let bannerSize = AmoadMoPubUtil.getAdSize(bannerSize: AMoAdBannerSize.b320x50)
+    let bannerSize = AmoadMoPubUtil.getBannerSize(bannerSize: AMoAdBannerSize.b320x50)
 
     override func viewDidLoad() {
         super.viewDidLoad()

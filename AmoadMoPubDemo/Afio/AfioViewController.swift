@@ -47,6 +47,9 @@ class AfioViewController: UIViewController, MPAdViewDelegate {
         return self
     }
 
+    @IBAction func buttonTapped(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 

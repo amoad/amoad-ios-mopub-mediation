@@ -7,6 +7,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,17 +20,27 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YH1-e4-Muq">
-                                <rect key="frame" x="16" y="36" width="343" height="615"/>
+                                <rect key="frame" x="16" y="98" width="343" height="553"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0W-cE-PF7">
+                                <rect key="frame" x="162" y="52" width="51" height="30"/>
+                                <state key="normal" title="Update"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="b6K-u7-86L" eventType="touchUpInside" id="6Kc-p1-iT3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="YH1-e4-Muq" firstAttribute="top" secondItem="wf0-1N-Cz7" secondAttribute="topMargin" constant="16" id="WaH-wf-Jba"/>
+                            <constraint firstItem="c0W-cE-PF7" firstAttribute="top" secondItem="bPW-f8-uNy" secondAttribute="top" constant="32" id="Urk-3G-b5p"/>
                             <constraint firstItem="YH1-e4-Muq" firstAttribute="leading" secondItem="wf0-1N-Cz7" secondAttribute="leadingMargin" id="dfD-oS-3y8"/>
                             <constraint firstItem="YH1-e4-Muq" firstAttribute="trailing" secondItem="wf0-1N-Cz7" secondAttribute="trailingMargin" id="h3w-UL-5Q5"/>
+                            <constraint firstItem="YH1-e4-Muq" firstAttribute="top" secondItem="c0W-cE-PF7" secondAttribute="bottom" constant="16" id="mpT-8W-p6n"/>
                             <constraint firstAttribute="bottomMargin" secondItem="YH1-e4-Muq" secondAttribute="bottom" constant="16" id="s35-jO-ran"/>
+                            <constraint firstItem="c0W-cE-PF7" firstAttribute="centerX" secondItem="wf0-1N-Cz7" secondAttribute="centerX" id="ztd-g8-7IG"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="bPW-f8-uNy"/>
                     </view>
                     <connections>
                         <outlet property="adView" destination="YH1-e4-Muq" id="wVm-Ti-8St"/>
@@ -37,7 +48,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o5P-Kv-xka" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="106" y="117"/>
+            <point key="canvasLocation" x="104.8" y="116.49175412293854"/>
         </scene>
     </scenes>
 </document>

@@ -11,7 +11,7 @@ import UIKit
 
 class AmoadMoPubUtil {
     
-    static func getAdSize(bannerSize: AMoAdBannerSize) -> CGSize {
+    static func getBannerSize(bannerSize: AMoAdBannerSize) -> CGSize {
         switch bannerSize {
         case .b320x50:
             return AMoAdView.size(with: .b320x50)
@@ -27,14 +27,14 @@ class AmoadMoPubUtil {
     }
 
     /// - Parameter info: MoPub CustomEventInfo Object
-    /// - Returns: AmoadCustomEventClassData
-    static func extractCustomEventClassData(info: [AnyHashable: Any]) -> AmoadCustomEventClassData? {
+    /// - Returns: AmoadCustomEventClassDataBanner
+    static func extractCustomEventClassDataForDisplay(info: [AnyHashable: Any]) -> AmoadCustomEventClassDataForDisplay? {
         
         let decoder = JSONDecoder()
         
         do {
             let jsonData = try JSONSerialization.data(withJSONObject: info, options: .prettyPrinted)
-            let customEventClassData = try decoder.decode(AmoadCustomEventClassData.self, from: jsonData)
+            let customEventClassData = try decoder.decode(AmoadCustomEventClassDataForDisplay.self, from: jsonData)
             return customEventClassData
         } catch {
             return nil
@@ -43,13 +43,13 @@ class AmoadMoPubUtil {
     
     /// - Parameter info: MoPub CustomEventInfo Object
     /// - Returns: AmoadCustomEventClassDataAfio
-    static func extractCustomEventClassDataAfio(info: [AnyHashable: Any]) -> AmoadCustomEventClassDataAfio? {
+    static func extractCustomEventClassDataForInfeedAfio(info: [AnyHashable: Any]) -> AmoadCustomEventClassDataForInfeedAfio? {
         
         let decoder = JSONDecoder()
         
         do {
             let jsonData = try JSONSerialization.data(withJSONObject: info, options: .prettyPrinted)
-            let customEventClassData = try decoder.decode(AmoadCustomEventClassDataAfio.self, from: jsonData)
+            let customEventClassData = try decoder.decode(AmoadCustomEventClassDataForInfeedAfio.self, from: jsonData)
             return customEventClassData
         } catch {
             return nil
@@ -57,11 +57,11 @@ class AmoadMoPubUtil {
     }
 }
 
-struct AmoadCustomEventClassData: Codable {
+struct AmoadCustomEventClassDataForDisplay: Codable {
     var sid: String
 }
 
-struct AmoadCustomEventClassDataAfio: Codable {
+struct AmoadCustomEventClassDataForInfeedAfio: Codable {
     var sid: String
     var file: String
 }
