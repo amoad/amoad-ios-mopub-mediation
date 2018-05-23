@@ -10,10 +10,14 @@ import UIKit
 
 class InterstitialAfioViewController: UIViewController {
 
+    var adController: MPInterstitialAdController?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        // Do any additional setup after loading the view.
+        let adUnitId_interstitial = "160da00bfd5d45dea664ffed5e50c692"
+        adController = MPInterstitialAdController(forAdUnitId: adUnitId_interstitial)
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,9 +25,14 @@ class InterstitialAfioViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func buttonTapped(_ sender: Any) {
+    @IBAction func loadInterstitial(_ sender: Any) {
+        self.adController?.loadAd()
     }
     
+    @IBAction func showInterstitial(_ sender: Any) {
+        self.adController?.show(from: self)
+    }
+
     /*
     // MARK: - Navigation
 

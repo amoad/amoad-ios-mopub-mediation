@@ -21,13 +21,22 @@
                                 <rect key="frame" x="168" y="318" width="38" height="30"/>
                                 <state key="normal" title="Show"/>
                                 <connections>
-                                    <action selector="buttonTapped:" destination="NhN-oE-eTg" eventType="touchUpInside" id="6YR-mA-Zzh"/>
+                                    <action selector="showInterstitial:" destination="NhN-oE-eTg" eventType="touchUpInside" id="mGI-IJ-xsv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SEZ-4c-8KS">
+                                <rect key="frame" x="170" y="218.5" width="34" height="30"/>
+                                <state key="normal" title="Load"/>
+                                <connections>
+                                    <action selector="loadInterstitial:" destination="NhN-oE-eTg" eventType="touchUpInside" id="oFS-va-BfA"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="SEZ-4c-8KS" firstAttribute="centerX" secondItem="MmW-8g-73Z" secondAttribute="centerX" id="5g7-ai-Rfg"/>
                             <constraint firstItem="6AG-qg-4Br" firstAttribute="centerX" secondItem="MmW-8g-73Z" secondAttribute="centerX" id="Mvi-KN-5Vn"/>
+                            <constraint firstItem="SEZ-4c-8KS" firstAttribute="centerY" secondItem="MmW-8g-73Z" secondAttribute="centerY" constant="-100" id="c8T-rK-qre"/>
                             <constraint firstItem="6AG-qg-4Br" firstAttribute="centerY" secondItem="MmW-8g-73Z" secondAttribute="centerY" id="ssP-7t-q9h"/>
                         </constraints>
                     </view>
