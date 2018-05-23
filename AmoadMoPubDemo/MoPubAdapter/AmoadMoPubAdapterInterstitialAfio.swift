@@ -53,4 +53,31 @@ class AmoadMoPubAdapterInterstitialAfio: MPInterstitialCustomEvent, AMoAdInterst
             self.delegate.interstitialCustomEventDidAppear(self)
         }
     }
+    
+    func amoadInterstitialVideoDidStart(_ amoadInterstitialVideo: AMoAdInterstitialVideo!) {
+        // 動画の再生を開始した
+    }
+    func amoadInterstitialVideoDidComplete(_ amoadInterstitialVideo: AMoAdInterstitialVideo!) {
+        // 動画を最後まで再生完了した
+        self.delegate.interstitialCustomEventWillDisappear(self)
+        self.delegate.interstitialCustomEventDidDisappear(self)
+    }
+    func amoadInterstitialVideoDidFailToPlay(_ amoadInterstitialVideo: AMoAdInterstitialVideo!) {
+        // 動画の再生に失敗した
+        self.delegate.interstitialCustomEventWillDisappear(self)
+        self.delegate.interstitialCustomEventDidDisappear(self)
+    }
+    func amoadInterstitialVideoDidShow(_ amoadInterstitialVideo: AMoAdInterstitialVideo!) {
+        // 広告を表示した
+    }
+    func amoadInterstitialVideoWillDismiss(_ amoadInterstitialVideo: AMoAdInterstitialVideo!) {
+        // 広告を閉じた
+        self.delegate.interstitialCustomEventWillDisappear(self)
+        self.delegate.interstitialCustomEventDidDisappear(self)
+    }
+    func amoadInterstitialVideoDidClickAd(_ amoadInterstitialVideo: AMoAdInterstitialVideo!) {
+        // 広告がクリックされた
+        self.delegate.interstitialCustomEventWillDisappear(self)
+        self.delegate.interstitialCustomEventDidDisappear(self)
+    }
 }
