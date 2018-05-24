@@ -29,8 +29,6 @@ class AmoadMoPubAdapterInterstitial: MPInterstitialCustomEvent {
     
     fileprivate func preparedInterstitial(customEventClassData: AmoadCustomEventClassDataForDisplay) {
         
-        AMoAdLogger.shared().logging = true
-        AMoAdLogger.shared().trace = true
         AMoAdView.setEnvStaging(true)
 
         AMoAdInterstitial.registerAd(withSid: customEventClassData.sid)

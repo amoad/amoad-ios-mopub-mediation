@@ -38,11 +38,9 @@ class AmoadMoPubAdapterInterstitialAfio: MPInterstitialCustomEvent, AMoAdInterst
     }
     
 //    public override func showInterstitial(fromRootViewController rootViewController: UIViewController!) {
-//
 //        guard let _customEventClassData = self.customEventClassData else {
 //            return
 //        }
-//
 //    }
     
     func amoadInterstitialVideo(_ amoadInterstitialVideo: AMoAdInterstitialVideo!, didLoadAd result: AMoAdResult) {
