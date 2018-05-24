@@ -11,16 +11,16 @@ import UIKit
 class BannerViewController: UIViewController, MPAdViewDelegate {
 
     let adUnitIDs = "f856a200dc57449e81c5a6edddb656c0"
-    let bannerSize = AmoadMoPubUtil.getBannerSize(bannerSize: AMoAdBannerSize.b320x50)
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let adView = MPAdView(adUnitId: self.adUnitIDs, size: self.bannerSize)
+        let adView = MPAdView(adUnitId: self.adUnitIDs, size: CGSize.zero)
         if let adView = adView {
             adView.delegate = self
-            adView.frame = CGRect(x:0, y:self.view.bounds.size.height - MOPUB_BANNER_SIZE.height, width:MOPUB_BANNER_SIZE.width, height:MOPUB_BANNER_SIZE.height)
+            let bannerSize = AmoadMoPubUtil.getBannerSize(bannerSize: AMoAdBannerSize.b320x50)
+            adView.frame = CGRect(x:(self.view.bounds.size.width - bannerSize.width) / 2, y:self.view.bounds.size.height - bannerSize.height, width:bannerSize.width, height:bannerSize.height)
             self.view.addSubview(adView)
             adView.loadAd()
         }

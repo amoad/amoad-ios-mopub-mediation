@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 @objc(AmoadMoPubAdapterBanner)
-class AmoadMoPubAdapterBanner: MPBannerCustomEvent, AMoAdViewDelegate {
+class AmoadMoPubAdapterBanner: MPBannerCustomEvent {
     
     public override func requestAd(with size: CGSize, customEventInfo info: [AnyHashable: Any]!) {
 
@@ -21,39 +21,24 @@ class AmoadMoPubAdapterBanner: MPBannerCustomEvent, AMoAdViewDelegate {
         }
         
         // Sending adData to amoadSDK
-        self.preparedBanner(size: size, customEventClassData: _customEventClassData)
+        self.preparedBanner(customEventClassData: _customEventClassData)
     }
     
-    fileprivate func preparedBanner(size: CGSize, customEventClassData: AmoadCustomEventClassDataForDisplay) {
+    fileprivate func preparedBanner(customEventClassData: AmoadCustomEventClassDataForDisplay) {
         
         AMoAdView.setEnvStaging(true)
         
-        let frameSize = CGRect(x:0,y:0,width:size.width,height:size.height)
-        
-        if let amoadView = AMoAdView.init(frame: frameSize) {
-            
-            // デリゲートを設定する
-            amoadView.delegate = self
-            
-            // 広告ID（sid）を設定する
-            amoadView.sid = customEventClassData.sid
-            
-            self.delegate.bannerCustomEvent(self, didLoadAd: amoadView)
+        guard let amoadView = AMoAdView.init(frame: CGRect.zero) else {
+            self.delegate.bannerCustomEvent(self, didFailToLoadAdWithError: nil)
+            return
         }
-    }
-    
-    func aMoAdViewDidReceiveAd(_ amoadView: AMoAdView!) {
-        print("正常に広告を受信した")
+
+        // デリゲートを設定する
+        amoadView.delegate = self
+        
+        // 広告ID（sid）を設定する
+        amoadView.sid = customEventClassData.sid
+        
         self.delegate.bannerCustomEvent(self, didLoadAd: amoadView)
-    }
-    
-    func aMoAdViewDidFail(toReceiveAd amoadView: AMoAdView!, error: Error!) {
-        print("広告の取得に失敗した（error:\(error)）")
-        self.delegate.bannerCustomEvent(self, didFailToLoadAdWithError: nil)
-    }
-    
-    func aMoAdViewDidReceiveEmptyAd(_ amoadView: AMoAdView!) {
-        print("空の広告を受信した")
-        self.delegate.bannerCustomEvent(self, didFailToLoadAdWithError: nil)
     }
 }
