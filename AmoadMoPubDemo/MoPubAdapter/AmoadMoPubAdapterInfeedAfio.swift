@@ -20,10 +20,10 @@ class AmoadMoPubAdapterInfeedAfio: MPBannerCustomEvent, AMoAdNativeAppDelegate {
         }
         
         // Sending adData to amoadSDK
-        self.preparedInfeedAfio(size: size, customEventClassData: _customEventClassData)
+        self.preparedInfeedAfio(customEventClassData: _customEventClassData)
     }
     
-    fileprivate func preparedInfeedAfio(size: CGSize, customEventClassData: AmoadCustomEventClassDataForInfeedAfio) {
+    fileprivate func preparedInfeedAfio(customEventClassData: AmoadCustomEventClassDataForInfeedAfio) {
         
         AMoAdNativeViewManager.shared().setEnvStaging(true)
         
@@ -42,6 +42,7 @@ class AmoadMoPubAdapterInfeedAfio: MPBannerCustomEvent, AMoAdNativeAppDelegate {
     func amoadNativeImageDidReceive(_ sid: String!, tag: String!, view: UIView!, state: AMoAdResult) {
         // 広告ダウンロードが完了したら View を表示する
         if (state == .success) {
+            
         }
     }
 }

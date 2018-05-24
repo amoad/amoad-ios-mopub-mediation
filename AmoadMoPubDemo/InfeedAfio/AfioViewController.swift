@@ -11,13 +11,12 @@ import UIKit
 class AfioViewController: UIViewController, MPAdViewDelegate {
 
     let adUnitIDs = "405dd5d3f5444d9db8224b1db6e168e6"
-    let bannerSize = CGSize(width: 320, height: 500)
     @IBOutlet weak var adView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let view = MPAdView(adUnitId: self.adUnitIDs, size: self.bannerSize)
+        let view = MPAdView(adUnitId: self.adUnitIDs, size: CGSize.zero)
         if let view = view {
             view.delegate = self
             view.translatesAutoresizingMaskIntoConstraints = false
