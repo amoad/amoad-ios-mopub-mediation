@@ -27,7 +27,7 @@ class AmoadMoPubUtil {
     }
 
     /// - Parameter info: MoPub CustomEventInfo Object
-    /// - Returns: AmoadCustomEventClassDataBanner
+    /// - Returns: AmoadCustomEventClassDataForDisplay
     static func extractCustomEventClassDataForDisplay(info: [AnyHashable: Any]) -> AmoadCustomEventClassDataForDisplay? {
         
         let decoder = JSONDecoder()
@@ -42,7 +42,7 @@ class AmoadMoPubUtil {
     }
     
     /// - Parameter info: MoPub CustomEventInfo Object
-    /// - Returns: AmoadCustomEventClassDataAfio
+    /// - Returns: AmoadCustomEventClassDataForInfeedAfio
     static func extractCustomEventClassDataForInfeedAfio(info: [AnyHashable: Any]) -> AmoadCustomEventClassDataForInfeedAfio? {
         
         let decoder = JSONDecoder()
