@@ -39,11 +39,4 @@ class AmoadMoPubAdapterInfeedAfio: MPBannerCustomEvent, AMoAdNativeAppDelegate {
 
         self.delegate.bannerCustomEvent(self, didLoadAd: view)
     }
-    
-    func amoadNativeImageDidReceive(_ sid: String!, tag: String!, view: UIView!, state: AMoAdResult) {
-        // 広告ダウンロードが完了したら View を表示する
-        if (state == .success) {
-            
-        }
-    }
 }
