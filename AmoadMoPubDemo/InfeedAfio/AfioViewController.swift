@@ -19,10 +19,7 @@ class AfioViewController: UIViewController, MPAdViewDelegate {
         let view = MPAdView(adUnitId: self.adUnitIDs, size: self.adView.frame.size)
         if let view = view {
             view.delegate = self
-            view.translatesAutoresizingMaskIntoConstraints = false
             self.adView.addSubview(view)
-            self.adView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-(1)-[view]-(1)-|", options:.alignAllCenterX, metrics: nil, views: ["view": view]))
-            self.adView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-(1)-[view]-(1)-|", options:.alignAllCenterY, metrics: nil, views: ["view": view]))
             view.loadAd()
         }
     }
@@ -40,6 +37,11 @@ class AfioViewController: UIViewController, MPAdViewDelegate {
     // Function for successful loading of ad.
     func adViewDidLoadAd(_ view: MPAdView!) {
         print("The ad loaded")
+        if let mpAdView = view {
+            mpAdView.translatesAutoresizingMaskIntoConstraints = false
+            self.adView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-(1)-[view]-(1)-|", options:.alignAllCenterX, metrics: nil, views: ["view": mpAdView]))
+            self.adView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-(1)-[view]-(1)-|", options:.alignAllCenterY, metrics: nil, views: ["view": mpAdView]))
+        }
     }
     
     func viewControllerForPresentingModalView() -> UIViewController {
@@ -47,6 +49,12 @@ class AfioViewController: UIViewController, MPAdViewDelegate {
     }
 
     @IBAction func buttonTapped(_ sender: Any) {
+        let view = MPAdView(adUnitId: self.adUnitIDs, size: self.adView.frame.size)
+        if let view = view {
+            view.delegate = self
+            self.adView.addSubview(view)
+            view.loadAd()
+        }
     }
     
     /*
