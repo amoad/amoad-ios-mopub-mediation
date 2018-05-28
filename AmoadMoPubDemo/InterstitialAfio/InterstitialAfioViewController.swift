@@ -15,7 +15,6 @@ class InterstitialAfioViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        // Do any additional setup after loading the view.
         let adUnitId_interstitial = "160da00bfd5d45dea664ffed5e50c692"
         adController = MPInterstitialAdController(forAdUnitId: adUnitId_interstitial)
     }
@@ -26,11 +25,11 @@ class InterstitialAfioViewController: UIViewController {
     }
     
     @IBAction func loadInterstitial(_ sender: Any) {
-        self.adController?.loadAd()
+        adController?.loadAd()
     }
     
     @IBAction func showInterstitial(_ sender: Any) {
-        self.adController?.show(from: self)
+        adController?.show(from: self)
     }
 
     /*

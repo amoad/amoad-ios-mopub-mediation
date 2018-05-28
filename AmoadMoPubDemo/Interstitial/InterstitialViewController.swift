@@ -25,11 +25,11 @@ class InterstitialViewController: UIViewController {
     }
     
     @IBAction func loadInterstitial(_ sender: Any) {
-        self.adController?.loadAd()
+        adController?.loadAd()
     }
     
     @IBAction func showInterstitial(_ sender: Any) {
-        self.adController?.show(from: self)
+        adController?.show(from: self)
     }
     
     /*

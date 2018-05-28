@@ -30,7 +30,7 @@ class AfioViewController: UIViewController, MPAdViewDelegate {
             view.delegate = self
             // 自動更新をoffにする
             view.stopAutomaticallyRefreshingContents()
-            self.adView.addSubview(view)
+            adView.addSubview(view)
             view.loadAd()
         }
     }
@@ -45,8 +45,8 @@ class AfioViewController: UIViewController, MPAdViewDelegate {
         print("The ad loaded")
         if let mpAdView = view {
             mpAdView.translatesAutoresizingMaskIntoConstraints = false
-            self.adView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-(1)-[view]-(1)-|", options:.alignAllCenterX, metrics: nil, views: ["view": mpAdView]))
-            self.adView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-(1)-[view]-(1)-|", options:.alignAllCenterY, metrics: nil, views: ["view": mpAdView]))
+            adView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-(1)-[view]-(1)-|", options:.alignAllCenterX, metrics: nil, views: ["view": mpAdView]))
+            adView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-(1)-[view]-(1)-|", options:.alignAllCenterY, metrics: nil, views: ["view": mpAdView]))
         }
     }
     
