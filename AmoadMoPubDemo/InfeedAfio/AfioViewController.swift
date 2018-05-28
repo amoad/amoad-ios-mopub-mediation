@@ -28,6 +28,8 @@ class AfioViewController: UIViewController, MPAdViewDelegate {
         let view = MPAdView(adUnitId: self.adUnitIDs, size: self.adView.frame.size)
         if let view = view {
             view.delegate = self
+            // 自動更新をoffにする
+            view.stopAutomaticallyRefreshingContents()
             self.adView.addSubview(view)
             view.loadAd()
         }
