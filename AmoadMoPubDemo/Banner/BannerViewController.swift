@@ -11,16 +11,14 @@ import UIKit
 class BannerViewController: UIViewController, MPAdViewDelegate {
 
     let adUnitIDs = "f856a200dc57449e81c5a6edddb656c0"
-
+    var mpAdView: MPAdView?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
         let adView = MPAdView(adUnitId: self.adUnitIDs, size: CGSize.zero)
         if let adView = adView {
             adView.delegate = self
-            let bannerSize = AmoadMoPubUtil.getBannerSize(bannerSize: AMoAdBannerSize.b320x50)
-            adView.frame = CGRect(x:(self.view.bounds.size.width - bannerSize.width) / 2, y:self.view.bounds.size.height - bannerSize.height, width:bannerSize.width, height:bannerSize.height)
             self.view.addSubview(adView)
             adView.loadAd()
         }
@@ -39,6 +37,11 @@ class BannerViewController: UIViewController, MPAdViewDelegate {
     // Function for successful loading of ad.
     func adViewDidLoadAd(_ view: MPAdView!) {
         print("The ad loaded")
+        if self.mpAdView == nil {
+            self.mpAdView = view
+            let bannerSize = AmoadMoPubUtil.getBannerSize(bannerSize: AMoAdBannerSize.b320x50)
+            self.mpAdView?.frame = CGRect(x:(self.view.bounds.size.width - bannerSize.width) / 2, y:self.view.bounds.size.height - bannerSize.height, width:bannerSize.width, height:bannerSize.height)
+        }
     }
     
     func viewControllerForPresentingModalView() -> UIViewController {
