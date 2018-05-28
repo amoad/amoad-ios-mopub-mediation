@@ -16,17 +16,21 @@ class AfioViewController: UIViewController, MPAdViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.loadMPAdView()
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    func loadMPAdView() {
         let view = MPAdView(adUnitId: self.adUnitIDs, size: self.adView.frame.size)
         if let view = view {
             view.delegate = self
             self.adView.addSubview(view)
             view.loadAd()
         }
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     // Function for failed "loading" of an ad.
@@ -49,12 +53,7 @@ class AfioViewController: UIViewController, MPAdViewDelegate {
     }
 
     @IBAction func buttonTapped(_ sender: Any) {
-        let view = MPAdView(adUnitId: self.adUnitIDs, size: self.adView.frame.size)
-        if let view = view {
-            view.delegate = self
-            self.adView.addSubview(view)
-            view.loadAd()
-        }
+        self.loadMPAdView()
     }
     
     /*
