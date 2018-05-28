@@ -16,14 +16,13 @@ class AfioViewController: UIViewController, MPAdViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let adSize = CGSize(width: adView.frame.size.width, height: adView.frame.size.height)
-        let view = MPAdView(adUnitId: self.adUnitIDs, size: adSize)
+        let view = MPAdView(adUnitId: self.adUnitIDs, size: self.adView.frame.size)
         if let view = view {
             view.delegate = self
-//            view.translatesAutoresizingMaskIntoConstraints = false
+            view.translatesAutoresizingMaskIntoConstraints = false
             self.adView.addSubview(view)
-//            self.adView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-(1)-[view]-(1)-|", options:.alignAllCenterX, metrics: nil, views: ["view": view]))
-//            self.adView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-(1)-[view]-(1)-|", options:.alignAllCenterY, metrics: nil, views: ["view": view]))
+            self.adView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-(1)-[view]-(1)-|", options:.alignAllCenterX, metrics: nil, views: ["view": view]))
+            self.adView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-(1)-[view]-(1)-|", options:.alignAllCenterY, metrics: nil, views: ["view": view]))
             view.loadAd()
         }
     }

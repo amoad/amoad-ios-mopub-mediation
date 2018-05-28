@@ -29,20 +29,15 @@ class AmoadMoPubAdapterInfeedAfio: MPBannerCustomEvent, AMoAdNativeAppDelegate {
 
         // 広告 View を xib から生成する
         let view = Bundle.main.loadNibNamed(customEventClassData.file, owner: nil, options: nil)?.first as! UIView
-        view.translatesAutoresizingMaskIntoConstraints = false
+        view.frame.size = size
         
-        let adView = UIView.init(frame: CGRect.init(x: 0, y: 0, width: size.width, height: size.height))
-        adView.addSubview(view)
-        adView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-(1)-[view]-(1)-|", options:.alignAllCenterX, metrics: nil, views: ["view": view]))
-        adView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-(1)-[view]-(1)-|", options:.alignAllCenterY, metrics: nil, views: ["view": view]))
-
         // 広告準備
         AMoAdNativeViewManager.shared().prepareAd(withSid: customEventClassData.sid, iconPreloading: true, imagePreloading: true)
         
         // 広告取得
         AMoAdNativeViewManager.shared().renderAd(withSid: customEventClassData.sid, tag: "", view: view, delegate: self)
 
-        self.delegate.bannerCustomEvent(self, didLoadAd: adView)
+        self.delegate.bannerCustomEvent(self, didLoadAd: view)
     }
     
     func amoadNativeImageDidReceive(_ sid: String!, tag: String!, view: UIView!, state: AMoAdResult) {
