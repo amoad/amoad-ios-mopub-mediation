@@ -76,12 +76,6 @@
 		66F40D4720B27C9000E6DB15 /* Afio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F40D4620B27C9000E6DB15 /* Afio.storyboard */; };
 		66F40D4820B27C9000E6DB15 /* Afio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F40D4620B27C9000E6DB15 /* Afio.storyboard */; };
 		66F40D4920B27C9000E6DB15 /* Afio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F40D4620B27C9000E6DB15 /* Afio.storyboard */; };
-		66F40D4C20B285D700E6DB15 /* InfeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F40D4B20B285D700E6DB15 /* InfeedViewController.swift */; };
-		66F40D4D20B285D700E6DB15 /* InfeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F40D4B20B285D700E6DB15 /* InfeedViewController.swift */; };
-		66F40D4E20B285D700E6DB15 /* InfeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F40D4B20B285D700E6DB15 /* InfeedViewController.swift */; };
-		66F40D5020B285E300E6DB15 /* Infeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F40D4F20B285E300E6DB15 /* Infeed.storyboard */; };
-		66F40D5120B285E300E6DB15 /* Infeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F40D4F20B285E300E6DB15 /* Infeed.storyboard */; };
-		66F40D5220B285E300E6DB15 /* Infeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F40D4F20B285E300E6DB15 /* Infeed.storyboard */; };
 		66F40D5420B293F600E6DB15 /* AmoadMoPubAdapterInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F40D5320B293F600E6DB15 /* AmoadMoPubAdapterInterstitial.swift */; };
 		66F40D5520B293F600E6DB15 /* AmoadMoPubAdapterInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F40D5320B293F600E6DB15 /* AmoadMoPubAdapterInterstitial.swift */; };
 		66F40D5620B293F600E6DB15 /* AmoadMoPubAdapterInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F40D5320B293F600E6DB15 /* AmoadMoPubAdapterInterstitial.swift */; };
@@ -179,8 +173,6 @@
 		66BFE40720AE918600EBE6DE /* AmoadMoPubBridgeAdapterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmoadMoPubBridgeAdapterView.swift; sourceTree = "<group>"; };
 		66F40D4220B27C8300E6DB15 /* AfioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfioViewController.swift; sourceTree = "<group>"; };
 		66F40D4620B27C9000E6DB15 /* Afio.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Afio.storyboard; sourceTree = "<group>"; };
-		66F40D4B20B285D700E6DB15 /* InfeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfeedViewController.swift; sourceTree = "<group>"; };
-		66F40D4F20B285E300E6DB15 /* Infeed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Infeed.storyboard; sourceTree = "<group>"; };
 		66F40D5320B293F600E6DB15 /* AmoadMoPubAdapterInterstitial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmoadMoPubAdapterInterstitial.swift; sourceTree = "<group>"; };
 		66F40D5920B2C33900E6DB15 /* InterstitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialViewController.swift; sourceTree = "<group>"; };
 		66F40D5D20B2C34800E6DB15 /* Interstitial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interstitial.storyboard; sourceTree = "<group>"; };
@@ -277,7 +269,6 @@
 				669189E020ABE9D1003F2E3B /* AmoadMoPubDemo-Bridging-Header.h */,
 				66F7C3CE20AC3B500055CB01 /* Banner */,
 				66F40D5820B2C30900E6DB15 /* Interstitial */,
-				66F40D4A20B285A000E6DB15 /* Infeed */,
 				66F40D4120B27C4C00E6DB15 /* InfeedAfio */,
 				666348CC20B556CA003DAA2D /* InterstitialAfio */,
 			);
@@ -352,15 +343,6 @@
 				665EF69D20B410DA00CBD2A3 /* AfioView.xib */,
 			);
 			path = InfeedAfio;
-			sourceTree = "<group>";
-		};
-		66F40D4A20B285A000E6DB15 /* Infeed */ = {
-			isa = PBXGroup;
-			children = (
-				66F40D4B20B285D700E6DB15 /* InfeedViewController.swift */,
-				66F40D4F20B285E300E6DB15 /* Infeed.storyboard */,
-			);
-			path = Infeed;
 			sourceTree = "<group>";
 		};
 		66F40D5820B2C30900E6DB15 /* Interstitial */ = {
@@ -525,7 +507,6 @@
 				666348D020B55756003DAA2D /* InterstitialAfio.storyboard in Resources */,
 				66F40D4720B27C9000E6DB15 /* Afio.storyboard in Resources */,
 				66918A0720AC24CB003F2E3B /* amoad_link_btn_h.png in Resources */,
-				66F40D5020B285E300E6DB15 /* Infeed.storyboard in Resources */,
 				66F40D5E20B2C34800E6DB15 /* Interstitial.storyboard in Resources */,
 				665EF6A020B4129D00CBD2A3 /* button_highlighted.png in Resources */,
 				66F7C3DC20AC40230055CB01 /* Banner.storyboard in Resources */,
@@ -554,7 +535,6 @@
 				66BFE41120AEA00C00EBE6DE /* LaunchScreen.storyboard in Resources */,
 				66918A1720AC24CB003F2E3B /* amoad_close_btn.png in Resources */,
 				66918A0E20AC24CB003F2E3B /* amoad_panel.png in Resources */,
-				66F40D5120B285E300E6DB15 /* Infeed.storyboard in Resources */,
 				66F7C3D920AC3CC20055CB01 /* b320_50@2x.png in Resources */,
 				66BFE40F20AEA00200EBE6DE /* Main.storyboard in Resources */,
 				66F7C3DD20AC40230055CB01 /* Banner.storyboard in Resources */,
@@ -574,7 +554,6 @@
 				66BFE41220AEA00D00EBE6DE /* LaunchScreen.storyboard in Resources */,
 				66918A1820AC24CB003F2E3B /* amoad_close_btn.png in Resources */,
 				66918A0F20AC24CB003F2E3B /* amoad_panel.png in Resources */,
-				66F40D5220B285E300E6DB15 /* Infeed.storyboard in Resources */,
 				66F7C3DA20AC3CC20055CB01 /* b320_50@2x.png in Resources */,
 				66BFE41020AEA00300EBE6DE /* Main.storyboard in Resources */,
 				66F7C3DE20AC40230055CB01 /* Banner.storyboard in Resources */,
@@ -676,7 +655,6 @@
 				665EF69C20B3F5DB00CBD2A3 /* AmoadMoPubAdapterInfeedAfio.swift in Sources */,
 				669189AE20ABE690003F2E3B /* AppDelegate.swift in Sources */,
 				66F40D4320B27C8300E6DB15 /* AfioViewController.swift in Sources */,
-				66F40D4C20B285D700E6DB15 /* InfeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,7 +663,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				66BFE40B20AE9FF900EBE6DE /* AppDelegate.swift in Sources */,
-				66F40D4D20B285D700E6DB15 /* InfeedViewController.swift in Sources */,
 				66F40D5B20B2C33900E6DB15 /* InterstitialViewController.swift in Sources */,
 				66F40D4420B27C8300E6DB15 /* AfioViewController.swift in Sources */,
 				66BFE40920AE918600EBE6DE /* AmoadMoPubBridgeAdapterView.swift in Sources */,
@@ -703,7 +680,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				66BFE40C20AE9FFA00EBE6DE /* AppDelegate.swift in Sources */,
-				66F40D4E20B285D700E6DB15 /* InfeedViewController.swift in Sources */,
 				66F40D5C20B2C33900E6DB15 /* InterstitialViewController.swift in Sources */,
 				66F40D4520B27C8300E6DB15 /* AfioViewController.swift in Sources */,
 				66BFE40A20AE918600EBE6DE /* AmoadMoPubBridgeAdapterView.swift in Sources */,
@@ -875,6 +851,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R483GUQ2NF;
 				INFOPLIST_FILE = AmoadMoPubDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -899,6 +876,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R483GUQ2NF;
 				INFOPLIST_FILE = AmoadMoPubDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

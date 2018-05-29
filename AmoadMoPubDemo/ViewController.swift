@@ -22,7 +22,6 @@ fileprivate struct Const {
     public static let items: [Item] = [
         Item(title: "バナー広告", storyboardName: "Banner"),
         Item(title: "インターステイシャル広告", storyboardName: "Interstitial"),
-        Item(title: "インフィード広告", storyboardName: "Infeed"),
         Item(title: "インフィード AfiO 広告", storyboardName: "Afio"),
         Item(title: "インターステイシャル AfiO 広告", storyboardName: "InterstitialAfio")
     ]
