@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1F64EB7965DFC1F447D60D58 /* Pods_AmoadMoPubDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5144549210852E67457F44DE /* Pods_AmoadMoPubDemoUITests.framework */; };
-		2526685EFF9BA2E75761BD69 /* Pods_AmoadMoPubDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F748FCF0CE6FF9A24E6318D /* Pods_AmoadMoPubDemo.framework */; };
 		4D1ABED1F1F8D99ACF562951 /* Pods_AmoadMoPubDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57312303AF41C3D9B8ADD6EC /* Pods_AmoadMoPubDemoTests.framework */; };
 		665EF69C20B3F5DB00CBD2A3 /* AmoadMoPubAdapterInfeedAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665EF69B20B3F5DB00CBD2A3 /* AmoadMoPubAdapterInfeedAfio.swift */; };
 		665EF69E20B410DA00CBD2A3 /* AfioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665EF69D20B410DA00CBD2A3 /* AfioView.xib */; };
@@ -195,7 +194,6 @@
 				669189E720AC063E003F2E3B /* CoreMedia.framework in Frameworks */,
 				669189E520AC062F003F2E3B /* AdSupport.framework in Frameworks */,
 				669189E320AC0619003F2E3B /* MoPub.framework in Frameworks */,
-				2526685EFF9BA2E75761BD69 /* Pods_AmoadMoPubDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
