@@ -13,13 +13,12 @@ import UIKit
 class AmoadMoPubAdapterInfeedAfio: MPBannerCustomEvent, AMoAdNativeAppDelegate {
     
     public override func requestAd(with size: CGSize, customEventInfo info: [AnyHashable: Any]!) {
-        // Decording data from server
+
         let customEventClassData = AmoadMoPubUtil.extractCustomEventClassDataForInfeedAfio(info: info)
         guard let _customEventClassData = customEventClassData else {
             return
         }
         
-        // Sending adData to amoadSDK
         self.preparedInfeedAfio(size:size, customEventClassData: _customEventClassData)
     }
     

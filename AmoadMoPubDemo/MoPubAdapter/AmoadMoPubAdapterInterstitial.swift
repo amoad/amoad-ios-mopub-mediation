@@ -16,14 +16,12 @@ class AmoadMoPubAdapterInterstitial: MPInterstitialCustomEvent {
     
     public override func requestInterstitial(withCustomEventInfo info: [AnyHashable: Any]!) {
         
-        // Decording data from server
         self.customEventClassData = AmoadMoPubUtil.extractCustomEventClassDataForDisplay(info: info)
         
         guard let _customEventClassData = self.customEventClassData else {
             return
         }
         
-        // Sending adData to amoadSDK
         self.preparedInterstitial(customEventClassData: _customEventClassData)
     }
     
