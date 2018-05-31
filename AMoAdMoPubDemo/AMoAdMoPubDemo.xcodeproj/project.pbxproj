@@ -1,0 +1,1040 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03298D29D17F2D575D644E83 /* Pods_AMoAdMoPubDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DEE382549B0DCC8B43F1B6 /* Pods_AMoAdMoPubDemo.framework */; };
+		0BEC892A9EBEB515AF18857A /* Pods_AMoAdMoPubDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263B6BD4326DC6FB7B42E34C /* Pods_AMoAdMoPubDemoUITests.framework */; };
+		665B830420BFF9C9005964A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B830320BFF9C9005964A5 /* AppDelegate.swift */; };
+		665B830620BFF9C9005964A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B830520BFF9C9005964A5 /* ViewController.swift */; };
+		665B830920BFF9C9005964A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B830720BFF9C9005964A5 /* Main.storyboard */; };
+		665B830B20BFF9CA005964A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665B830A20BFF9CA005964A5 /* Assets.xcassets */; };
+		665B830E20BFF9CA005964A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B830C20BFF9CA005964A5 /* LaunchScreen.storyboard */; };
+		665B831920BFF9CA005964A5 /* AMoAdMoPubDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B831820BFF9CA005964A5 /* AMoAdMoPubDemoTests.swift */; };
+		665B832420BFF9CA005964A5 /* AMoAdMoPubDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B832320BFF9CA005964A5 /* AMoAdMoPubDemoUITests.swift */; };
+		665B833220C00CE2005964A5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833120C00CE2005964A5 /* StoreKit.framework */; };
+		665B833420C00CEC005964A5 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833320C00CEC005964A5 /* ImageIO.framework */; };
+		665B833620C00CF8005964A5 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833520C00CF8005964A5 /* SafariServices.framework */; };
+		665B833820C00D05005964A5 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833720C00D04005964A5 /* CoreTelephony.framework */; };
+		665B833A20C00D18005964A5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833920C00D18005964A5 /* AVFoundation.framework */; };
+		665B833C20C00D25005964A5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833B20C00D25005964A5 /* CoreMedia.framework */; };
+		665B833E20C00D32005964A5 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833D20C00D32005964A5 /* AdSupport.framework */; };
+		665B834020C00D43005964A5 /* MoPub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833F20C00D43005964A5 /* MoPub.framework */; };
+		665B835620C00EF5005964A5 /* amoad_link_btn_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834220C00EF5005964A5 /* amoad_link_btn_h.png */; };
+		665B835720C00EF5005964A5 /* amoad_link_btn_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834220C00EF5005964A5 /* amoad_link_btn_h.png */; };
+		665B835820C00EF5005964A5 /* amoad_link_btn_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834220C00EF5005964A5 /* amoad_link_btn_h.png */; };
+		665B835920C00EF5005964A5 /* amoad_link_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834420C00EF5005964A5 /* amoad_link_btn.png */; };
+		665B835A20C00EF5005964A5 /* amoad_link_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834420C00EF5005964A5 /* amoad_link_btn.png */; };
+		665B835B20C00EF5005964A5 /* amoad_link_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834420C00EF5005964A5 /* amoad_link_btn.png */; };
+		665B835C20C00EF5005964A5 /* amoad_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834620C00EF5005964A5 /* amoad_panel.png */; };
+		665B835D20C00EF5005964A5 /* amoad_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834620C00EF5005964A5 /* amoad_panel.png */; };
+		665B835E20C00EF5005964A5 /* amoad_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834620C00EF5005964A5 /* amoad_panel.png */; };
+		665B835F20C00EF5005964A5 /* libAMoAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B834B20C00EF5005964A5 /* libAMoAd.a */; };
+		665B836020C00EF5005964A5 /* libAMoAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B834B20C00EF5005964A5 /* libAMoAd.a */; };
+		665B836120C00EF5005964A5 /* libAMoAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B834B20C00EF5005964A5 /* libAMoAd.a */; };
+		665B836220C00EF5005964A5 /* amoad_close_btn_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834D20C00EF5005964A5 /* amoad_close_btn_h.png */; };
+		665B836320C00EF5005964A5 /* amoad_close_btn_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834D20C00EF5005964A5 /* amoad_close_btn_h.png */; };
+		665B836420C00EF5005964A5 /* amoad_close_btn_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834D20C00EF5005964A5 /* amoad_close_btn_h.png */; };
+		665B836520C00EF5005964A5 /* amoad_close_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834F20C00EF5005964A5 /* amoad_close_btn.png */; };
+		665B836620C00EF5005964A5 /* amoad_close_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834F20C00EF5005964A5 /* amoad_close_btn.png */; };
+		665B836720C00EF5005964A5 /* amoad_close_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834F20C00EF5005964A5 /* amoad_close_btn.png */; };
+		665B836820C00EF5005964A5 /* amoad_panel_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B835220C00EF5005964A5 /* amoad_panel_l.png */; };
+		665B836920C00EF5005964A5 /* amoad_panel_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B835220C00EF5005964A5 /* amoad_panel_l.png */; };
+		665B836A20C00EF5005964A5 /* amoad_panel_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B835220C00EF5005964A5 /* amoad_panel_l.png */; };
+		665B837220C0171D005964A5 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B836F20C0171D005964A5 /* BannerViewController.swift */; };
+		665B837320C0171D005964A5 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B836F20C0171D005964A5 /* BannerViewController.swift */; };
+		665B837420C0171D005964A5 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B836F20C0171D005964A5 /* BannerViewController.swift */; };
+		665B837520C0171D005964A5 /* Banner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B837020C0171D005964A5 /* Banner.storyboard */; };
+		665B837620C0171D005964A5 /* Banner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B837020C0171D005964A5 /* Banner.storyboard */; };
+		665B837720C0171D005964A5 /* Banner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B837020C0171D005964A5 /* Banner.storyboard */; };
+		665B837820C0171D005964A5 /* b320_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B837120C0171D005964A5 /* b320_50@2x.png */; };
+		665B837920C0171D005964A5 /* b320_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B837120C0171D005964A5 /* b320_50@2x.png */; };
+		665B837A20C0171D005964A5 /* b320_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B837120C0171D005964A5 /* b320_50@2x.png */; };
+		665B838120C01737005964A5 /* button_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B837C20C01736005964A5 /* button_highlighted.png */; };
+		665B838220C01737005964A5 /* button_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B837C20C01736005964A5 /* button_highlighted.png */; };
+		665B838320C01737005964A5 /* button_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B837C20C01736005964A5 /* button_highlighted.png */; };
+		665B838420C01737005964A5 /* AfioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665B837D20C01736005964A5 /* AfioView.xib */; };
+		665B838520C01737005964A5 /* AfioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665B837D20C01736005964A5 /* AfioView.xib */; };
+		665B838620C01737005964A5 /* AfioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665B837D20C01736005964A5 /* AfioView.xib */; };
+		665B838720C01737005964A5 /* Afio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B837E20C01736005964A5 /* Afio.storyboard */; };
+		665B838820C01737005964A5 /* Afio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B837E20C01736005964A5 /* Afio.storyboard */; };
+		665B838920C01737005964A5 /* Afio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B837E20C01736005964A5 /* Afio.storyboard */; };
+		665B838A20C01737005964A5 /* AfioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B837F20C01736005964A5 /* AfioViewController.swift */; };
+		665B838B20C01737005964A5 /* AfioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B837F20C01736005964A5 /* AfioViewController.swift */; };
+		665B838C20C01737005964A5 /* AfioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B837F20C01736005964A5 /* AfioViewController.swift */; };
+		665B838D20C01737005964A5 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B838020C01736005964A5 /* button.png */; };
+		665B838E20C01737005964A5 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B838020C01736005964A5 /* button.png */; };
+		665B838F20C01737005964A5 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B838020C01736005964A5 /* button.png */; };
+		665B839320C01749005964A5 /* Interstitial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B839120C01749005964A5 /* Interstitial.storyboard */; };
+		665B839420C01749005964A5 /* Interstitial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B839120C01749005964A5 /* Interstitial.storyboard */; };
+		665B839520C01749005964A5 /* Interstitial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B839120C01749005964A5 /* Interstitial.storyboard */; };
+		665B839620C0174A005964A5 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B839220C01749005964A5 /* InterstitialViewController.swift */; };
+		665B839720C0174A005964A5 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B839220C01749005964A5 /* InterstitialViewController.swift */; };
+		665B839820C0174A005964A5 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B839220C01749005964A5 /* InterstitialViewController.swift */; };
+		665B839C20C0175A005964A5 /* InterstitialAfioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B839A20C0175A005964A5 /* InterstitialAfioViewController.swift */; };
+		665B839D20C0175A005964A5 /* InterstitialAfioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B839A20C0175A005964A5 /* InterstitialAfioViewController.swift */; };
+		665B839E20C0175A005964A5 /* InterstitialAfioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B839A20C0175A005964A5 /* InterstitialAfioViewController.swift */; };
+		665B839F20C0175A005964A5 /* InterstitialAfio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B839B20C0175A005964A5 /* InterstitialAfio.storyboard */; };
+		665B83A020C0175A005964A5 /* InterstitialAfio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B839B20C0175A005964A5 /* InterstitialAfio.storyboard */; };
+		665B83A120C0175A005964A5 /* InterstitialAfio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B839B20C0175A005964A5 /* InterstitialAfio.storyboard */; };
+		665B83A420C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83A320C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift */; };
+		665B83A520C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83A320C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift */; };
+		665B83A620C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83A320C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift */; };
+		665B83A820C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83A720C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift */; };
+		665B83A920C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83A720C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift */; };
+		665B83AA20C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83A720C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift */; };
+		665B83AC20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83AB20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift */; };
+		665B83AD20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83AB20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift */; };
+		665B83AE20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83AB20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift */; };
+		665B83B020C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83AF20C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift */; };
+		665B83B120C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83AF20C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift */; };
+		665B83B220C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83AF20C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift */; };
+		665B83B420C01B85005964A5 /* AMoAdMoPubUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83B320C01B85005964A5 /* AMoAdMoPubUtil.swift */; };
+		665B83B520C01B85005964A5 /* AMoAdMoPubUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83B320C01B85005964A5 /* AMoAdMoPubUtil.swift */; };
+		665B83B620C01B85005964A5 /* AMoAdMoPubUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83B320C01B85005964A5 /* AMoAdMoPubUtil.swift */; };
+		8E0EE1A71CEDC918479BDF41 /* Pods_AMoAdMoPubDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CE7C61CCC8B5A7F949768D /* Pods_AMoAdMoPubDemoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		665B831520BFF9CA005964A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 665B82F820BFF9C9005964A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 665B82FF20BFF9C9005964A5;
+			remoteInfo = AMoAdMoPubDemo;
+		};
+		665B832020BFF9CA005964A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 665B82F820BFF9C9005964A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 665B82FF20BFF9C9005964A5;
+			remoteInfo = AMoAdMoPubDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24CE7C61CCC8B5A7F949768D /* Pods_AMoAdMoPubDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMoAdMoPubDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		263B6BD4326DC6FB7B42E34C /* Pods_AMoAdMoPubDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMoAdMoPubDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		665B830020BFF9C9005964A5 /* AMoAdMoPubDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMoAdMoPubDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		665B830320BFF9C9005964A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		665B830520BFF9C9005964A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		665B830820BFF9C9005964A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		665B830A20BFF9CA005964A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		665B830D20BFF9CA005964A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		665B830F20BFF9CA005964A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665B831420BFF9CA005964A5 /* AMoAdMoPubDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMoAdMoPubDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		665B831820BFF9CA005964A5 /* AMoAdMoPubDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubDemoTests.swift; sourceTree = "<group>"; };
+		665B831A20BFF9CA005964A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665B831F20BFF9CA005964A5 /* AMoAdMoPubDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMoAdMoPubDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		665B832320BFF9CA005964A5 /* AMoAdMoPubDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubDemoUITests.swift; sourceTree = "<group>"; };
+		665B832520BFF9CA005964A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665B833120C00CE2005964A5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		665B833320C00CEC005964A5 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		665B833520C00CF8005964A5 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		665B833720C00D04005964A5 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		665B833920C00D18005964A5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		665B833B20C00D25005964A5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		665B833D20C00D32005964A5 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		665B833F20C00D43005964A5 /* MoPub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MoPub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		665B834220C00EF5005964A5 /* amoad_link_btn_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_link_btn_h.png; sourceTree = "<group>"; };
+		665B834320C00EF5005964A5 /* AMoAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdView.h; sourceTree = "<group>"; };
+		665B834420C00EF5005964A5 /* amoad_link_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_link_btn.png; sourceTree = "<group>"; };
+		665B834520C00EF5005964A5 /* AMoAdItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdItem.h; sourceTree = "<group>"; };
+		665B834620C00EF5005964A5 /* amoad_panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_panel.png; sourceTree = "<group>"; };
+		665B834720C00EF5005964A5 /* AMoAdInfeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdInfeed.h; sourceTree = "<group>"; };
+		665B834820C00EF5005964A5 /* AMoAdNativePreRoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdNativePreRoll.h; sourceTree = "<group>"; };
+		665B834920C00EF5005964A5 /* AMoAdAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdAnalytics.h; sourceTree = "<group>"; };
+		665B834A20C00EF5005964A5 /* AMoAdWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdWeb.h; sourceTree = "<group>"; };
+		665B834B20C00EF5005964A5 /* libAMoAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMoAd.a; sourceTree = "<group>"; };
+		665B834C20C00EF5005964A5 /* AMoAdNativeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdNativeView.h; sourceTree = "<group>"; };
+		665B834D20C00EF5005964A5 /* amoad_close_btn_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_close_btn_h.png; sourceTree = "<group>"; };
+		665B834E20C00EF5005964A5 /* AMoAdNativeMainVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdNativeMainVideoView.h; sourceTree = "<group>"; };
+		665B834F20C00EF5005964A5 /* amoad_close_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_close_btn.png; sourceTree = "<group>"; };
+		665B835020C00EF5005964A5 /* AMoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAd.h; sourceTree = "<group>"; };
+		665B835120C00EF5005964A5 /* AMoAdInterstitialVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdInterstitialVideo.h; sourceTree = "<group>"; };
+		665B835220C00EF5005964A5 /* amoad_panel_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_panel_l.png; sourceTree = "<group>"; };
+		665B835320C00EF5005964A5 /* AMoAdLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdLogger.h; sourceTree = "<group>"; };
+		665B835420C00EF5005964A5 /* AMoAdInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdInterstitial.h; sourceTree = "<group>"; };
+		665B835520C00EF5005964A5 /* AMoAdList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdList.h; sourceTree = "<group>"; };
+		665B836D20C01173005964A5 /* AMoAdMoPubDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMoAdMoPubDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		665B836F20C0171D005964A5 /* BannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
+		665B837020C0171D005964A5 /* Banner.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Banner.storyboard; sourceTree = "<group>"; };
+		665B837120C0171D005964A5 /* b320_50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b320_50@2x.png"; sourceTree = "<group>"; };
+		665B837C20C01736005964A5 /* button_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_highlighted.png; sourceTree = "<group>"; };
+		665B837D20C01736005964A5 /* AfioView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AfioView.xib; sourceTree = "<group>"; };
+		665B837E20C01736005964A5 /* Afio.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Afio.storyboard; sourceTree = "<group>"; };
+		665B837F20C01736005964A5 /* AfioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AfioViewController.swift; sourceTree = "<group>"; };
+		665B838020C01736005964A5 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		665B839120C01749005964A5 /* Interstitial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interstitial.storyboard; sourceTree = "<group>"; };
+		665B839220C01749005964A5 /* InterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialViewController.swift; sourceTree = "<group>"; };
+		665B839A20C0175A005964A5 /* InterstitialAfioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialAfioViewController.swift; sourceTree = "<group>"; };
+		665B839B20C0175A005964A5 /* InterstitialAfio.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InterstitialAfio.storyboard; sourceTree = "<group>"; };
+		665B83A320C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubAdapterBanner.swift; sourceTree = "<group>"; };
+		665B83A720C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubAdapterInterstitial.swift; sourceTree = "<group>"; };
+		665B83AB20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubAdapterInfeedAfio.swift; sourceTree = "<group>"; };
+		665B83AF20C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubAdapterInterstitialAfio.swift; sourceTree = "<group>"; };
+		665B83B320C01B85005964A5 /* AMoAdMoPubUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubUtil.swift; sourceTree = "<group>"; };
+		6C9FF0CE9A84F0C469A5F6B4 /* Pods-AMoAdMoPubDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMoAdMoPubDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMoAdMoPubDemo/Pods-AMoAdMoPubDemo.release.xcconfig"; sourceTree = "<group>"; };
+		70DEE382549B0DCC8B43F1B6 /* Pods_AMoAdMoPubDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMoAdMoPubDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E7CC4C69F9918CDCE88118 /* Pods-AMoAdMoPubDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMoAdMoPubDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMoAdMoPubDemo/Pods-AMoAdMoPubDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		84F4DCD04315F7A7B5ECB175 /* Pods-AMoAdMoPubDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMoAdMoPubDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMoAdMoPubDemoUITests/Pods-AMoAdMoPubDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8A630BEAC77DC00225D1FB90 /* Pods-AMoAdMoPubDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMoAdMoPubDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMoAdMoPubDemoUITests/Pods-AMoAdMoPubDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0A903959FF67ED0D66FA389 /* Pods-AMoAdMoPubDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMoAdMoPubDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMoAdMoPubDemoTests/Pods-AMoAdMoPubDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		DCF0090AAFE20144AACB583A /* Pods-AMoAdMoPubDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMoAdMoPubDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMoAdMoPubDemoTests/Pods-AMoAdMoPubDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		665B82FD20BFF9C9005964A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665B834020C00D43005964A5 /* MoPub.framework in Frameworks */,
+				665B833E20C00D32005964A5 /* AdSupport.framework in Frameworks */,
+				665B833C20C00D25005964A5 /* CoreMedia.framework in Frameworks */,
+				665B833A20C00D18005964A5 /* AVFoundation.framework in Frameworks */,
+				665B833820C00D05005964A5 /* CoreTelephony.framework in Frameworks */,
+				665B833620C00CF8005964A5 /* SafariServices.framework in Frameworks */,
+				665B835F20C00EF5005964A5 /* libAMoAd.a in Frameworks */,
+				665B833420C00CEC005964A5 /* ImageIO.framework in Frameworks */,
+				665B833220C00CE2005964A5 /* StoreKit.framework in Frameworks */,
+				03298D29D17F2D575D644E83 /* Pods_AMoAdMoPubDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665B831120BFF9CA005964A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665B836020C00EF5005964A5 /* libAMoAd.a in Frameworks */,
+				8E0EE1A71CEDC918479BDF41 /* Pods_AMoAdMoPubDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665B831C20BFF9CA005964A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665B836120C00EF5005964A5 /* libAMoAd.a in Frameworks */,
+				0BEC892A9EBEB515AF18857A /* Pods_AMoAdMoPubDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		665B82F720BFF9C9005964A5 = {
+			isa = PBXGroup;
+			children = (
+				665B830220BFF9C9005964A5 /* AMoAdMoPubDemo */,
+				665B831720BFF9CA005964A5 /* AMoAdMoPubDemoTests */,
+				665B832220BFF9CA005964A5 /* AMoAdMoPubDemoUITests */,
+				665B830120BFF9C9005964A5 /* Products */,
+				C8D1E665C37966C8D87763AE /* Pods */,
+				87BDDF37A2F2BC5C1AF4E3F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		665B830120BFF9C9005964A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				665B830020BFF9C9005964A5 /* AMoAdMoPubDemo.app */,
+				665B831420BFF9CA005964A5 /* AMoAdMoPubDemoTests.xctest */,
+				665B831F20BFF9CA005964A5 /* AMoAdMoPubDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		665B830220BFF9C9005964A5 /* AMoAdMoPubDemo */ = {
+			isa = PBXGroup;
+			children = (
+				665B834120C00EF5005964A5 /* AMoAdSdk */,
+				665B83A220C019DA005964A5 /* MoPubAdapter */,
+				665B830320BFF9C9005964A5 /* AppDelegate.swift */,
+				665B830520BFF9C9005964A5 /* ViewController.swift */,
+				665B830720BFF9C9005964A5 /* Main.storyboard */,
+				665B830A20BFF9CA005964A5 /* Assets.xcassets */,
+				665B830C20BFF9CA005964A5 /* LaunchScreen.storyboard */,
+				665B830F20BFF9CA005964A5 /* Info.plist */,
+				665B836D20C01173005964A5 /* AMoAdMoPubDemo-Bridging-Header.h */,
+				665B836E20C0171D005964A5 /* Banner */,
+				665B839020C01749005964A5 /* Interstitial */,
+				665B837B20C01736005964A5 /* InfeedAfio */,
+				665B839920C0175A005964A5 /* InterstitialAfio */,
+			);
+			path = AMoAdMoPubDemo;
+			sourceTree = "<group>";
+		};
+		665B831720BFF9CA005964A5 /* AMoAdMoPubDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				665B831820BFF9CA005964A5 /* AMoAdMoPubDemoTests.swift */,
+				665B831A20BFF9CA005964A5 /* Info.plist */,
+			);
+			path = AMoAdMoPubDemoTests;
+			sourceTree = "<group>";
+		};
+		665B832220BFF9CA005964A5 /* AMoAdMoPubDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				665B832320BFF9CA005964A5 /* AMoAdMoPubDemoUITests.swift */,
+				665B832520BFF9CA005964A5 /* Info.plist */,
+			);
+			path = AMoAdMoPubDemoUITests;
+			sourceTree = "<group>";
+		};
+		665B834120C00EF5005964A5 /* AMoAdSdk */ = {
+			isa = PBXGroup;
+			children = (
+				665B834220C00EF5005964A5 /* amoad_link_btn_h.png */,
+				665B834320C00EF5005964A5 /* AMoAdView.h */,
+				665B834420C00EF5005964A5 /* amoad_link_btn.png */,
+				665B834520C00EF5005964A5 /* AMoAdItem.h */,
+				665B834620C00EF5005964A5 /* amoad_panel.png */,
+				665B834720C00EF5005964A5 /* AMoAdInfeed.h */,
+				665B834820C00EF5005964A5 /* AMoAdNativePreRoll.h */,
+				665B834920C00EF5005964A5 /* AMoAdAnalytics.h */,
+				665B834A20C00EF5005964A5 /* AMoAdWeb.h */,
+				665B834B20C00EF5005964A5 /* libAMoAd.a */,
+				665B834C20C00EF5005964A5 /* AMoAdNativeView.h */,
+				665B834D20C00EF5005964A5 /* amoad_close_btn_h.png */,
+				665B834E20C00EF5005964A5 /* AMoAdNativeMainVideoView.h */,
+				665B834F20C00EF5005964A5 /* amoad_close_btn.png */,
+				665B835020C00EF5005964A5 /* AMoAd.h */,
+				665B835120C00EF5005964A5 /* AMoAdInterstitialVideo.h */,
+				665B835220C00EF5005964A5 /* amoad_panel_l.png */,
+				665B835320C00EF5005964A5 /* AMoAdLogger.h */,
+				665B835420C00EF5005964A5 /* AMoAdInterstitial.h */,
+				665B835520C00EF5005964A5 /* AMoAdList.h */,
+			);
+			path = AMoAdSdk;
+			sourceTree = "<group>";
+		};
+		665B836E20C0171D005964A5 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				665B836F20C0171D005964A5 /* BannerViewController.swift */,
+				665B837020C0171D005964A5 /* Banner.storyboard */,
+				665B837120C0171D005964A5 /* b320_50@2x.png */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		665B837B20C01736005964A5 /* InfeedAfio */ = {
+			isa = PBXGroup;
+			children = (
+				665B837C20C01736005964A5 /* button_highlighted.png */,
+				665B837D20C01736005964A5 /* AfioView.xib */,
+				665B837E20C01736005964A5 /* Afio.storyboard */,
+				665B837F20C01736005964A5 /* AfioViewController.swift */,
+				665B838020C01736005964A5 /* button.png */,
+			);
+			path = InfeedAfio;
+			sourceTree = "<group>";
+		};
+		665B839020C01749005964A5 /* Interstitial */ = {
+			isa = PBXGroup;
+			children = (
+				665B839120C01749005964A5 /* Interstitial.storyboard */,
+				665B839220C01749005964A5 /* InterstitialViewController.swift */,
+			);
+			path = Interstitial;
+			sourceTree = "<group>";
+		};
+		665B839920C0175A005964A5 /* InterstitialAfio */ = {
+			isa = PBXGroup;
+			children = (
+				665B839A20C0175A005964A5 /* InterstitialAfioViewController.swift */,
+				665B839B20C0175A005964A5 /* InterstitialAfio.storyboard */,
+			);
+			path = InterstitialAfio;
+			sourceTree = "<group>";
+		};
+		665B83A220C019DA005964A5 /* MoPubAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				665B83A320C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift */,
+				665B83A720C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift */,
+				665B83AB20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift */,
+				665B83AF20C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift */,
+				665B83B320C01B85005964A5 /* AMoAdMoPubUtil.swift */,
+			);
+			path = MoPubAdapter;
+			sourceTree = "<group>";
+		};
+		87BDDF37A2F2BC5C1AF4E3F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				665B833F20C00D43005964A5 /* MoPub.framework */,
+				665B833D20C00D32005964A5 /* AdSupport.framework */,
+				665B833B20C00D25005964A5 /* CoreMedia.framework */,
+				665B833920C00D18005964A5 /* AVFoundation.framework */,
+				665B833720C00D04005964A5 /* CoreTelephony.framework */,
+				665B833520C00CF8005964A5 /* SafariServices.framework */,
+				665B833320C00CEC005964A5 /* ImageIO.framework */,
+				665B833120C00CE2005964A5 /* StoreKit.framework */,
+				70DEE382549B0DCC8B43F1B6 /* Pods_AMoAdMoPubDemo.framework */,
+				24CE7C61CCC8B5A7F949768D /* Pods_AMoAdMoPubDemoTests.framework */,
+				263B6BD4326DC6FB7B42E34C /* Pods_AMoAdMoPubDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8D1E665C37966C8D87763AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71E7CC4C69F9918CDCE88118 /* Pods-AMoAdMoPubDemo.debug.xcconfig */,
+				6C9FF0CE9A84F0C469A5F6B4 /* Pods-AMoAdMoPubDemo.release.xcconfig */,
+				DCF0090AAFE20144AACB583A /* Pods-AMoAdMoPubDemoTests.debug.xcconfig */,
+				A0A903959FF67ED0D66FA389 /* Pods-AMoAdMoPubDemoTests.release.xcconfig */,
+				8A630BEAC77DC00225D1FB90 /* Pods-AMoAdMoPubDemoUITests.debug.xcconfig */,
+				84F4DCD04315F7A7B5ECB175 /* Pods-AMoAdMoPubDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		665B82FF20BFF9C9005964A5 /* AMoAdMoPubDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665B832820BFF9CA005964A5 /* Build configuration list for PBXNativeTarget "AMoAdMoPubDemo" */;
+			buildPhases = (
+				2DD41F6D8D3E49FA549FE57D /* [CP] Check Pods Manifest.lock */,
+				665B82FC20BFF9C9005964A5 /* Sources */,
+				665B82FD20BFF9C9005964A5 /* Frameworks */,
+				665B82FE20BFF9C9005964A5 /* Resources */,
+				B26B4915C460F43EE69FD1A5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMoAdMoPubDemo;
+			productName = AMoAdMoPubDemo;
+			productReference = 665B830020BFF9C9005964A5 /* AMoAdMoPubDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		665B831320BFF9CA005964A5 /* AMoAdMoPubDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665B832B20BFF9CA005964A5 /* Build configuration list for PBXNativeTarget "AMoAdMoPubDemoTests" */;
+			buildPhases = (
+				6B2A3C630A2BCBC0EE3BCC96 /* [CP] Check Pods Manifest.lock */,
+				665B831020BFF9CA005964A5 /* Sources */,
+				665B831120BFF9CA005964A5 /* Frameworks */,
+				665B831220BFF9CA005964A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				665B831620BFF9CA005964A5 /* PBXTargetDependency */,
+			);
+			name = AMoAdMoPubDemoTests;
+			productName = AMoAdMoPubDemoTests;
+			productReference = 665B831420BFF9CA005964A5 /* AMoAdMoPubDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		665B831E20BFF9CA005964A5 /* AMoAdMoPubDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665B832E20BFF9CA005964A5 /* Build configuration list for PBXNativeTarget "AMoAdMoPubDemoUITests" */;
+			buildPhases = (
+				9DFBA0C6A6A9C86438824013 /* [CP] Check Pods Manifest.lock */,
+				665B831B20BFF9CA005964A5 /* Sources */,
+				665B831C20BFF9CA005964A5 /* Frameworks */,
+				665B831D20BFF9CA005964A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				665B832120BFF9CA005964A5 /* PBXTargetDependency */,
+			);
+			name = AMoAdMoPubDemoUITests;
+			productName = AMoAdMoPubDemoUITests;
+			productReference = 665B831F20BFF9CA005964A5 /* AMoAdMoPubDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		665B82F820BFF9C9005964A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = AMoAd;
+				TargetAttributes = {
+					665B82FF20BFF9C9005964A5 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					665B831320BFF9CA005964A5 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 665B82FF20BFF9C9005964A5;
+					};
+					665B831E20BFF9CA005964A5 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 665B82FF20BFF9C9005964A5;
+					};
+				};
+			};
+			buildConfigurationList = 665B82FB20BFF9C9005964A5 /* Build configuration list for PBXProject "AMoAdMoPubDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 665B82F720BFF9C9005964A5;
+			productRefGroup = 665B830120BFF9C9005964A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				665B82FF20BFF9C9005964A5 /* AMoAdMoPubDemo */,
+				665B831320BFF9CA005964A5 /* AMoAdMoPubDemoTests */,
+				665B831E20BFF9CA005964A5 /* AMoAdMoPubDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		665B82FE20BFF9C9005964A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665B836520C00EF5005964A5 /* amoad_close_btn.png in Resources */,
+				665B838D20C01737005964A5 /* button.png in Resources */,
+				665B835620C00EF5005964A5 /* amoad_link_btn_h.png in Resources */,
+				665B837820C0171D005964A5 /* b320_50@2x.png in Resources */,
+				665B836820C00EF5005964A5 /* amoad_panel_l.png in Resources */,
+				665B835C20C00EF5005964A5 /* amoad_panel.png in Resources */,
+				665B838420C01737005964A5 /* AfioView.xib in Resources */,
+				665B830E20BFF9CA005964A5 /* LaunchScreen.storyboard in Resources */,
+				665B839F20C0175A005964A5 /* InterstitialAfio.storyboard in Resources */,
+				665B838720C01737005964A5 /* Afio.storyboard in Resources */,
+				665B830B20BFF9CA005964A5 /* Assets.xcassets in Resources */,
+				665B839320C01749005964A5 /* Interstitial.storyboard in Resources */,
+				665B837520C0171D005964A5 /* Banner.storyboard in Resources */,
+				665B830920BFF9C9005964A5 /* Main.storyboard in Resources */,
+				665B838120C01737005964A5 /* button_highlighted.png in Resources */,
+				665B835920C00EF5005964A5 /* amoad_link_btn.png in Resources */,
+				665B836220C00EF5005964A5 /* amoad_close_btn_h.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665B831220BFF9CA005964A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665B835720C00EF5005964A5 /* amoad_link_btn_h.png in Resources */,
+				665B839420C01749005964A5 /* Interstitial.storyboard in Resources */,
+				665B838E20C01737005964A5 /* button.png in Resources */,
+				665B83A020C0175A005964A5 /* InterstitialAfio.storyboard in Resources */,
+				665B838520C01737005964A5 /* AfioView.xib in Resources */,
+				665B836320C00EF5005964A5 /* amoad_close_btn_h.png in Resources */,
+				665B838820C01737005964A5 /* Afio.storyboard in Resources */,
+				665B836920C00EF5005964A5 /* amoad_panel_l.png in Resources */,
+				665B838220C01737005964A5 /* button_highlighted.png in Resources */,
+				665B836620C00EF5005964A5 /* amoad_close_btn.png in Resources */,
+				665B837620C0171D005964A5 /* Banner.storyboard in Resources */,
+				665B835D20C00EF5005964A5 /* amoad_panel.png in Resources */,
+				665B837920C0171D005964A5 /* b320_50@2x.png in Resources */,
+				665B835A20C00EF5005964A5 /* amoad_link_btn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665B831D20BFF9CA005964A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665B835820C00EF5005964A5 /* amoad_link_btn_h.png in Resources */,
+				665B839520C01749005964A5 /* Interstitial.storyboard in Resources */,
+				665B838F20C01737005964A5 /* button.png in Resources */,
+				665B83A120C0175A005964A5 /* InterstitialAfio.storyboard in Resources */,
+				665B838620C01737005964A5 /* AfioView.xib in Resources */,
+				665B836420C00EF5005964A5 /* amoad_close_btn_h.png in Resources */,
+				665B838920C01737005964A5 /* Afio.storyboard in Resources */,
+				665B836A20C00EF5005964A5 /* amoad_panel_l.png in Resources */,
+				665B838320C01737005964A5 /* button_highlighted.png in Resources */,
+				665B836720C00EF5005964A5 /* amoad_close_btn.png in Resources */,
+				665B837720C0171D005964A5 /* Banner.storyboard in Resources */,
+				665B835E20C00EF5005964A5 /* amoad_panel.png in Resources */,
+				665B837A20C0171D005964A5 /* b320_50@2x.png in Resources */,
+				665B835B20C00EF5005964A5 /* amoad_link_btn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DD41F6D8D3E49FA549FE57D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AMoAdMoPubDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B2A3C630A2BCBC0EE3BCC96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AMoAdMoPubDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DFBA0C6A6A9C86438824013 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AMoAdMoPubDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B26B4915C460F43EE69FD1A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AMoAdMoPubDemo/Pods-AMoAdMoPubDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/mopub-ios-sdk/MoPub.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MoPub.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMoAdMoPubDemo/Pods-AMoAdMoPubDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		665B82FC20BFF9C9005964A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665B83A820C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift in Sources */,
+				665B83B020C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift in Sources */,
+				665B837220C0171D005964A5 /* BannerViewController.swift in Sources */,
+				665B83B420C01B85005964A5 /* AMoAdMoPubUtil.swift in Sources */,
+				665B839C20C0175A005964A5 /* InterstitialAfioViewController.swift in Sources */,
+				665B838A20C01737005964A5 /* AfioViewController.swift in Sources */,
+				665B83A420C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift in Sources */,
+				665B830620BFF9C9005964A5 /* ViewController.swift in Sources */,
+				665B830420BFF9C9005964A5 /* AppDelegate.swift in Sources */,
+				665B839620C0174A005964A5 /* InterstitialViewController.swift in Sources */,
+				665B83AC20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665B831020BFF9CA005964A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665B839720C0174A005964A5 /* InterstitialViewController.swift in Sources */,
+				665B83A920C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift in Sources */,
+				665B83B120C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift in Sources */,
+				665B837320C0171D005964A5 /* BannerViewController.swift in Sources */,
+				665B83B520C01B85005964A5 /* AMoAdMoPubUtil.swift in Sources */,
+				665B83A520C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift in Sources */,
+				665B83AD20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift in Sources */,
+				665B839D20C0175A005964A5 /* InterstitialAfioViewController.swift in Sources */,
+				665B838B20C01737005964A5 /* AfioViewController.swift in Sources */,
+				665B831920BFF9CA005964A5 /* AMoAdMoPubDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665B831B20BFF9CA005964A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665B839820C0174A005964A5 /* InterstitialViewController.swift in Sources */,
+				665B83AA20C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift in Sources */,
+				665B83B220C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift in Sources */,
+				665B837420C0171D005964A5 /* BannerViewController.swift in Sources */,
+				665B83B620C01B85005964A5 /* AMoAdMoPubUtil.swift in Sources */,
+				665B83A620C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift in Sources */,
+				665B83AE20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift in Sources */,
+				665B839E20C0175A005964A5 /* InterstitialAfioViewController.swift in Sources */,
+				665B838C20C01737005964A5 /* AfioViewController.swift in Sources */,
+				665B832420BFF9CA005964A5 /* AMoAdMoPubDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		665B831620BFF9CA005964A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 665B82FF20BFF9C9005964A5 /* AMoAdMoPubDemo */;
+			targetProxy = 665B831520BFF9CA005964A5 /* PBXContainerItemProxy */;
+		};
+		665B832120BFF9CA005964A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 665B82FF20BFF9C9005964A5 /* AMoAdMoPubDemo */;
+			targetProxy = 665B832020BFF9CA005964A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		665B830720BFF9C9005964A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				665B830820BFF9C9005964A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		665B830C20BFF9CA005964A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				665B830D20BFF9CA005964A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		665B832620BFF9CA005964A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		665B832720BFF9CA005964A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		665B832920BFF9CA005964A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71E7CC4C69F9918CDCE88118 /* Pods-AMoAdMoPubDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R483GUQ2NF;
+				INFOPLIST_FILE = AMoAdMoPubDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AMoAdMoPubDemo/AMoAdSdk",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AMoAdMoPubDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AMoAdMoPubDemo/AMoAdMoPubDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		665B832A20BFF9CA005964A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C9FF0CE9A84F0C469A5F6B4 /* Pods-AMoAdMoPubDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R483GUQ2NF;
+				INFOPLIST_FILE = AMoAdMoPubDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AMoAdMoPubDemo/AMoAdSdk",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AMoAdMoPubDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AMoAdMoPubDemo/AMoAdMoPubDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		665B832C20BFF9CA005964A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCF0090AAFE20144AACB583A /* Pods-AMoAdMoPubDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R483GUQ2NF;
+				INFOPLIST_FILE = AMoAdMoPubDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AMoAdMoPubDemo/AMoAdSdk",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AMoAdMoPubDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMoAdMoPubDemo.app/AMoAdMoPubDemo";
+			};
+			name = Debug;
+		};
+		665B832D20BFF9CA005964A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A903959FF67ED0D66FA389 /* Pods-AMoAdMoPubDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R483GUQ2NF;
+				INFOPLIST_FILE = AMoAdMoPubDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AMoAdMoPubDemo/AMoAdSdk",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AMoAdMoPubDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMoAdMoPubDemo.app/AMoAdMoPubDemo";
+			};
+			name = Release;
+		};
+		665B832F20BFF9CA005964A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A630BEAC77DC00225D1FB90 /* Pods-AMoAdMoPubDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R483GUQ2NF;
+				INFOPLIST_FILE = AMoAdMoPubDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AMoAdMoPubDemo/AMoAdSdk",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AMoAdMoPubDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AMoAdMoPubDemo;
+			};
+			name = Debug;
+		};
+		665B833020BFF9CA005964A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F4DCD04315F7A7B5ECB175 /* Pods-AMoAdMoPubDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R483GUQ2NF;
+				INFOPLIST_FILE = AMoAdMoPubDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AMoAdMoPubDemo/AMoAdSdk",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AMoAdMoPubDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AMoAdMoPubDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		665B82FB20BFF9C9005964A5 /* Build configuration list for PBXProject "AMoAdMoPubDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665B832620BFF9CA005964A5 /* Debug */,
+				665B832720BFF9CA005964A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665B832820BFF9CA005964A5 /* Build configuration list for PBXNativeTarget "AMoAdMoPubDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665B832920BFF9CA005964A5 /* Debug */,
+				665B832A20BFF9CA005964A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665B832B20BFF9CA005964A5 /* Build configuration list for PBXNativeTarget "AMoAdMoPubDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665B832C20BFF9CA005964A5 /* Debug */,
+				665B832D20BFF9CA005964A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665B832E20BFF9CA005964A5 /* Build configuration list for PBXNativeTarget "AMoAdMoPubDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665B832F20BFF9CA005964A5 /* Debug */,
+				665B833020BFF9CA005964A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 665B82F820BFF9C9005964A5 /* Project object */;
+}
