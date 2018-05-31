@@ -1,6 +1,0 @@
-framework module Pods_AmoadMoPubDemoUITests {
-  umbrella header "Pods-AmoadMoPubDemoUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
