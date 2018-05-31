@@ -45,6 +45,42 @@
 		665B836820C00EF5005964A5 /* amoad_panel_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B835220C00EF5005964A5 /* amoad_panel_l.png */; };
 		665B836920C00EF5005964A5 /* amoad_panel_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B835220C00EF5005964A5 /* amoad_panel_l.png */; };
 		665B836A20C00EF5005964A5 /* amoad_panel_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B835220C00EF5005964A5 /* amoad_panel_l.png */; };
+		665B837220C0171D005964A5 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B836F20C0171D005964A5 /* BannerViewController.swift */; };
+		665B837320C0171D005964A5 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B836F20C0171D005964A5 /* BannerViewController.swift */; };
+		665B837420C0171D005964A5 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B836F20C0171D005964A5 /* BannerViewController.swift */; };
+		665B837520C0171D005964A5 /* Banner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B837020C0171D005964A5 /* Banner.storyboard */; };
+		665B837620C0171D005964A5 /* Banner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B837020C0171D005964A5 /* Banner.storyboard */; };
+		665B837720C0171D005964A5 /* Banner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B837020C0171D005964A5 /* Banner.storyboard */; };
+		665B837820C0171D005964A5 /* b320_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B837120C0171D005964A5 /* b320_50@2x.png */; };
+		665B837920C0171D005964A5 /* b320_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B837120C0171D005964A5 /* b320_50@2x.png */; };
+		665B837A20C0171D005964A5 /* b320_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B837120C0171D005964A5 /* b320_50@2x.png */; };
+		665B838120C01737005964A5 /* button_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B837C20C01736005964A5 /* button_highlighted.png */; };
+		665B838220C01737005964A5 /* button_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B837C20C01736005964A5 /* button_highlighted.png */; };
+		665B838320C01737005964A5 /* button_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B837C20C01736005964A5 /* button_highlighted.png */; };
+		665B838420C01737005964A5 /* AfioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665B837D20C01736005964A5 /* AfioView.xib */; };
+		665B838520C01737005964A5 /* AfioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665B837D20C01736005964A5 /* AfioView.xib */; };
+		665B838620C01737005964A5 /* AfioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665B837D20C01736005964A5 /* AfioView.xib */; };
+		665B838720C01737005964A5 /* Afio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B837E20C01736005964A5 /* Afio.storyboard */; };
+		665B838820C01737005964A5 /* Afio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B837E20C01736005964A5 /* Afio.storyboard */; };
+		665B838920C01737005964A5 /* Afio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B837E20C01736005964A5 /* Afio.storyboard */; };
+		665B838A20C01737005964A5 /* AfioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B837F20C01736005964A5 /* AfioViewController.swift */; };
+		665B838B20C01737005964A5 /* AfioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B837F20C01736005964A5 /* AfioViewController.swift */; };
+		665B838C20C01737005964A5 /* AfioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B837F20C01736005964A5 /* AfioViewController.swift */; };
+		665B838D20C01737005964A5 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B838020C01736005964A5 /* button.png */; };
+		665B838E20C01737005964A5 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B838020C01736005964A5 /* button.png */; };
+		665B838F20C01737005964A5 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B838020C01736005964A5 /* button.png */; };
+		665B839320C01749005964A5 /* Interstitial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B839120C01749005964A5 /* Interstitial.storyboard */; };
+		665B839420C01749005964A5 /* Interstitial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B839120C01749005964A5 /* Interstitial.storyboard */; };
+		665B839520C01749005964A5 /* Interstitial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B839120C01749005964A5 /* Interstitial.storyboard */; };
+		665B839620C0174A005964A5 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B839220C01749005964A5 /* InterstitialViewController.swift */; };
+		665B839720C0174A005964A5 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B839220C01749005964A5 /* InterstitialViewController.swift */; };
+		665B839820C0174A005964A5 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B839220C01749005964A5 /* InterstitialViewController.swift */; };
+		665B839C20C0175A005964A5 /* InterstitialAfioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B839A20C0175A005964A5 /* InterstitialAfioViewController.swift */; };
+		665B839D20C0175A005964A5 /* InterstitialAfioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B839A20C0175A005964A5 /* InterstitialAfioViewController.swift */; };
+		665B839E20C0175A005964A5 /* InterstitialAfioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B839A20C0175A005964A5 /* InterstitialAfioViewController.swift */; };
+		665B839F20C0175A005964A5 /* InterstitialAfio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B839B20C0175A005964A5 /* InterstitialAfio.storyboard */; };
+		665B83A020C0175A005964A5 /* InterstitialAfio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B839B20C0175A005964A5 /* InterstitialAfio.storyboard */; };
+		665B83A120C0175A005964A5 /* InterstitialAfio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B839B20C0175A005964A5 /* InterstitialAfio.storyboard */; };
 		8E0EE1A71CEDC918479BDF41 /* Pods_AMoAdMoPubDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CE7C61CCC8B5A7F949768D /* Pods_AMoAdMoPubDemoTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -110,6 +146,18 @@
 		665B835420C00EF5005964A5 /* AMoAdInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdInterstitial.h; sourceTree = "<group>"; };
 		665B835520C00EF5005964A5 /* AMoAdList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdList.h; sourceTree = "<group>"; };
 		665B836D20C01173005964A5 /* AMoAdMoPubDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMoAdMoPubDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		665B836F20C0171D005964A5 /* BannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
+		665B837020C0171D005964A5 /* Banner.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Banner.storyboard; sourceTree = "<group>"; };
+		665B837120C0171D005964A5 /* b320_50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b320_50@2x.png"; sourceTree = "<group>"; };
+		665B837C20C01736005964A5 /* button_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_highlighted.png; sourceTree = "<group>"; };
+		665B837D20C01736005964A5 /* AfioView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AfioView.xib; sourceTree = "<group>"; };
+		665B837E20C01736005964A5 /* Afio.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Afio.storyboard; sourceTree = "<group>"; };
+		665B837F20C01736005964A5 /* AfioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AfioViewController.swift; sourceTree = "<group>"; };
+		665B838020C01736005964A5 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		665B839120C01749005964A5 /* Interstitial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interstitial.storyboard; sourceTree = "<group>"; };
+		665B839220C01749005964A5 /* InterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialViewController.swift; sourceTree = "<group>"; };
+		665B839A20C0175A005964A5 /* InterstitialAfioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialAfioViewController.swift; sourceTree = "<group>"; };
+		665B839B20C0175A005964A5 /* InterstitialAfio.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InterstitialAfio.storyboard; sourceTree = "<group>"; };
 		6C9FF0CE9A84F0C469A5F6B4 /* Pods-AMoAdMoPubDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMoAdMoPubDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMoAdMoPubDemo/Pods-AMoAdMoPubDemo.release.xcconfig"; sourceTree = "<group>"; };
 		70DEE382549B0DCC8B43F1B6 /* Pods_AMoAdMoPubDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMoAdMoPubDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71E7CC4C69F9918CDCE88118 /* Pods-AMoAdMoPubDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMoAdMoPubDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMoAdMoPubDemo/Pods-AMoAdMoPubDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -191,6 +239,10 @@
 				665B830C20BFF9CA005964A5 /* LaunchScreen.storyboard */,
 				665B830F20BFF9CA005964A5 /* Info.plist */,
 				665B836D20C01173005964A5 /* AMoAdMoPubDemo-Bridging-Header.h */,
+				665B836E20C0171D005964A5 /* Banner */,
+				665B839020C01749005964A5 /* Interstitial */,
+				665B837B20C01736005964A5 /* InfeedAfio */,
+				665B839920C0175A005964A5 /* InterstitialAfio */,
 			);
 			path = AMoAdMoPubDemo;
 			sourceTree = "<group>";
@@ -238,6 +290,46 @@
 				665B835520C00EF5005964A5 /* AMoAdList.h */,
 			);
 			path = AMoAdSdk;
+			sourceTree = "<group>";
+		};
+		665B836E20C0171D005964A5 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				665B836F20C0171D005964A5 /* BannerViewController.swift */,
+				665B837020C0171D005964A5 /* Banner.storyboard */,
+				665B837120C0171D005964A5 /* b320_50@2x.png */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		665B837B20C01736005964A5 /* InfeedAfio */ = {
+			isa = PBXGroup;
+			children = (
+				665B837C20C01736005964A5 /* button_highlighted.png */,
+				665B837D20C01736005964A5 /* AfioView.xib */,
+				665B837E20C01736005964A5 /* Afio.storyboard */,
+				665B837F20C01736005964A5 /* AfioViewController.swift */,
+				665B838020C01736005964A5 /* button.png */,
+			);
+			path = InfeedAfio;
+			sourceTree = "<group>";
+		};
+		665B839020C01749005964A5 /* Interstitial */ = {
+			isa = PBXGroup;
+			children = (
+				665B839120C01749005964A5 /* Interstitial.storyboard */,
+				665B839220C01749005964A5 /* InterstitialViewController.swift */,
+			);
+			path = Interstitial;
+			sourceTree = "<group>";
+		};
+		665B839920C0175A005964A5 /* InterstitialAfio */ = {
+			isa = PBXGroup;
+			children = (
+				665B839A20C0175A005964A5 /* InterstitialAfioViewController.swift */,
+				665B839B20C0175A005964A5 /* InterstitialAfio.storyboard */,
+			);
+			path = InterstitialAfio;
 			sourceTree = "<group>";
 		};
 		87BDDF37A2F2BC5C1AF4E3F8 /* Frameworks */ = {
@@ -380,12 +472,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				665B836520C00EF5005964A5 /* amoad_close_btn.png in Resources */,
+				665B838D20C01737005964A5 /* button.png in Resources */,
 				665B835620C00EF5005964A5 /* amoad_link_btn_h.png in Resources */,
+				665B837820C0171D005964A5 /* b320_50@2x.png in Resources */,
 				665B836820C00EF5005964A5 /* amoad_panel_l.png in Resources */,
 				665B835C20C00EF5005964A5 /* amoad_panel.png in Resources */,
+				665B838420C01737005964A5 /* AfioView.xib in Resources */,
 				665B830E20BFF9CA005964A5 /* LaunchScreen.storyboard in Resources */,
+				665B839F20C0175A005964A5 /* InterstitialAfio.storyboard in Resources */,
+				665B838720C01737005964A5 /* Afio.storyboard in Resources */,
 				665B830B20BFF9CA005964A5 /* Assets.xcassets in Resources */,
+				665B839320C01749005964A5 /* Interstitial.storyboard in Resources */,
+				665B837520C0171D005964A5 /* Banner.storyboard in Resources */,
 				665B830920BFF9C9005964A5 /* Main.storyboard in Resources */,
+				665B838120C01737005964A5 /* button_highlighted.png in Resources */,
 				665B835920C00EF5005964A5 /* amoad_link_btn.png in Resources */,
 				665B836220C00EF5005964A5 /* amoad_close_btn_h.png in Resources */,
 			);
@@ -396,10 +496,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				665B835720C00EF5005964A5 /* amoad_link_btn_h.png in Resources */,
+				665B839420C01749005964A5 /* Interstitial.storyboard in Resources */,
+				665B838E20C01737005964A5 /* button.png in Resources */,
+				665B83A020C0175A005964A5 /* InterstitialAfio.storyboard in Resources */,
+				665B838520C01737005964A5 /* AfioView.xib in Resources */,
 				665B836320C00EF5005964A5 /* amoad_close_btn_h.png in Resources */,
+				665B838820C01737005964A5 /* Afio.storyboard in Resources */,
 				665B836920C00EF5005964A5 /* amoad_panel_l.png in Resources */,
+				665B838220C01737005964A5 /* button_highlighted.png in Resources */,
 				665B836620C00EF5005964A5 /* amoad_close_btn.png in Resources */,
+				665B837620C0171D005964A5 /* Banner.storyboard in Resources */,
 				665B835D20C00EF5005964A5 /* amoad_panel.png in Resources */,
+				665B837920C0171D005964A5 /* b320_50@2x.png in Resources */,
 				665B835A20C00EF5005964A5 /* amoad_link_btn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,10 +517,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				665B835820C00EF5005964A5 /* amoad_link_btn_h.png in Resources */,
+				665B839520C01749005964A5 /* Interstitial.storyboard in Resources */,
+				665B838F20C01737005964A5 /* button.png in Resources */,
+				665B83A120C0175A005964A5 /* InterstitialAfio.storyboard in Resources */,
+				665B838620C01737005964A5 /* AfioView.xib in Resources */,
 				665B836420C00EF5005964A5 /* amoad_close_btn_h.png in Resources */,
+				665B838920C01737005964A5 /* Afio.storyboard in Resources */,
 				665B836A20C00EF5005964A5 /* amoad_panel_l.png in Resources */,
+				665B838320C01737005964A5 /* button_highlighted.png in Resources */,
 				665B836720C00EF5005964A5 /* amoad_close_btn.png in Resources */,
+				665B837720C0171D005964A5 /* Banner.storyboard in Resources */,
 				665B835E20C00EF5005964A5 /* amoad_panel.png in Resources */,
+				665B837A20C0171D005964A5 /* b320_50@2x.png in Resources */,
 				665B835B20C00EF5005964A5 /* amoad_link_btn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,8 +615,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665B837220C0171D005964A5 /* BannerViewController.swift in Sources */,
+				665B839C20C0175A005964A5 /* InterstitialAfioViewController.swift in Sources */,
+				665B838A20C01737005964A5 /* AfioViewController.swift in Sources */,
 				665B830620BFF9C9005964A5 /* ViewController.swift in Sources */,
 				665B830420BFF9C9005964A5 /* AppDelegate.swift in Sources */,
+				665B839620C0174A005964A5 /* InterstitialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +628,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665B839720C0174A005964A5 /* InterstitialViewController.swift in Sources */,
+				665B837320C0171D005964A5 /* BannerViewController.swift in Sources */,
+				665B839D20C0175A005964A5 /* InterstitialAfioViewController.swift in Sources */,
+				665B838B20C01737005964A5 /* AfioViewController.swift in Sources */,
 				665B831920BFF9CA005964A5 /* AMoAdMoPubDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +640,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665B839820C0174A005964A5 /* InterstitialViewController.swift in Sources */,
+				665B837420C0171D005964A5 /* BannerViewController.swift in Sources */,
+				665B839E20C0175A005964A5 /* InterstitialAfioViewController.swift in Sources */,
+				665B838C20C01737005964A5 /* AfioViewController.swift in Sources */,
 				665B832420BFF9CA005964A5 /* AMoAdMoPubDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
