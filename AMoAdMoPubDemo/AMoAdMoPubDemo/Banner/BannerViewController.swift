@@ -34,7 +34,7 @@ class BannerViewController: UIViewController, MPAdViewDelegate {
     func adViewDidLoadAd(_ view: MPAdView!) {
         print("The ad loaded")
         if let mpAdView = view {
-            let bannerSize = AMoAdMoPubUtil.getBannerSize(bannerSize: AMoAdBannerSize.b320x50)
+            let bannerSize = CGSize(width: 320, height: 50)
             mpAdView.frame = CGRect(x:(self.view.bounds.size.width - bannerSize.width) / 2, y:self.view.bounds.size.height - bannerSize.height, width:bannerSize.width, height:bannerSize.height)
         }
     }
