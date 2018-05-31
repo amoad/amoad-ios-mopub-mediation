@@ -16,6 +16,14 @@
 		665B830E20BFF9CA005964A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B830C20BFF9CA005964A5 /* LaunchScreen.storyboard */; };
 		665B831920BFF9CA005964A5 /* AMoAdMoPubDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B831820BFF9CA005964A5 /* AMoAdMoPubDemoTests.swift */; };
 		665B832420BFF9CA005964A5 /* AMoAdMoPubDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B832320BFF9CA005964A5 /* AMoAdMoPubDemoUITests.swift */; };
+		665B833220C00CE2005964A5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833120C00CE2005964A5 /* StoreKit.framework */; };
+		665B833420C00CEC005964A5 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833320C00CEC005964A5 /* ImageIO.framework */; };
+		665B833620C00CF8005964A5 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833520C00CF8005964A5 /* SafariServices.framework */; };
+		665B833820C00D05005964A5 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833720C00D04005964A5 /* CoreTelephony.framework */; };
+		665B833A20C00D18005964A5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833920C00D18005964A5 /* AVFoundation.framework */; };
+		665B833C20C00D25005964A5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833B20C00D25005964A5 /* CoreMedia.framework */; };
+		665B833E20C00D32005964A5 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833D20C00D32005964A5 /* AdSupport.framework */; };
+		665B834020C00D43005964A5 /* MoPub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833F20C00D43005964A5 /* MoPub.framework */; };
 		8E0EE1A71CEDC918479BDF41 /* Pods_AMoAdMoPubDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CE7C61CCC8B5A7F949768D /* Pods_AMoAdMoPubDemoTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +60,14 @@
 		665B831F20BFF9CA005964A5 /* AMoAdMoPubDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMoAdMoPubDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		665B832320BFF9CA005964A5 /* AMoAdMoPubDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubDemoUITests.swift; sourceTree = "<group>"; };
 		665B832520BFF9CA005964A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665B833120C00CE2005964A5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		665B833320C00CEC005964A5 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		665B833520C00CF8005964A5 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		665B833720C00D04005964A5 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		665B833920C00D18005964A5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		665B833B20C00D25005964A5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		665B833D20C00D32005964A5 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		665B833F20C00D43005964A5 /* MoPub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MoPub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9FF0CE9A84F0C469A5F6B4 /* Pods-AMoAdMoPubDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMoAdMoPubDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMoAdMoPubDemo/Pods-AMoAdMoPubDemo.release.xcconfig"; sourceTree = "<group>"; };
 		70DEE382549B0DCC8B43F1B6 /* Pods_AMoAdMoPubDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMoAdMoPubDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71E7CC4C69F9918CDCE88118 /* Pods-AMoAdMoPubDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMoAdMoPubDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMoAdMoPubDemo/Pods-AMoAdMoPubDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +82,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665B834020C00D43005964A5 /* MoPub.framework in Frameworks */,
+				665B833E20C00D32005964A5 /* AdSupport.framework in Frameworks */,
+				665B833C20C00D25005964A5 /* CoreMedia.framework in Frameworks */,
+				665B833A20C00D18005964A5 /* AVFoundation.framework in Frameworks */,
+				665B833820C00D05005964A5 /* CoreTelephony.framework in Frameworks */,
+				665B833620C00CF8005964A5 /* SafariServices.framework in Frameworks */,
+				665B833420C00CEC005964A5 /* ImageIO.framework in Frameworks */,
+				665B833220C00CE2005964A5 /* StoreKit.framework in Frameworks */,
 				03298D29D17F2D575D644E83 /* Pods_AMoAdMoPubDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +169,14 @@
 		87BDDF37A2F2BC5C1AF4E3F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				665B833F20C00D43005964A5 /* MoPub.framework */,
+				665B833D20C00D32005964A5 /* AdSupport.framework */,
+				665B833B20C00D25005964A5 /* CoreMedia.framework */,
+				665B833920C00D18005964A5 /* AVFoundation.framework */,
+				665B833720C00D04005964A5 /* CoreTelephony.framework */,
+				665B833520C00CF8005964A5 /* SafariServices.framework */,
+				665B833320C00CEC005964A5 /* ImageIO.framework */,
+				665B833120C00CE2005964A5 /* StoreKit.framework */,
 				70DEE382549B0DCC8B43F1B6 /* Pods_AMoAdMoPubDemo.framework */,
 				24CE7C61CCC8B5A7F949768D /* Pods_AMoAdMoPubDemoTests.framework */,
 				263B6BD4326DC6FB7B42E34C /* Pods_AMoAdMoPubDemoUITests.framework */,
@@ -482,7 +514,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -536,7 +568,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -553,7 +585,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R483GUQ2NF;
 				INFOPLIST_FILE = AMoAdMoPubDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AMoAdMoPubDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -569,7 +604,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R483GUQ2NF;
 				INFOPLIST_FILE = AMoAdMoPubDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AMoAdMoPubDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -586,7 +624,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R483GUQ2NF;
 				INFOPLIST_FILE = AMoAdMoPubDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AMoAdMoPubDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -604,7 +646,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R483GUQ2NF;
 				INFOPLIST_FILE = AMoAdMoPubDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AMoAdMoPubDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -621,7 +667,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R483GUQ2NF;
 				INFOPLIST_FILE = AMoAdMoPubDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AMoAdMoPubDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -638,7 +688,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R483GUQ2NF;
 				INFOPLIST_FILE = AMoAdMoPubDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AMoAdMoPubDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
