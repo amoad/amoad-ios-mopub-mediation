@@ -1,0 +1,1 @@
+# amoad-ios-mopub-mediation
