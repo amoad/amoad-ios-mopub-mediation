@@ -10,27 +10,27 @@ import UIKit
 
 class InterstitialViewController: UIViewController {
 
-//    var adController: MPInterstitialAdController?
-//
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//        // Do any additional setup after loading the view.
-//        let adUnitId_interstitial = "a19cbb17697240d6b0a467b9479842d1"
-//        adController = MPInterstitialAdController(forAdUnitId: adUnitId_interstitial)
-//    }
-//
-//    override func didReceiveMemoryWarning() {
-//        super.didReceiveMemoryWarning()
-//        // Dispose of any resources that can be recreated.
-//    }
-//
-//    @IBAction func loadInterstitial(_ sender: Any) {
-//        adController?.loadAd()
-//    }
-//
-//    @IBAction func showInterstitial(_ sender: Any) {
-//        adController?.show(from: self)
-//    }
+    var adController: MPInterstitialAdController?
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        let adUnitId_interstitial = "a19cbb17697240d6b0a467b9479842d1"
+        adController = MPInterstitialAdController(forAdUnitId: adUnitId_interstitial)
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func loadInterstitial(_ sender: Any) {
+        adController?.loadAd()
+    }
+    
+    @IBAction func showInterstitial(_ sender: Any) {
+        adController?.show(from: self)
+    }
     
     /*
     // MARK: - Navigation

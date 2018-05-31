@@ -81,6 +81,21 @@
 		665B839F20C0175A005964A5 /* InterstitialAfio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B839B20C0175A005964A5 /* InterstitialAfio.storyboard */; };
 		665B83A020C0175A005964A5 /* InterstitialAfio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B839B20C0175A005964A5 /* InterstitialAfio.storyboard */; };
 		665B83A120C0175A005964A5 /* InterstitialAfio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B839B20C0175A005964A5 /* InterstitialAfio.storyboard */; };
+		665B83A420C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83A320C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift */; };
+		665B83A520C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83A320C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift */; };
+		665B83A620C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83A320C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift */; };
+		665B83A820C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83A720C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift */; };
+		665B83A920C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83A720C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift */; };
+		665B83AA20C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83A720C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift */; };
+		665B83AC20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83AB20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift */; };
+		665B83AD20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83AB20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift */; };
+		665B83AE20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83AB20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift */; };
+		665B83B020C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83AF20C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift */; };
+		665B83B120C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83AF20C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift */; };
+		665B83B220C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83AF20C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift */; };
+		665B83B420C01B85005964A5 /* AMoAdMoPubUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83B320C01B85005964A5 /* AMoAdMoPubUtil.swift */; };
+		665B83B520C01B85005964A5 /* AMoAdMoPubUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83B320C01B85005964A5 /* AMoAdMoPubUtil.swift */; };
+		665B83B620C01B85005964A5 /* AMoAdMoPubUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83B320C01B85005964A5 /* AMoAdMoPubUtil.swift */; };
 		8E0EE1A71CEDC918479BDF41 /* Pods_AMoAdMoPubDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CE7C61CCC8B5A7F949768D /* Pods_AMoAdMoPubDemoTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -158,6 +173,11 @@
 		665B839220C01749005964A5 /* InterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialViewController.swift; sourceTree = "<group>"; };
 		665B839A20C0175A005964A5 /* InterstitialAfioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialAfioViewController.swift; sourceTree = "<group>"; };
 		665B839B20C0175A005964A5 /* InterstitialAfio.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InterstitialAfio.storyboard; sourceTree = "<group>"; };
+		665B83A320C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubAdapterBanner.swift; sourceTree = "<group>"; };
+		665B83A720C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubAdapterInterstitial.swift; sourceTree = "<group>"; };
+		665B83AB20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubAdapterInfeedAfio.swift; sourceTree = "<group>"; };
+		665B83AF20C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubAdapterInterstitialAfio.swift; sourceTree = "<group>"; };
+		665B83B320C01B85005964A5 /* AMoAdMoPubUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubUtil.swift; sourceTree = "<group>"; };
 		6C9FF0CE9A84F0C469A5F6B4 /* Pods-AMoAdMoPubDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMoAdMoPubDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMoAdMoPubDemo/Pods-AMoAdMoPubDemo.release.xcconfig"; sourceTree = "<group>"; };
 		70DEE382549B0DCC8B43F1B6 /* Pods_AMoAdMoPubDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMoAdMoPubDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71E7CC4C69F9918CDCE88118 /* Pods-AMoAdMoPubDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMoAdMoPubDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMoAdMoPubDemo/Pods-AMoAdMoPubDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -232,6 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				665B834120C00EF5005964A5 /* AMoAdSdk */,
+				665B83A220C019DA005964A5 /* MoPubAdapter */,
 				665B830320BFF9C9005964A5 /* AppDelegate.swift */,
 				665B830520BFF9C9005964A5 /* ViewController.swift */,
 				665B830720BFF9C9005964A5 /* Main.storyboard */,
@@ -330,6 +351,18 @@
 				665B839B20C0175A005964A5 /* InterstitialAfio.storyboard */,
 			);
 			path = InterstitialAfio;
+			sourceTree = "<group>";
+		};
+		665B83A220C019DA005964A5 /* MoPubAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				665B83A320C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift */,
+				665B83A720C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift */,
+				665B83AB20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift */,
+				665B83AF20C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift */,
+				665B83B320C01B85005964A5 /* AMoAdMoPubUtil.swift */,
+			);
+			path = MoPubAdapter;
 			sourceTree = "<group>";
 		};
 		87BDDF37A2F2BC5C1AF4E3F8 /* Frameworks */ = {
@@ -615,12 +648,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665B83A820C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift in Sources */,
+				665B83B020C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift in Sources */,
 				665B837220C0171D005964A5 /* BannerViewController.swift in Sources */,
+				665B83B420C01B85005964A5 /* AMoAdMoPubUtil.swift in Sources */,
 				665B839C20C0175A005964A5 /* InterstitialAfioViewController.swift in Sources */,
 				665B838A20C01737005964A5 /* AfioViewController.swift in Sources */,
+				665B83A420C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift in Sources */,
 				665B830620BFF9C9005964A5 /* ViewController.swift in Sources */,
 				665B830420BFF9C9005964A5 /* AppDelegate.swift in Sources */,
 				665B839620C0174A005964A5 /* InterstitialViewController.swift in Sources */,
+				665B83AC20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,7 +667,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				665B839720C0174A005964A5 /* InterstitialViewController.swift in Sources */,
+				665B83A920C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift in Sources */,
+				665B83B120C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift in Sources */,
 				665B837320C0171D005964A5 /* BannerViewController.swift in Sources */,
+				665B83B520C01B85005964A5 /* AMoAdMoPubUtil.swift in Sources */,
+				665B83A520C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift in Sources */,
+				665B83AD20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift in Sources */,
 				665B839D20C0175A005964A5 /* InterstitialAfioViewController.swift in Sources */,
 				665B838B20C01737005964A5 /* AfioViewController.swift in Sources */,
 				665B831920BFF9CA005964A5 /* AMoAdMoPubDemoTests.swift in Sources */,
@@ -641,7 +684,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				665B839820C0174A005964A5 /* InterstitialViewController.swift in Sources */,
+				665B83AA20C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift in Sources */,
+				665B83B220C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift in Sources */,
 				665B837420C0171D005964A5 /* BannerViewController.swift in Sources */,
+				665B83B620C01B85005964A5 /* AMoAdMoPubUtil.swift in Sources */,
+				665B83A620C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift in Sources */,
+				665B83AE20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift in Sources */,
 				665B839E20C0175A005964A5 /* InterstitialAfioViewController.swift in Sources */,
 				665B838C20C01737005964A5 /* AfioViewController.swift in Sources */,
 				665B832420BFF9CA005964A5 /* AMoAdMoPubDemoUITests.swift in Sources */,
