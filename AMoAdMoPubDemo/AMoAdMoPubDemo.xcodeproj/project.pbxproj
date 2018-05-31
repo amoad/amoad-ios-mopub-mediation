@@ -24,6 +24,27 @@
 		665B833C20C00D25005964A5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833B20C00D25005964A5 /* CoreMedia.framework */; };
 		665B833E20C00D32005964A5 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833D20C00D32005964A5 /* AdSupport.framework */; };
 		665B834020C00D43005964A5 /* MoPub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833F20C00D43005964A5 /* MoPub.framework */; };
+		665B835620C00EF5005964A5 /* amoad_link_btn_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834220C00EF5005964A5 /* amoad_link_btn_h.png */; };
+		665B835720C00EF5005964A5 /* amoad_link_btn_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834220C00EF5005964A5 /* amoad_link_btn_h.png */; };
+		665B835820C00EF5005964A5 /* amoad_link_btn_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834220C00EF5005964A5 /* amoad_link_btn_h.png */; };
+		665B835920C00EF5005964A5 /* amoad_link_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834420C00EF5005964A5 /* amoad_link_btn.png */; };
+		665B835A20C00EF5005964A5 /* amoad_link_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834420C00EF5005964A5 /* amoad_link_btn.png */; };
+		665B835B20C00EF5005964A5 /* amoad_link_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834420C00EF5005964A5 /* amoad_link_btn.png */; };
+		665B835C20C00EF5005964A5 /* amoad_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834620C00EF5005964A5 /* amoad_panel.png */; };
+		665B835D20C00EF5005964A5 /* amoad_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834620C00EF5005964A5 /* amoad_panel.png */; };
+		665B835E20C00EF5005964A5 /* amoad_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834620C00EF5005964A5 /* amoad_panel.png */; };
+		665B835F20C00EF5005964A5 /* libAMoAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B834B20C00EF5005964A5 /* libAMoAd.a */; };
+		665B836020C00EF5005964A5 /* libAMoAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B834B20C00EF5005964A5 /* libAMoAd.a */; };
+		665B836120C00EF5005964A5 /* libAMoAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B834B20C00EF5005964A5 /* libAMoAd.a */; };
+		665B836220C00EF5005964A5 /* amoad_close_btn_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834D20C00EF5005964A5 /* amoad_close_btn_h.png */; };
+		665B836320C00EF5005964A5 /* amoad_close_btn_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834D20C00EF5005964A5 /* amoad_close_btn_h.png */; };
+		665B836420C00EF5005964A5 /* amoad_close_btn_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834D20C00EF5005964A5 /* amoad_close_btn_h.png */; };
+		665B836520C00EF5005964A5 /* amoad_close_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834F20C00EF5005964A5 /* amoad_close_btn.png */; };
+		665B836620C00EF5005964A5 /* amoad_close_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834F20C00EF5005964A5 /* amoad_close_btn.png */; };
+		665B836720C00EF5005964A5 /* amoad_close_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834F20C00EF5005964A5 /* amoad_close_btn.png */; };
+		665B836820C00EF5005964A5 /* amoad_panel_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B835220C00EF5005964A5 /* amoad_panel_l.png */; };
+		665B836920C00EF5005964A5 /* amoad_panel_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B835220C00EF5005964A5 /* amoad_panel_l.png */; };
+		665B836A20C00EF5005964A5 /* amoad_panel_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B835220C00EF5005964A5 /* amoad_panel_l.png */; };
 		8E0EE1A71CEDC918479BDF41 /* Pods_AMoAdMoPubDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CE7C61CCC8B5A7F949768D /* Pods_AMoAdMoPubDemoTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +89,27 @@
 		665B833B20C00D25005964A5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		665B833D20C00D32005964A5 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		665B833F20C00D43005964A5 /* MoPub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MoPub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		665B834220C00EF5005964A5 /* amoad_link_btn_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_link_btn_h.png; sourceTree = "<group>"; };
+		665B834320C00EF5005964A5 /* AMoAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdView.h; sourceTree = "<group>"; };
+		665B834420C00EF5005964A5 /* amoad_link_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_link_btn.png; sourceTree = "<group>"; };
+		665B834520C00EF5005964A5 /* AMoAdItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdItem.h; sourceTree = "<group>"; };
+		665B834620C00EF5005964A5 /* amoad_panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_panel.png; sourceTree = "<group>"; };
+		665B834720C00EF5005964A5 /* AMoAdInfeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdInfeed.h; sourceTree = "<group>"; };
+		665B834820C00EF5005964A5 /* AMoAdNativePreRoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdNativePreRoll.h; sourceTree = "<group>"; };
+		665B834920C00EF5005964A5 /* AMoAdAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdAnalytics.h; sourceTree = "<group>"; };
+		665B834A20C00EF5005964A5 /* AMoAdWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdWeb.h; sourceTree = "<group>"; };
+		665B834B20C00EF5005964A5 /* libAMoAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMoAd.a; sourceTree = "<group>"; };
+		665B834C20C00EF5005964A5 /* AMoAdNativeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdNativeView.h; sourceTree = "<group>"; };
+		665B834D20C00EF5005964A5 /* amoad_close_btn_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_close_btn_h.png; sourceTree = "<group>"; };
+		665B834E20C00EF5005964A5 /* AMoAdNativeMainVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdNativeMainVideoView.h; sourceTree = "<group>"; };
+		665B834F20C00EF5005964A5 /* amoad_close_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_close_btn.png; sourceTree = "<group>"; };
+		665B835020C00EF5005964A5 /* AMoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAd.h; sourceTree = "<group>"; };
+		665B835120C00EF5005964A5 /* AMoAdInterstitialVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdInterstitialVideo.h; sourceTree = "<group>"; };
+		665B835220C00EF5005964A5 /* amoad_panel_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_panel_l.png; sourceTree = "<group>"; };
+		665B835320C00EF5005964A5 /* AMoAdLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdLogger.h; sourceTree = "<group>"; };
+		665B835420C00EF5005964A5 /* AMoAdInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdInterstitial.h; sourceTree = "<group>"; };
+		665B835520C00EF5005964A5 /* AMoAdList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdList.h; sourceTree = "<group>"; };
+		665B836D20C01173005964A5 /* AMoAdMoPubDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMoAdMoPubDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		6C9FF0CE9A84F0C469A5F6B4 /* Pods-AMoAdMoPubDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMoAdMoPubDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMoAdMoPubDemo/Pods-AMoAdMoPubDemo.release.xcconfig"; sourceTree = "<group>"; };
 		70DEE382549B0DCC8B43F1B6 /* Pods_AMoAdMoPubDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMoAdMoPubDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71E7CC4C69F9918CDCE88118 /* Pods-AMoAdMoPubDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMoAdMoPubDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMoAdMoPubDemo/Pods-AMoAdMoPubDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +130,7 @@
 				665B833A20C00D18005964A5 /* AVFoundation.framework in Frameworks */,
 				665B833820C00D05005964A5 /* CoreTelephony.framework in Frameworks */,
 				665B833620C00CF8005964A5 /* SafariServices.framework in Frameworks */,
+				665B835F20C00EF5005964A5 /* libAMoAd.a in Frameworks */,
 				665B833420C00CEC005964A5 /* ImageIO.framework in Frameworks */,
 				665B833220C00CE2005964A5 /* StoreKit.framework in Frameworks */,
 				03298D29D17F2D575D644E83 /* Pods_AMoAdMoPubDemo.framework in Frameworks */,
@@ -98,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665B836020C00EF5005964A5 /* libAMoAd.a in Frameworks */,
 				8E0EE1A71CEDC918479BDF41 /* Pods_AMoAdMoPubDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665B836120C00EF5005964A5 /* libAMoAd.a in Frameworks */,
 				0BEC892A9EBEB515AF18857A /* Pods_AMoAdMoPubDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,12 +183,14 @@
 		665B830220BFF9C9005964A5 /* AMoAdMoPubDemo */ = {
 			isa = PBXGroup;
 			children = (
+				665B834120C00EF5005964A5 /* AMoAdSdk */,
 				665B830320BFF9C9005964A5 /* AppDelegate.swift */,
 				665B830520BFF9C9005964A5 /* ViewController.swift */,
 				665B830720BFF9C9005964A5 /* Main.storyboard */,
 				665B830A20BFF9CA005964A5 /* Assets.xcassets */,
 				665B830C20BFF9CA005964A5 /* LaunchScreen.storyboard */,
 				665B830F20BFF9CA005964A5 /* Info.plist */,
+				665B836D20C01173005964A5 /* AMoAdMoPubDemo-Bridging-Header.h */,
 			);
 			path = AMoAdMoPubDemo;
 			sourceTree = "<group>";
@@ -164,6 +211,33 @@
 				665B832520BFF9CA005964A5 /* Info.plist */,
 			);
 			path = AMoAdMoPubDemoUITests;
+			sourceTree = "<group>";
+		};
+		665B834120C00EF5005964A5 /* AMoAdSdk */ = {
+			isa = PBXGroup;
+			children = (
+				665B834220C00EF5005964A5 /* amoad_link_btn_h.png */,
+				665B834320C00EF5005964A5 /* AMoAdView.h */,
+				665B834420C00EF5005964A5 /* amoad_link_btn.png */,
+				665B834520C00EF5005964A5 /* AMoAdItem.h */,
+				665B834620C00EF5005964A5 /* amoad_panel.png */,
+				665B834720C00EF5005964A5 /* AMoAdInfeed.h */,
+				665B834820C00EF5005964A5 /* AMoAdNativePreRoll.h */,
+				665B834920C00EF5005964A5 /* AMoAdAnalytics.h */,
+				665B834A20C00EF5005964A5 /* AMoAdWeb.h */,
+				665B834B20C00EF5005964A5 /* libAMoAd.a */,
+				665B834C20C00EF5005964A5 /* AMoAdNativeView.h */,
+				665B834D20C00EF5005964A5 /* amoad_close_btn_h.png */,
+				665B834E20C00EF5005964A5 /* AMoAdNativeMainVideoView.h */,
+				665B834F20C00EF5005964A5 /* amoad_close_btn.png */,
+				665B835020C00EF5005964A5 /* AMoAd.h */,
+				665B835120C00EF5005964A5 /* AMoAdInterstitialVideo.h */,
+				665B835220C00EF5005964A5 /* amoad_panel_l.png */,
+				665B835320C00EF5005964A5 /* AMoAdLogger.h */,
+				665B835420C00EF5005964A5 /* AMoAdInterstitial.h */,
+				665B835520C00EF5005964A5 /* AMoAdList.h */,
+			);
+			path = AMoAdSdk;
 			sourceTree = "<group>";
 		};
 		87BDDF37A2F2BC5C1AF4E3F8 /* Frameworks */ = {
@@ -305,9 +379,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665B836520C00EF5005964A5 /* amoad_close_btn.png in Resources */,
+				665B835620C00EF5005964A5 /* amoad_link_btn_h.png in Resources */,
+				665B836820C00EF5005964A5 /* amoad_panel_l.png in Resources */,
+				665B835C20C00EF5005964A5 /* amoad_panel.png in Resources */,
 				665B830E20BFF9CA005964A5 /* LaunchScreen.storyboard in Resources */,
 				665B830B20BFF9CA005964A5 /* Assets.xcassets in Resources */,
 				665B830920BFF9C9005964A5 /* Main.storyboard in Resources */,
+				665B835920C00EF5005964A5 /* amoad_link_btn.png in Resources */,
+				665B836220C00EF5005964A5 /* amoad_close_btn_h.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +395,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665B835720C00EF5005964A5 /* amoad_link_btn_h.png in Resources */,
+				665B836320C00EF5005964A5 /* amoad_close_btn_h.png in Resources */,
+				665B836920C00EF5005964A5 /* amoad_panel_l.png in Resources */,
+				665B836620C00EF5005964A5 /* amoad_close_btn.png in Resources */,
+				665B835D20C00EF5005964A5 /* amoad_panel.png in Resources */,
+				665B835A20C00EF5005964A5 /* amoad_link_btn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +408,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665B835820C00EF5005964A5 /* amoad_link_btn_h.png in Resources */,
+				665B836420C00EF5005964A5 /* amoad_close_btn_h.png in Resources */,
+				665B836A20C00EF5005964A5 /* amoad_panel_l.png in Resources */,
+				665B836720C00EF5005964A5 /* amoad_close_btn.png in Resources */,
+				665B835E20C00EF5005964A5 /* amoad_panel.png in Resources */,
+				665B835B20C00EF5005964A5 /* amoad_link_btn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,8 +681,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AMoAdMoPubDemo/AMoAdSdk",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AMoAdMoPubDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AMoAdMoPubDemo/AMoAdMoPubDemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -608,8 +705,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AMoAdMoPubDemo/AMoAdSdk",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AMoAdMoPubDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AMoAdMoPubDemo/AMoAdMoPubDemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -628,6 +730,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AMoAdMoPubDemo/AMoAdSdk",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AMoAdMoPubDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -651,6 +757,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AMoAdMoPubDemo/AMoAdSdk",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AMoAdMoPubDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -672,6 +782,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AMoAdMoPubDemo/AMoAdSdk",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AMoAdMoPubDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -692,6 +806,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AMoAdMoPubDemo/AMoAdSdk",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.amoad.AMoAdMoPubDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
