@@ -2,9 +2,6 @@
 //  AMoAdMoPubDemoTests.swift
 //  AMoAdMoPubDemoTests
 //
-//  Created by 菅原 清吾 on 2018/05/31.
-//  Copyright © 2018年 AMoAd. All rights reserved.
-//
 
 import XCTest
 @testable import AMoAdMoPubDemo

@@ -2,9 +2,6 @@
 //  InterstitialViewController.swift
 //  AmoadMoPubDemo
 //
-//  Created by 菅原 清吾 on 2018/05/21.
-//  Copyright © 2018年 Amoad. All rights reserved.
-//
 
 import UIKit
 

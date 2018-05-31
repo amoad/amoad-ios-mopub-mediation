@@ -2,9 +2,6 @@
 //  AMoAdMoPubUtil.swift
 //  AMoAdMoPubDemo
 //
-//  Created by 菅原 清吾 on 2018/05/31.
-//  Copyright © 2018年 AMoAd. All rights reserved.
-//
 
 import Foundation
 import UIKit
