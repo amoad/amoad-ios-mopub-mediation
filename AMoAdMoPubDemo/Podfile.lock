@@ -1,12 +1,12 @@
 PODS:
-  - mopub-ios-sdk (4.20.1):
-    - mopub-ios-sdk/MoPubSDK (= 4.20.1)
-  - mopub-ios-sdk/Avid (4.20.1):
+  - mopub-ios-sdk (5.0.0):
+    - mopub-ios-sdk/MoPubSDK (= 5.0.0)
+  - mopub-ios-sdk/Avid (5.0.0):
     - mopub-ios-sdk/Core
-  - mopub-ios-sdk/Core (4.20.1)
-  - mopub-ios-sdk/Moat (4.20.1):
+  - mopub-ios-sdk/Core (5.0.0)
+  - mopub-ios-sdk/Moat (5.0.0):
     - mopub-ios-sdk/Core
-  - mopub-ios-sdk/MoPubSDK (4.20.1):
+  - mopub-ios-sdk/MoPubSDK (5.0.0):
     - mopub-ios-sdk/Avid
     - mopub-ios-sdk/Core
     - mopub-ios-sdk/Moat
@@ -19,8 +19,8 @@ SPEC REPOS:
     - mopub-ios-sdk
 
 SPEC CHECKSUMS:
-  mopub-ios-sdk: 6220599bacc1c47f4117b7af5e9616f6779157a5
+  mopub-ios-sdk: fe1302dfcff6929360ea4b7fb1bc7375c13c7074
 
-PODFILE CHECKSUM: 70405572e97ffda7c003a1bc91e0e42e12d7d592
+PODFILE CHECKSUM: 0ff8ca43e4710398fec2c01c96983fe36ce6fba1
 
 COCOAPODS: 1.5.0

@@ -1,12 +1,12 @@
 //
 //  InterstitialViewController.swift
-//  AmoadMoPubDemo
+//  AMoAdMoPubDemo
 //
 
 import UIKit
 
 class InterstitialViewController: UIViewController {
-
+    
     var adController: MPInterstitialAdController?
     
     override func viewDidLoad() {
@@ -15,7 +15,7 @@ class InterstitialViewController: UIViewController {
         let adUnitId_interstitial = "a19cbb17697240d6b0a467b9479842d1"
         adController = MPInterstitialAdController(forAdUnitId: adUnitId_interstitial)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -30,13 +30,14 @@ class InterstitialViewController: UIViewController {
     }
     
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }
+
