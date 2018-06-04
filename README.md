@@ -1,1 +1,2 @@
-= AMoAd MoPub Mediation for iOS
+# AMoAd MoPub Mediation for iOS
+
