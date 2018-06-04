@@ -1,1 +1,1 @@
-# ultima-ios-mopub-mediation
+= AMoAd MoPub Mediation for iOS
