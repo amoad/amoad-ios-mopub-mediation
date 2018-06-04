@@ -24,8 +24,6 @@ class AMoAdMoPubAdapterInterstitial: MPInterstitialCustomEvent {
     
     fileprivate func preparedInterstitial(customEventClassData: AMoAdCustomEventClassDataForDisplay) {
         
-        AMoAdView.setEnvStaging(true)
-        
         AMoAdInterstitial.registerAd(withSid: customEventClassData.sid)
         AMoAdInterstitial.setAutoReloadWithSid(customEventClassData.sid, autoReload: true)
         AMoAdInterstitial.loadAd(withSid: customEventClassData.sid) { (sid, result, err) in

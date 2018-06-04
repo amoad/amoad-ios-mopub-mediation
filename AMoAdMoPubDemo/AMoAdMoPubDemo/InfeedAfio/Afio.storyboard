@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="b6K-u7-86L">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="5C3-IB-oi7">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -11,46 +11,46 @@
     </dependencies>
     <scenes>
         <!--Afio View Controller-->
-        <scene sceneID="spe-Oj-DnD">
+        <scene sceneID="bPx-nU-n9d">
             <objects>
-                <viewController id="b6K-u7-86L" customClass="AfioViewController" customModule="AmoadMoPubDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5C3-IB-oi7" customClass="AfioViewController" customModule="AMoAdMoPubDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="pJm-Hl-Ij4"/>
-                        <viewControllerLayoutGuide type="bottom" id="QHE-9q-KMX"/>
+                        <viewControllerLayoutGuide type="top" id="7M7-AO-qk8"/>
+                        <viewControllerLayoutGuide type="bottom" id="O44-zl-J84"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wf0-1N-Cz7">
+                    <view key="view" contentMode="scaleToFill" id="LGI-vU-rNv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YH1-e4-Muq">
-                                <rect key="frame" x="16" y="78" width="343" height="573"/>
-                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0W-cE-PF7">
-                                <rect key="frame" x="162" y="32" width="51" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vma-8P-DGD">
+                                <rect key="frame" x="162" y="52" width="51" height="30"/>
                                 <state key="normal" title="Update"/>
                                 <connections>
-                                    <action selector="buttonTapped:" destination="b6K-u7-86L" eventType="touchUpInside" id="6Kc-p1-iT3"/>
+                                    <action selector="buttonTapped:" destination="5C3-IB-oi7" eventType="touchUpInside" id="LjR-uu-vYs"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OkQ-AC-WNP">
+                                <rect key="frame" x="16" y="98" width="343" height="553"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="c0W-cE-PF7" firstAttribute="top" secondItem="wf0-1N-Cz7" secondAttribute="top" constant="32" id="Urk-3G-b5p"/>
-                            <constraint firstItem="YH1-e4-Muq" firstAttribute="leading" secondItem="wf0-1N-Cz7" secondAttribute="leadingMargin" id="dfD-oS-3y8"/>
-                            <constraint firstItem="YH1-e4-Muq" firstAttribute="trailing" secondItem="wf0-1N-Cz7" secondAttribute="trailingMargin" id="h3w-UL-5Q5"/>
-                            <constraint firstItem="YH1-e4-Muq" firstAttribute="top" secondItem="c0W-cE-PF7" secondAttribute="bottom" constant="16" id="mpT-8W-p6n"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="YH1-e4-Muq" secondAttribute="bottom" constant="16" id="s35-jO-ran"/>
-                            <constraint firstItem="c0W-cE-PF7" firstAttribute="centerX" secondItem="wf0-1N-Cz7" secondAttribute="centerX" id="ztd-g8-7IG"/>
+                            <constraint firstItem="OkQ-AC-WNP" firstAttribute="leading" secondItem="LGI-vU-rNv" secondAttribute="leadingMargin" id="13X-2J-Epr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OkQ-AC-WNP" secondAttribute="trailing" id="9Zt-tJ-IGK"/>
+                            <constraint firstItem="O44-zl-J84" firstAttribute="top" secondItem="OkQ-AC-WNP" secondAttribute="bottom" constant="16" id="Owq-2B-9zH"/>
+                            <constraint firstItem="vma-8P-DGD" firstAttribute="top" secondItem="7M7-AO-qk8" secondAttribute="bottom" constant="32" id="c0Z-dm-UCm"/>
+                            <constraint firstItem="OkQ-AC-WNP" firstAttribute="top" secondItem="vma-8P-DGD" secondAttribute="bottom" constant="16" id="fcx-lu-O3d"/>
+                            <constraint firstItem="vma-8P-DGD" firstAttribute="centerX" secondItem="LGI-vU-rNv" secondAttribute="centerX" id="k8T-Df-gbd"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="adView" destination="YH1-e4-Muq" id="wVm-Ti-8St"/>
+                        <outlet property="adView" destination="OkQ-AC-WNP" id="P2v-Bx-Wgk"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="o5P-Kv-xka" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5H-eP-gu7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="104.8" y="116.49175412293854"/>
+            <point key="canvasLocation" x="-125.59999999999999" y="-23.838080959520241"/>
         </scene>
     </scenes>
 </document>

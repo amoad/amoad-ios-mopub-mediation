@@ -24,8 +24,6 @@ class AMoAdMoPubAdapterInterstitialAfio: MPInterstitialCustomEvent, AMoAdInterst
     
     fileprivate func preparedInterstitialAfio(customEventClassData: AMoAdCustomEventClassDataForDisplay) {
         
-        AMoAdNativeViewManager.shared().setEnvStaging(true)
-        
         AMoAdInterstitialVideo.sharedInstance(withSid: customEventClassData.sid, tag: "").delegate = self
         
         // 広告ダウンロード

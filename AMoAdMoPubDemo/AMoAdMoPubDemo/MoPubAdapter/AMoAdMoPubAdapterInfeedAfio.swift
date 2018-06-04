@@ -21,8 +21,6 @@ class AMoAdMoPubAdapterInfeedAfio: MPBannerCustomEvent, AMoAdNativeAppDelegate {
     
     fileprivate func preparedInfeedAfio(size: CGSize, customEventClassData: AMoAdCustomEventClassDataForInfeedAfio) {
         
-        AMoAdNativeViewManager.shared().setEnvStaging(true)
-        
         // 広告 View を xib から生成する
         let view = Bundle.main.loadNibNamed(customEventClassData.file, owner: nil, options: nil)?.first as! UIView
         view.frame.size = size

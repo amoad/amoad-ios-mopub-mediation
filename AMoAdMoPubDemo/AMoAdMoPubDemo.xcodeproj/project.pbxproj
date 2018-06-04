@@ -24,78 +24,30 @@
 		665B833C20C00D25005964A5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833B20C00D25005964A5 /* CoreMedia.framework */; };
 		665B833E20C00D32005964A5 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833D20C00D32005964A5 /* AdSupport.framework */; };
 		665B834020C00D43005964A5 /* MoPub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833F20C00D43005964A5 /* MoPub.framework */; };
-		665B835620C00EF5005964A5 /* amoad_link_btn_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834220C00EF5005964A5 /* amoad_link_btn_h.png */; };
-		665B835720C00EF5005964A5 /* amoad_link_btn_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834220C00EF5005964A5 /* amoad_link_btn_h.png */; };
-		665B835820C00EF5005964A5 /* amoad_link_btn_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834220C00EF5005964A5 /* amoad_link_btn_h.png */; };
-		665B835920C00EF5005964A5 /* amoad_link_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834420C00EF5005964A5 /* amoad_link_btn.png */; };
-		665B835A20C00EF5005964A5 /* amoad_link_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834420C00EF5005964A5 /* amoad_link_btn.png */; };
-		665B835B20C00EF5005964A5 /* amoad_link_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834420C00EF5005964A5 /* amoad_link_btn.png */; };
-		665B835C20C00EF5005964A5 /* amoad_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834620C00EF5005964A5 /* amoad_panel.png */; };
-		665B835D20C00EF5005964A5 /* amoad_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834620C00EF5005964A5 /* amoad_panel.png */; };
-		665B835E20C00EF5005964A5 /* amoad_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834620C00EF5005964A5 /* amoad_panel.png */; };
-		665B835F20C00EF5005964A5 /* libAMoAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B834B20C00EF5005964A5 /* libAMoAd.a */; };
-		665B836020C00EF5005964A5 /* libAMoAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B834B20C00EF5005964A5 /* libAMoAd.a */; };
-		665B836120C00EF5005964A5 /* libAMoAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B834B20C00EF5005964A5 /* libAMoAd.a */; };
-		665B836220C00EF5005964A5 /* amoad_close_btn_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834D20C00EF5005964A5 /* amoad_close_btn_h.png */; };
-		665B836320C00EF5005964A5 /* amoad_close_btn_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834D20C00EF5005964A5 /* amoad_close_btn_h.png */; };
-		665B836420C00EF5005964A5 /* amoad_close_btn_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834D20C00EF5005964A5 /* amoad_close_btn_h.png */; };
-		665B836520C00EF5005964A5 /* amoad_close_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834F20C00EF5005964A5 /* amoad_close_btn.png */; };
-		665B836620C00EF5005964A5 /* amoad_close_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834F20C00EF5005964A5 /* amoad_close_btn.png */; };
-		665B836720C00EF5005964A5 /* amoad_close_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B834F20C00EF5005964A5 /* amoad_close_btn.png */; };
-		665B836820C00EF5005964A5 /* amoad_panel_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B835220C00EF5005964A5 /* amoad_panel_l.png */; };
-		665B836920C00EF5005964A5 /* amoad_panel_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B835220C00EF5005964A5 /* amoad_panel_l.png */; };
-		665B836A20C00EF5005964A5 /* amoad_panel_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B835220C00EF5005964A5 /* amoad_panel_l.png */; };
-		665B837220C0171D005964A5 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B836F20C0171D005964A5 /* BannerViewController.swift */; };
-		665B837320C0171D005964A5 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B836F20C0171D005964A5 /* BannerViewController.swift */; };
-		665B837420C0171D005964A5 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B836F20C0171D005964A5 /* BannerViewController.swift */; };
-		665B837520C0171D005964A5 /* Banner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B837020C0171D005964A5 /* Banner.storyboard */; };
-		665B837620C0171D005964A5 /* Banner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B837020C0171D005964A5 /* Banner.storyboard */; };
-		665B837720C0171D005964A5 /* Banner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B837020C0171D005964A5 /* Banner.storyboard */; };
-		665B837820C0171D005964A5 /* b320_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B837120C0171D005964A5 /* b320_50@2x.png */; };
-		665B837920C0171D005964A5 /* b320_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B837120C0171D005964A5 /* b320_50@2x.png */; };
-		665B837A20C0171D005964A5 /* b320_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B837120C0171D005964A5 /* b320_50@2x.png */; };
-		665B838120C01737005964A5 /* button_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B837C20C01736005964A5 /* button_highlighted.png */; };
-		665B838220C01737005964A5 /* button_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B837C20C01736005964A5 /* button_highlighted.png */; };
-		665B838320C01737005964A5 /* button_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B837C20C01736005964A5 /* button_highlighted.png */; };
-		665B838420C01737005964A5 /* AfioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665B837D20C01736005964A5 /* AfioView.xib */; };
-		665B838520C01737005964A5 /* AfioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665B837D20C01736005964A5 /* AfioView.xib */; };
-		665B838620C01737005964A5 /* AfioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665B837D20C01736005964A5 /* AfioView.xib */; };
-		665B838720C01737005964A5 /* Afio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B837E20C01736005964A5 /* Afio.storyboard */; };
-		665B838820C01737005964A5 /* Afio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B837E20C01736005964A5 /* Afio.storyboard */; };
-		665B838920C01737005964A5 /* Afio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B837E20C01736005964A5 /* Afio.storyboard */; };
-		665B838A20C01737005964A5 /* AfioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B837F20C01736005964A5 /* AfioViewController.swift */; };
-		665B838B20C01737005964A5 /* AfioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B837F20C01736005964A5 /* AfioViewController.swift */; };
-		665B838C20C01737005964A5 /* AfioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B837F20C01736005964A5 /* AfioViewController.swift */; };
-		665B838D20C01737005964A5 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B838020C01736005964A5 /* button.png */; };
-		665B838E20C01737005964A5 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B838020C01736005964A5 /* button.png */; };
-		665B838F20C01737005964A5 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 665B838020C01736005964A5 /* button.png */; };
-		665B839320C01749005964A5 /* Interstitial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B839120C01749005964A5 /* Interstitial.storyboard */; };
-		665B839420C01749005964A5 /* Interstitial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B839120C01749005964A5 /* Interstitial.storyboard */; };
-		665B839520C01749005964A5 /* Interstitial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B839120C01749005964A5 /* Interstitial.storyboard */; };
-		665B839620C0174A005964A5 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B839220C01749005964A5 /* InterstitialViewController.swift */; };
-		665B839720C0174A005964A5 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B839220C01749005964A5 /* InterstitialViewController.swift */; };
-		665B839820C0174A005964A5 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B839220C01749005964A5 /* InterstitialViewController.swift */; };
-		665B839C20C0175A005964A5 /* InterstitialAfioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B839A20C0175A005964A5 /* InterstitialAfioViewController.swift */; };
-		665B839D20C0175A005964A5 /* InterstitialAfioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B839A20C0175A005964A5 /* InterstitialAfioViewController.swift */; };
-		665B839E20C0175A005964A5 /* InterstitialAfioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B839A20C0175A005964A5 /* InterstitialAfioViewController.swift */; };
-		665B839F20C0175A005964A5 /* InterstitialAfio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B839B20C0175A005964A5 /* InterstitialAfio.storyboard */; };
-		665B83A020C0175A005964A5 /* InterstitialAfio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B839B20C0175A005964A5 /* InterstitialAfio.storyboard */; };
-		665B83A120C0175A005964A5 /* InterstitialAfio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B839B20C0175A005964A5 /* InterstitialAfio.storyboard */; };
-		665B83A420C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83A320C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift */; };
-		665B83A520C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83A320C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift */; };
-		665B83A620C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83A320C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift */; };
-		665B83A820C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83A720C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift */; };
-		665B83A920C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83A720C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift */; };
-		665B83AA20C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83A720C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift */; };
-		665B83AC20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83AB20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift */; };
-		665B83AD20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83AB20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift */; };
-		665B83AE20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83AB20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift */; };
-		665B83B020C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83AF20C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift */; };
-		665B83B120C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83AF20C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift */; };
-		665B83B220C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83AF20C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift */; };
-		665B83B420C01B85005964A5 /* AMoAdMoPubUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83B320C01B85005964A5 /* AMoAdMoPubUtil.swift */; };
-		665B83B520C01B85005964A5 /* AMoAdMoPubUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83B320C01B85005964A5 /* AMoAdMoPubUtil.swift */; };
-		665B83B620C01B85005964A5 /* AMoAdMoPubUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B83B320C01B85005964A5 /* AMoAdMoPubUtil.swift */; };
+		66E505F120C15CFF00D811C9 /* amoad_link_btn_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E505DD20C15CFF00D811C9 /* amoad_link_btn_h.png */; };
+		66E505F220C15CFF00D811C9 /* amoad_link_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E505DF20C15CFF00D811C9 /* amoad_link_btn.png */; };
+		66E505F320C15CFF00D811C9 /* amoad_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E505E120C15CFF00D811C9 /* amoad_panel.png */; };
+		66E505F420C15CFF00D811C9 /* libAMoAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E505E620C15CFF00D811C9 /* libAMoAd.a */; };
+		66E505F520C15CFF00D811C9 /* amoad_close_btn_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E505E820C15CFF00D811C9 /* amoad_close_btn_h.png */; };
+		66E505F620C15CFF00D811C9 /* amoad_close_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E505EA20C15CFF00D811C9 /* amoad_close_btn.png */; };
+		66E505F720C15CFF00D811C9 /* amoad_panel_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E505ED20C15CFF00D811C9 /* amoad_panel_l.png */; };
+		66E505FE20C15D5900D811C9 /* AMoAdMoPubAdapterBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E505FD20C15D5900D811C9 /* AMoAdMoPubAdapterBanner.swift */; };
+		66E5060020C15D9200D811C9 /* AMoAdMoPubAdapterInfeedAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E505FF20C15D9200D811C9 /* AMoAdMoPubAdapterInfeedAfio.swift */; };
+		66E5060220C15DB500D811C9 /* AMoAdMoPubAdapterInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5060120C15DB500D811C9 /* AMoAdMoPubAdapterInterstitial.swift */; };
+		66E5060420C15DD700D811C9 /* AMoAdMoPubAdapterInterstitialAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5060320C15DD700D811C9 /* AMoAdMoPubAdapterInterstitialAfio.swift */; };
+		66E5060620C15DFA00D811C9 /* AMoAdMoPubUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5060520C15DFA00D811C9 /* AMoAdMoPubUtil.swift */; };
+		66E5060820C15E5500D811C9 /* b320_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E5060720C15E5500D811C9 /* b320_50@2x.png */; };
+		66E5060A20C15E9E00D811C9 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5060920C15E9E00D811C9 /* BannerViewController.swift */; };
+		66E5060C20C15EFA00D811C9 /* Banner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E5060B20C15EFA00D811C9 /* Banner.storyboard */; };
+		66E5060E20C15F8600D811C9 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5060D20C15F8600D811C9 /* InterstitialViewController.swift */; };
+		66E5061020C15FA300D811C9 /* Interstitial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E5060F20C15FA300D811C9 /* Interstitial.storyboard */; };
+		66E5061320C1614200D811C9 /* button_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E5061120C1614100D811C9 /* button_highlighted.png */; };
+		66E5061420C1614200D811C9 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E5061220C1614200D811C9 /* button.png */; };
+		66E5061620C1616200D811C9 /* AfioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5061520C1616200D811C9 /* AfioViewController.swift */; };
+		66E5061820C161B000D811C9 /* Afio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E5061720C161B000D811C9 /* Afio.storyboard */; };
+		66E5061A20C1628300D811C9 /* AfioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66E5061920C1628300D811C9 /* AfioView.xib */; };
+		66E5061C20C162F500D811C9 /* InterstitialAfioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5061B20C162F500D811C9 /* InterstitialAfioViewController.swift */; };
+		66E5061E20C1633600D811C9 /* InterstitialAfio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E5061D20C1633600D811C9 /* InterstitialAfio.storyboard */; };
 		8E0EE1A71CEDC918479BDF41 /* Pods_AMoAdMoPubDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CE7C61CCC8B5A7F949768D /* Pods_AMoAdMoPubDemoTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -140,44 +92,44 @@
 		665B833B20C00D25005964A5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		665B833D20C00D32005964A5 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		665B833F20C00D43005964A5 /* MoPub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MoPub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		665B834220C00EF5005964A5 /* amoad_link_btn_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_link_btn_h.png; sourceTree = "<group>"; };
-		665B834320C00EF5005964A5 /* AMoAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdView.h; sourceTree = "<group>"; };
-		665B834420C00EF5005964A5 /* amoad_link_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_link_btn.png; sourceTree = "<group>"; };
-		665B834520C00EF5005964A5 /* AMoAdItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdItem.h; sourceTree = "<group>"; };
-		665B834620C00EF5005964A5 /* amoad_panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_panel.png; sourceTree = "<group>"; };
-		665B834720C00EF5005964A5 /* AMoAdInfeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdInfeed.h; sourceTree = "<group>"; };
-		665B834820C00EF5005964A5 /* AMoAdNativePreRoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdNativePreRoll.h; sourceTree = "<group>"; };
-		665B834920C00EF5005964A5 /* AMoAdAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdAnalytics.h; sourceTree = "<group>"; };
-		665B834A20C00EF5005964A5 /* AMoAdWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdWeb.h; sourceTree = "<group>"; };
-		665B834B20C00EF5005964A5 /* libAMoAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMoAd.a; sourceTree = "<group>"; };
-		665B834C20C00EF5005964A5 /* AMoAdNativeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdNativeView.h; sourceTree = "<group>"; };
-		665B834D20C00EF5005964A5 /* amoad_close_btn_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_close_btn_h.png; sourceTree = "<group>"; };
-		665B834E20C00EF5005964A5 /* AMoAdNativeMainVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdNativeMainVideoView.h; sourceTree = "<group>"; };
-		665B834F20C00EF5005964A5 /* amoad_close_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_close_btn.png; sourceTree = "<group>"; };
-		665B835020C00EF5005964A5 /* AMoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAd.h; sourceTree = "<group>"; };
-		665B835120C00EF5005964A5 /* AMoAdInterstitialVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdInterstitialVideo.h; sourceTree = "<group>"; };
-		665B835220C00EF5005964A5 /* amoad_panel_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_panel_l.png; sourceTree = "<group>"; };
-		665B835320C00EF5005964A5 /* AMoAdLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdLogger.h; sourceTree = "<group>"; };
-		665B835420C00EF5005964A5 /* AMoAdInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdInterstitial.h; sourceTree = "<group>"; };
-		665B835520C00EF5005964A5 /* AMoAdList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdList.h; sourceTree = "<group>"; };
-		665B836D20C01173005964A5 /* AMoAdMoPubDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMoAdMoPubDemo-Bridging-Header.h"; sourceTree = "<group>"; };
-		665B836F20C0171D005964A5 /* BannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
-		665B837020C0171D005964A5 /* Banner.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Banner.storyboard; sourceTree = "<group>"; };
-		665B837120C0171D005964A5 /* b320_50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b320_50@2x.png"; sourceTree = "<group>"; };
-		665B837C20C01736005964A5 /* button_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_highlighted.png; sourceTree = "<group>"; };
-		665B837D20C01736005964A5 /* AfioView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AfioView.xib; sourceTree = "<group>"; };
-		665B837E20C01736005964A5 /* Afio.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Afio.storyboard; sourceTree = "<group>"; };
-		665B837F20C01736005964A5 /* AfioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AfioViewController.swift; sourceTree = "<group>"; };
-		665B838020C01736005964A5 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
-		665B839120C01749005964A5 /* Interstitial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interstitial.storyboard; sourceTree = "<group>"; };
-		665B839220C01749005964A5 /* InterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialViewController.swift; sourceTree = "<group>"; };
-		665B839A20C0175A005964A5 /* InterstitialAfioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialAfioViewController.swift; sourceTree = "<group>"; };
-		665B839B20C0175A005964A5 /* InterstitialAfio.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InterstitialAfio.storyboard; sourceTree = "<group>"; };
-		665B83A320C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubAdapterBanner.swift; sourceTree = "<group>"; };
-		665B83A720C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubAdapterInterstitial.swift; sourceTree = "<group>"; };
-		665B83AB20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubAdapterInfeedAfio.swift; sourceTree = "<group>"; };
-		665B83AF20C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubAdapterInterstitialAfio.swift; sourceTree = "<group>"; };
-		665B83B320C01B85005964A5 /* AMoAdMoPubUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubUtil.swift; sourceTree = "<group>"; };
+		66E505DB20C15C9C00D811C9 /* AMoAdMoPubDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMoAdMoPubDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		66E505DD20C15CFF00D811C9 /* amoad_link_btn_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_link_btn_h.png; sourceTree = "<group>"; };
+		66E505DE20C15CFF00D811C9 /* AMoAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdView.h; sourceTree = "<group>"; };
+		66E505DF20C15CFF00D811C9 /* amoad_link_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_link_btn.png; sourceTree = "<group>"; };
+		66E505E020C15CFF00D811C9 /* AMoAdItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdItem.h; sourceTree = "<group>"; };
+		66E505E120C15CFF00D811C9 /* amoad_panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_panel.png; sourceTree = "<group>"; };
+		66E505E220C15CFF00D811C9 /* AMoAdInfeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdInfeed.h; sourceTree = "<group>"; };
+		66E505E320C15CFF00D811C9 /* AMoAdNativePreRoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdNativePreRoll.h; sourceTree = "<group>"; };
+		66E505E420C15CFF00D811C9 /* AMoAdAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdAnalytics.h; sourceTree = "<group>"; };
+		66E505E520C15CFF00D811C9 /* AMoAdWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdWeb.h; sourceTree = "<group>"; };
+		66E505E620C15CFF00D811C9 /* libAMoAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMoAd.a; sourceTree = "<group>"; };
+		66E505E720C15CFF00D811C9 /* AMoAdNativeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdNativeView.h; sourceTree = "<group>"; };
+		66E505E820C15CFF00D811C9 /* amoad_close_btn_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_close_btn_h.png; sourceTree = "<group>"; };
+		66E505E920C15CFF00D811C9 /* AMoAdNativeMainVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdNativeMainVideoView.h; sourceTree = "<group>"; };
+		66E505EA20C15CFF00D811C9 /* amoad_close_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_close_btn.png; sourceTree = "<group>"; };
+		66E505EB20C15CFF00D811C9 /* AMoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAd.h; sourceTree = "<group>"; };
+		66E505EC20C15CFF00D811C9 /* AMoAdInterstitialVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdInterstitialVideo.h; sourceTree = "<group>"; };
+		66E505ED20C15CFF00D811C9 /* amoad_panel_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_panel_l.png; sourceTree = "<group>"; };
+		66E505EE20C15CFF00D811C9 /* AMoAdLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdLogger.h; sourceTree = "<group>"; };
+		66E505EF20C15CFF00D811C9 /* AMoAdInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdInterstitial.h; sourceTree = "<group>"; };
+		66E505F020C15CFF00D811C9 /* AMoAdList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdList.h; sourceTree = "<group>"; };
+		66E505FD20C15D5900D811C9 /* AMoAdMoPubAdapterBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubAdapterBanner.swift; sourceTree = "<group>"; };
+		66E505FF20C15D9200D811C9 /* AMoAdMoPubAdapterInfeedAfio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubAdapterInfeedAfio.swift; sourceTree = "<group>"; };
+		66E5060120C15DB500D811C9 /* AMoAdMoPubAdapterInterstitial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubAdapterInterstitial.swift; sourceTree = "<group>"; };
+		66E5060320C15DD700D811C9 /* AMoAdMoPubAdapterInterstitialAfio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubAdapterInterstitialAfio.swift; sourceTree = "<group>"; };
+		66E5060520C15DFA00D811C9 /* AMoAdMoPubUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubUtil.swift; sourceTree = "<group>"; };
+		66E5060720C15E5500D811C9 /* b320_50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b320_50@2x.png"; sourceTree = "<group>"; };
+		66E5060920C15E9E00D811C9 /* BannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
+		66E5060B20C15EFA00D811C9 /* Banner.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Banner.storyboard; sourceTree = "<group>"; };
+		66E5060D20C15F8600D811C9 /* InterstitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialViewController.swift; sourceTree = "<group>"; };
+		66E5060F20C15FA300D811C9 /* Interstitial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interstitial.storyboard; sourceTree = "<group>"; };
+		66E5061120C1614100D811C9 /* button_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_highlighted.png; sourceTree = "<group>"; };
+		66E5061220C1614200D811C9 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		66E5061520C1616200D811C9 /* AfioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfioViewController.swift; sourceTree = "<group>"; };
+		66E5061720C161B000D811C9 /* Afio.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Afio.storyboard; sourceTree = "<group>"; };
+		66E5061920C1628300D811C9 /* AfioView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AfioView.xib; sourceTree = "<group>"; };
+		66E5061B20C162F500D811C9 /* InterstitialAfioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialAfioViewController.swift; sourceTree = "<group>"; };
+		66E5061D20C1633600D811C9 /* InterstitialAfio.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InterstitialAfio.storyboard; sourceTree = "<group>"; };
 		6C9FF0CE9A84F0C469A5F6B4 /* Pods-AMoAdMoPubDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMoAdMoPubDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMoAdMoPubDemo/Pods-AMoAdMoPubDemo.release.xcconfig"; sourceTree = "<group>"; };
 		70DEE382549B0DCC8B43F1B6 /* Pods_AMoAdMoPubDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMoAdMoPubDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71E7CC4C69F9918CDCE88118 /* Pods-AMoAdMoPubDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMoAdMoPubDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMoAdMoPubDemo/Pods-AMoAdMoPubDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -198,7 +150,7 @@
 				665B833A20C00D18005964A5 /* AVFoundation.framework in Frameworks */,
 				665B833820C00D05005964A5 /* CoreTelephony.framework in Frameworks */,
 				665B833620C00CF8005964A5 /* SafariServices.framework in Frameworks */,
-				665B835F20C00EF5005964A5 /* libAMoAd.a in Frameworks */,
+				66E505F420C15CFF00D811C9 /* libAMoAd.a in Frameworks */,
 				665B833420C00CEC005964A5 /* ImageIO.framework in Frameworks */,
 				665B833220C00CE2005964A5 /* StoreKit.framework in Frameworks */,
 				03298D29D17F2D575D644E83 /* Pods_AMoAdMoPubDemo.framework in Frameworks */,
@@ -209,7 +161,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				665B836020C00EF5005964A5 /* libAMoAd.a in Frameworks */,
 				8E0EE1A71CEDC918479BDF41 /* Pods_AMoAdMoPubDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,7 +169,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				665B836120C00EF5005964A5 /* libAMoAd.a in Frameworks */,
 				0BEC892A9EBEB515AF18857A /* Pods_AMoAdMoPubDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,19 +201,19 @@
 		665B830220BFF9C9005964A5 /* AMoAdMoPubDemo */ = {
 			isa = PBXGroup;
 			children = (
-				665B834120C00EF5005964A5 /* AMoAdSdk */,
-				665B83A220C019DA005964A5 /* MoPubAdapter */,
+				66E505DC20C15CFF00D811C9 /* AMoAdSdk */,
+				66E505F820C15D1500D811C9 /* MoPubAdapter */,
 				665B830320BFF9C9005964A5 /* AppDelegate.swift */,
 				665B830520BFF9C9005964A5 /* ViewController.swift */,
 				665B830720BFF9C9005964A5 /* Main.storyboard */,
 				665B830A20BFF9CA005964A5 /* Assets.xcassets */,
 				665B830C20BFF9CA005964A5 /* LaunchScreen.storyboard */,
 				665B830F20BFF9CA005964A5 /* Info.plist */,
-				665B836D20C01173005964A5 /* AMoAdMoPubDemo-Bridging-Header.h */,
-				665B836E20C0171D005964A5 /* Banner */,
-				665B839020C01749005964A5 /* Interstitial */,
-				665B837B20C01736005964A5 /* InfeedAfio */,
-				665B839920C0175A005964A5 /* InterstitialAfio */,
+				66E505DB20C15C9C00D811C9 /* AMoAdMoPubDemo-Bridging-Header.h */,
+				66E505FB20C15D2400D811C9 /* Banner */,
+				66E505F920C15D2400D811C9 /* Interstitial */,
+				66E505FA20C15D2400D811C9 /* InfeedAfio */,
+				66E505FC20C15D2400D811C9 /* InterstitialAfio */,
 			);
 			path = AMoAdMoPubDemo;
 			sourceTree = "<group>";
@@ -286,83 +236,83 @@
 			path = AMoAdMoPubDemoUITests;
 			sourceTree = "<group>";
 		};
-		665B834120C00EF5005964A5 /* AMoAdSdk */ = {
+		66E505DC20C15CFF00D811C9 /* AMoAdSdk */ = {
 			isa = PBXGroup;
 			children = (
-				665B834220C00EF5005964A5 /* amoad_link_btn_h.png */,
-				665B834320C00EF5005964A5 /* AMoAdView.h */,
-				665B834420C00EF5005964A5 /* amoad_link_btn.png */,
-				665B834520C00EF5005964A5 /* AMoAdItem.h */,
-				665B834620C00EF5005964A5 /* amoad_panel.png */,
-				665B834720C00EF5005964A5 /* AMoAdInfeed.h */,
-				665B834820C00EF5005964A5 /* AMoAdNativePreRoll.h */,
-				665B834920C00EF5005964A5 /* AMoAdAnalytics.h */,
-				665B834A20C00EF5005964A5 /* AMoAdWeb.h */,
-				665B834B20C00EF5005964A5 /* libAMoAd.a */,
-				665B834C20C00EF5005964A5 /* AMoAdNativeView.h */,
-				665B834D20C00EF5005964A5 /* amoad_close_btn_h.png */,
-				665B834E20C00EF5005964A5 /* AMoAdNativeMainVideoView.h */,
-				665B834F20C00EF5005964A5 /* amoad_close_btn.png */,
-				665B835020C00EF5005964A5 /* AMoAd.h */,
-				665B835120C00EF5005964A5 /* AMoAdInterstitialVideo.h */,
-				665B835220C00EF5005964A5 /* amoad_panel_l.png */,
-				665B835320C00EF5005964A5 /* AMoAdLogger.h */,
-				665B835420C00EF5005964A5 /* AMoAdInterstitial.h */,
-				665B835520C00EF5005964A5 /* AMoAdList.h */,
+				66E505DD20C15CFF00D811C9 /* amoad_link_btn_h.png */,
+				66E505DE20C15CFF00D811C9 /* AMoAdView.h */,
+				66E505DF20C15CFF00D811C9 /* amoad_link_btn.png */,
+				66E505E020C15CFF00D811C9 /* AMoAdItem.h */,
+				66E505E120C15CFF00D811C9 /* amoad_panel.png */,
+				66E505E220C15CFF00D811C9 /* AMoAdInfeed.h */,
+				66E505E320C15CFF00D811C9 /* AMoAdNativePreRoll.h */,
+				66E505E420C15CFF00D811C9 /* AMoAdAnalytics.h */,
+				66E505E520C15CFF00D811C9 /* AMoAdWeb.h */,
+				66E505E620C15CFF00D811C9 /* libAMoAd.a */,
+				66E505E720C15CFF00D811C9 /* AMoAdNativeView.h */,
+				66E505E820C15CFF00D811C9 /* amoad_close_btn_h.png */,
+				66E505E920C15CFF00D811C9 /* AMoAdNativeMainVideoView.h */,
+				66E505EA20C15CFF00D811C9 /* amoad_close_btn.png */,
+				66E505EB20C15CFF00D811C9 /* AMoAd.h */,
+				66E505EC20C15CFF00D811C9 /* AMoAdInterstitialVideo.h */,
+				66E505ED20C15CFF00D811C9 /* amoad_panel_l.png */,
+				66E505EE20C15CFF00D811C9 /* AMoAdLogger.h */,
+				66E505EF20C15CFF00D811C9 /* AMoAdInterstitial.h */,
+				66E505F020C15CFF00D811C9 /* AMoAdList.h */,
 			);
 			path = AMoAdSdk;
 			sourceTree = "<group>";
 		};
-		665B836E20C0171D005964A5 /* Banner */ = {
+		66E505F820C15D1500D811C9 /* MoPubAdapter */ = {
 			isa = PBXGroup;
 			children = (
-				665B836F20C0171D005964A5 /* BannerViewController.swift */,
-				665B837020C0171D005964A5 /* Banner.storyboard */,
-				665B837120C0171D005964A5 /* b320_50@2x.png */,
+				66E505FD20C15D5900D811C9 /* AMoAdMoPubAdapterBanner.swift */,
+				66E5060120C15DB500D811C9 /* AMoAdMoPubAdapterInterstitial.swift */,
+				66E505FF20C15D9200D811C9 /* AMoAdMoPubAdapterInfeedAfio.swift */,
+				66E5060320C15DD700D811C9 /* AMoAdMoPubAdapterInterstitialAfio.swift */,
+				66E5060520C15DFA00D811C9 /* AMoAdMoPubUtil.swift */,
 			);
-			path = Banner;
+			path = MoPubAdapter;
 			sourceTree = "<group>";
 		};
-		665B837B20C01736005964A5 /* InfeedAfio */ = {
+		66E505F920C15D2400D811C9 /* Interstitial */ = {
 			isa = PBXGroup;
 			children = (
-				665B837C20C01736005964A5 /* button_highlighted.png */,
-				665B837D20C01736005964A5 /* AfioView.xib */,
-				665B837E20C01736005964A5 /* Afio.storyboard */,
-				665B837F20C01736005964A5 /* AfioViewController.swift */,
-				665B838020C01736005964A5 /* button.png */,
-			);
-			path = InfeedAfio;
-			sourceTree = "<group>";
-		};
-		665B839020C01749005964A5 /* Interstitial */ = {
-			isa = PBXGroup;
-			children = (
-				665B839120C01749005964A5 /* Interstitial.storyboard */,
-				665B839220C01749005964A5 /* InterstitialViewController.swift */,
+				66E5060D20C15F8600D811C9 /* InterstitialViewController.swift */,
+				66E5060F20C15FA300D811C9 /* Interstitial.storyboard */,
 			);
 			path = Interstitial;
 			sourceTree = "<group>";
 		};
-		665B839920C0175A005964A5 /* InterstitialAfio */ = {
+		66E505FA20C15D2400D811C9 /* InfeedAfio */ = {
 			isa = PBXGroup;
 			children = (
-				665B839A20C0175A005964A5 /* InterstitialAfioViewController.swift */,
-				665B839B20C0175A005964A5 /* InterstitialAfio.storyboard */,
+				66E5061120C1614100D811C9 /* button_highlighted.png */,
+				66E5061220C1614200D811C9 /* button.png */,
+				66E5061520C1616200D811C9 /* AfioViewController.swift */,
+				66E5061720C161B000D811C9 /* Afio.storyboard */,
+				66E5061920C1628300D811C9 /* AfioView.xib */,
 			);
-			path = InterstitialAfio;
+			path = InfeedAfio;
 			sourceTree = "<group>";
 		};
-		665B83A220C019DA005964A5 /* MoPubAdapter */ = {
+		66E505FB20C15D2400D811C9 /* Banner */ = {
 			isa = PBXGroup;
 			children = (
-				665B83A320C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift */,
-				665B83A720C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift */,
-				665B83AB20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift */,
-				665B83AF20C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift */,
-				665B83B320C01B85005964A5 /* AMoAdMoPubUtil.swift */,
+				66E5060720C15E5500D811C9 /* b320_50@2x.png */,
+				66E5060920C15E9E00D811C9 /* BannerViewController.swift */,
+				66E5060B20C15EFA00D811C9 /* Banner.storyboard */,
 			);
-			path = MoPubAdapter;
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		66E505FC20C15D2400D811C9 /* InterstitialAfio */ = {
+			isa = PBXGroup;
+			children = (
+				66E5061B20C162F500D811C9 /* InterstitialAfioViewController.swift */,
+				66E5061D20C1633600D811C9 /* InterstitialAfio.storyboard */,
+			);
+			path = InterstitialAfio;
 			sourceTree = "<group>";
 		};
 		87BDDF37A2F2BC5C1AF4E3F8 /* Frameworks */ = {
@@ -504,23 +454,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				665B836520C00EF5005964A5 /* amoad_close_btn.png in Resources */,
-				665B838D20C01737005964A5 /* button.png in Resources */,
-				665B835620C00EF5005964A5 /* amoad_link_btn_h.png in Resources */,
-				665B837820C0171D005964A5 /* b320_50@2x.png in Resources */,
-				665B836820C00EF5005964A5 /* amoad_panel_l.png in Resources */,
-				665B835C20C00EF5005964A5 /* amoad_panel.png in Resources */,
-				665B838420C01737005964A5 /* AfioView.xib in Resources */,
+				66E505F620C15CFF00D811C9 /* amoad_close_btn.png in Resources */,
+				66E505F120C15CFF00D811C9 /* amoad_link_btn_h.png in Resources */,
+				66E5060C20C15EFA00D811C9 /* Banner.storyboard in Resources */,
+				66E5060820C15E5500D811C9 /* b320_50@2x.png in Resources */,
+				66E505F720C15CFF00D811C9 /* amoad_panel_l.png in Resources */,
+				66E505F320C15CFF00D811C9 /* amoad_panel.png in Resources */,
 				665B830E20BFF9CA005964A5 /* LaunchScreen.storyboard in Resources */,
-				665B839F20C0175A005964A5 /* InterstitialAfio.storyboard in Resources */,
-				665B838720C01737005964A5 /* Afio.storyboard in Resources */,
+				66E5061A20C1628300D811C9 /* AfioView.xib in Resources */,
+				66E5061E20C1633600D811C9 /* InterstitialAfio.storyboard in Resources */,
+				66E5061820C161B000D811C9 /* Afio.storyboard in Resources */,
+				66E5061420C1614200D811C9 /* button.png in Resources */,
 				665B830B20BFF9CA005964A5 /* Assets.xcassets in Resources */,
-				665B839320C01749005964A5 /* Interstitial.storyboard in Resources */,
-				665B837520C0171D005964A5 /* Banner.storyboard in Resources */,
+				66E5061320C1614200D811C9 /* button_highlighted.png in Resources */,
 				665B830920BFF9C9005964A5 /* Main.storyboard in Resources */,
-				665B838120C01737005964A5 /* button_highlighted.png in Resources */,
-				665B835920C00EF5005964A5 /* amoad_link_btn.png in Resources */,
-				665B836220C00EF5005964A5 /* amoad_close_btn_h.png in Resources */,
+				66E505F220C15CFF00D811C9 /* amoad_link_btn.png in Resources */,
+				66E5061020C15FA300D811C9 /* Interstitial.storyboard in Resources */,
+				66E505F520C15CFF00D811C9 /* amoad_close_btn_h.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,20 +478,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				665B835720C00EF5005964A5 /* amoad_link_btn_h.png in Resources */,
-				665B839420C01749005964A5 /* Interstitial.storyboard in Resources */,
-				665B838E20C01737005964A5 /* button.png in Resources */,
-				665B83A020C0175A005964A5 /* InterstitialAfio.storyboard in Resources */,
-				665B838520C01737005964A5 /* AfioView.xib in Resources */,
-				665B836320C00EF5005964A5 /* amoad_close_btn_h.png in Resources */,
-				665B838820C01737005964A5 /* Afio.storyboard in Resources */,
-				665B836920C00EF5005964A5 /* amoad_panel_l.png in Resources */,
-				665B838220C01737005964A5 /* button_highlighted.png in Resources */,
-				665B836620C00EF5005964A5 /* amoad_close_btn.png in Resources */,
-				665B837620C0171D005964A5 /* Banner.storyboard in Resources */,
-				665B835D20C00EF5005964A5 /* amoad_panel.png in Resources */,
-				665B837920C0171D005964A5 /* b320_50@2x.png in Resources */,
-				665B835A20C00EF5005964A5 /* amoad_link_btn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,20 +485,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				665B835820C00EF5005964A5 /* amoad_link_btn_h.png in Resources */,
-				665B839520C01749005964A5 /* Interstitial.storyboard in Resources */,
-				665B838F20C01737005964A5 /* button.png in Resources */,
-				665B83A120C0175A005964A5 /* InterstitialAfio.storyboard in Resources */,
-				665B838620C01737005964A5 /* AfioView.xib in Resources */,
-				665B836420C00EF5005964A5 /* amoad_close_btn_h.png in Resources */,
-				665B838920C01737005964A5 /* Afio.storyboard in Resources */,
-				665B836A20C00EF5005964A5 /* amoad_panel_l.png in Resources */,
-				665B838320C01737005964A5 /* button_highlighted.png in Resources */,
-				665B836720C00EF5005964A5 /* amoad_close_btn.png in Resources */,
-				665B837720C0171D005964A5 /* Banner.storyboard in Resources */,
-				665B835E20C00EF5005964A5 /* amoad_panel.png in Resources */,
-				665B837A20C0171D005964A5 /* b320_50@2x.png in Resources */,
-				665B835B20C00EF5005964A5 /* amoad_link_btn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,17 +570,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				665B83A820C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift in Sources */,
-				665B83B020C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift in Sources */,
-				665B837220C0171D005964A5 /* BannerViewController.swift in Sources */,
-				665B83B420C01B85005964A5 /* AMoAdMoPubUtil.swift in Sources */,
-				665B839C20C0175A005964A5 /* InterstitialAfioViewController.swift in Sources */,
-				665B838A20C01737005964A5 /* AfioViewController.swift in Sources */,
-				665B83A420C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift in Sources */,
+				66E5060020C15D9200D811C9 /* AMoAdMoPubAdapterInfeedAfio.swift in Sources */,
+				66E5061C20C162F500D811C9 /* InterstitialAfioViewController.swift in Sources */,
+				66E5060620C15DFA00D811C9 /* AMoAdMoPubUtil.swift in Sources */,
+				66E5060E20C15F8600D811C9 /* InterstitialViewController.swift in Sources */,
+				66E5060A20C15E9E00D811C9 /* BannerViewController.swift in Sources */,
 				665B830620BFF9C9005964A5 /* ViewController.swift in Sources */,
 				665B830420BFF9C9005964A5 /* AppDelegate.swift in Sources */,
-				665B839620C0174A005964A5 /* InterstitialViewController.swift in Sources */,
-				665B83AC20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift in Sources */,
+				66E505FE20C15D5900D811C9 /* AMoAdMoPubAdapterBanner.swift in Sources */,
+				66E5060220C15DB500D811C9 /* AMoAdMoPubAdapterInterstitial.swift in Sources */,
+				66E5060420C15DD700D811C9 /* AMoAdMoPubAdapterInterstitialAfio.swift in Sources */,
+				66E5061620C1616200D811C9 /* AfioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,15 +588,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				665B839720C0174A005964A5 /* InterstitialViewController.swift in Sources */,
-				665B83A920C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift in Sources */,
-				665B83B120C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift in Sources */,
-				665B837320C0171D005964A5 /* BannerViewController.swift in Sources */,
-				665B83B520C01B85005964A5 /* AMoAdMoPubUtil.swift in Sources */,
-				665B83A520C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift in Sources */,
-				665B83AD20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift in Sources */,
-				665B839D20C0175A005964A5 /* InterstitialAfioViewController.swift in Sources */,
-				665B838B20C01737005964A5 /* AfioViewController.swift in Sources */,
 				665B831920BFF9CA005964A5 /* AMoAdMoPubDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -683,15 +596,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				665B839820C0174A005964A5 /* InterstitialViewController.swift in Sources */,
-				665B83AA20C01A75005964A5 /* AMoAdMoPubAdapterInterstitial.swift in Sources */,
-				665B83B220C01B59005964A5 /* AMoAdMoPubAdapterInterstitialAfio.swift in Sources */,
-				665B837420C0171D005964A5 /* BannerViewController.swift in Sources */,
-				665B83B620C01B85005964A5 /* AMoAdMoPubUtil.swift in Sources */,
-				665B83A620C01A2C005964A5 /* AMoAdMoPubAdapterBanner.swift in Sources */,
-				665B83AE20C01B19005964A5 /* AMoAdMoPubAdapterInfeedAfio.swift in Sources */,
-				665B839E20C0175A005964A5 /* InterstitialAfioViewController.swift in Sources */,
-				665B838C20C01737005964A5 /* AfioViewController.swift in Sources */,
 				665B832420BFF9CA005964A5 /* AMoAdMoPubDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
