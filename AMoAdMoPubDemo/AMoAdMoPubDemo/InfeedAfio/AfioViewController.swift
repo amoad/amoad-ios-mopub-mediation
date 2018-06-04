@@ -7,7 +7,7 @@ import UIKit
 
 class AfioViewController: UIViewController, MPAdViewDelegate {
     
-    let adUnitIDs = "405dd5d3f5444d9db8224b1db6e168e6"
+    let adUnitIDs = "管理画面から取得したAd unit IDを指定してください"
     @IBOutlet weak var adView: UIView!
     
     override func viewDidLoad() {
@@ -32,6 +32,10 @@ class AfioViewController: UIViewController, MPAdViewDelegate {
         }
     }
     
+    func viewControllerForPresentingModalView() -> UIViewController {
+        return self
+    }
+
     // Function for failed "loading" of an ad.
     func adViewDidFail(toLoadAd view: MPAdView!) {
         print("Failed to load ad")
@@ -45,10 +49,6 @@ class AfioViewController: UIViewController, MPAdViewDelegate {
             adView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-(1)-[view]-(1)-|", options:.alignAllCenterX, metrics: nil, views: ["view": mpAdView]))
             adView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-(1)-[view]-(1)-|", options:.alignAllCenterY, metrics: nil, views: ["view": mpAdView]))
         }
-    }
-    
-    func viewControllerForPresentingModalView() -> UIViewController {
-        return self
     }
     
     @IBAction func buttonTapped(_ sender: Any) {

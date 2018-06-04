@@ -7,7 +7,7 @@ import UIKit
 
 class BannerViewController: UIViewController, MPAdViewDelegate {
     
-    let adUnitIDs = "f856a200dc57449e81c5a6edddb656c0"
+    let adUnitIDs = "管理画面から取得したAd unit IDを指定してください"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +25,10 @@ class BannerViewController: UIViewController, MPAdViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    func viewControllerForPresentingModalView() -> UIViewController {
+        return self
+    }
+
     // Function for failed "loading" of an ad.
     func adViewDidFail(toLoadAd view: MPAdView!) {
         print("Failed to load ad")
@@ -37,10 +41,6 @@ class BannerViewController: UIViewController, MPAdViewDelegate {
             let bannerSize = CGSize(width: 320, height: 50)
             mpAdView.frame = CGRect(x:(self.view.bounds.size.width - bannerSize.width) / 2, y:self.view.bounds.size.height - bannerSize.height, width:bannerSize.width, height:bannerSize.height)
         }
-    }
-    
-    func viewControllerForPresentingModalView() -> UIViewController {
-        return self
     }
     
     /*

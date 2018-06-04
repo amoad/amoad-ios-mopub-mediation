@@ -7,13 +7,13 @@ import UIKit
 
 class InterstitialAfioViewController: UIViewController {
     
+    let adUnitIDs = "管理画面から取得したAd unit IDを指定してください"
     var adController: MPInterstitialAdController?
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let adUnitId_interstitial = "160da00bfd5d45dea664ffed5e50c692"
-        adController = MPInterstitialAdController(forAdUnitId: adUnitId_interstitial)
+        adController = MPInterstitialAdController(forAdUnitId: adUnitIDs)
     }
     
     override func didReceiveMemoryWarning() {
