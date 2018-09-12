@@ -7,7 +7,7 @@ import UIKit
 
 class BannerViewController: UIViewController, MPAdViewDelegate {
     
-    let adUnitIDs = "f856a200dc57449e81c5a6edddb656c0"
+    let adUnitIDs = "管理画面から取得したAd unit IDを指定してください"
     
     override func viewDidLoad() {
         super.viewDidLoad()

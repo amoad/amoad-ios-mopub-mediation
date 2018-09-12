@@ -20,7 +20,7 @@ class AMoAdMoPubAdapterBanner: MPBannerCustomEvent {
     }
     
     fileprivate func preparedBanner(customEventClassData: AMoAdCustomEventClassDataForDisplay) {
-        AMoAdView.setEnvStaging(true)
+        
         guard let amoadView = AMoAdView.init(frame: CGRect.zero) else {
             self.delegate.bannerCustomEvent(self, didFailToLoadAdWithError: nil)
             return
