@@ -11,7 +11,7 @@ class AMoAdMoPubAdapterInfeedAfio: MPBannerCustomEvent, AMoAdNativeAppDelegate {
     
     public override func requestAd(with size: CGSize, customEventInfo info: [AnyHashable: Any]!) {
         
-        let customEventClassData = AMoAdMoPubUtil.extractCustomEventClassDataForInfeedAfio(info: info)
+        let customEventClassData = AMoAdMoPubUtil.extractInfeedAfioCustomEventClassData(info: info)
         guard let _customEventClassData = customEventClassData else {
             return
         }
@@ -19,7 +19,7 @@ class AMoAdMoPubAdapterInfeedAfio: MPBannerCustomEvent, AMoAdNativeAppDelegate {
         initInfeedAfio(size:size, customEventClassData: _customEventClassData)
     }
     
-    fileprivate func initInfeedAfio(size: CGSize, customEventClassData: AMoAdCustomEventClassDataForInfeedAfio) {
+    fileprivate func initInfeedAfio(size: CGSize, customEventClassData: InfeedAfioCustomEventClassData) {
 
         // 広告 View を xib から生成する
         let view = Bundle.main.loadNibNamed(customEventClassData.file, owner: nil, options: nil)?.first as! UIView
