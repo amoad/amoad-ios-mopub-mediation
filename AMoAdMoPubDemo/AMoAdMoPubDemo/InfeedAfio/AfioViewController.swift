@@ -23,7 +23,7 @@ class AfioViewController: UIViewController {
     
     fileprivate func createAndLoadInfeedAfio() -> MPAdView {
         
-        infeedAfio = MPAdView(adUnitId: self.adUnitIDs, size: self.view.frame.size)
+        infeedAfio = MPAdView(adUnitId: adUnitIDs, size: self.view.frame.size)
         infeedAfio.delegate = self
         infeedAfio.loadAd()
         return infeedAfio
@@ -83,13 +83,11 @@ class AfioViewController: UIViewController {
 
 extension AfioViewController: MPAdViewDelegate {
 
-    // Function for successful loading of ad.
     func adViewDidLoadAd(_ view: MPAdView!) {
         print("adViewDidLoadAd")
         addInfeedAfioToView(view)
     }
 
-    // Function for failed "loading" of an ad.
     func adViewDidFail(toLoadAd view: MPAdView!) {
         print("adViewDidFail")
     }

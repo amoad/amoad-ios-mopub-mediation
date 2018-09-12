@@ -45,7 +45,6 @@
 		66E5060220C15DB500D811C9 /* AMoAdMoPubAdapterInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5060120C15DB500D811C9 /* AMoAdMoPubAdapterInterstitial.swift */; };
 		66E5060420C15DD700D811C9 /* AMoAdMoPubAdapterInterstitialAfio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5060320C15DD700D811C9 /* AMoAdMoPubAdapterInterstitialAfio.swift */; };
 		66E5060620C15DFA00D811C9 /* AMoAdMoPubUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5060520C15DFA00D811C9 /* AMoAdMoPubUtil.swift */; };
-		66E5060820C15E5500D811C9 /* b320_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E5060720C15E5500D811C9 /* b320_50@2x.png */; };
 		66E5060A20C15E9E00D811C9 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5060920C15E9E00D811C9 /* BannerViewController.swift */; };
 		66E5060C20C15EFA00D811C9 /* Banner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E5060B20C15EFA00D811C9 /* Banner.storyboard */; };
 		66E5060E20C15F8600D811C9 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5060D20C15F8600D811C9 /* InterstitialViewController.swift */; };
@@ -136,7 +135,6 @@
 		66E5060120C15DB500D811C9 /* AMoAdMoPubAdapterInterstitial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubAdapterInterstitial.swift; sourceTree = "<group>"; };
 		66E5060320C15DD700D811C9 /* AMoAdMoPubAdapterInterstitialAfio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubAdapterInterstitialAfio.swift; sourceTree = "<group>"; };
 		66E5060520C15DFA00D811C9 /* AMoAdMoPubUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMoAdMoPubUtil.swift; sourceTree = "<group>"; };
-		66E5060720C15E5500D811C9 /* b320_50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b320_50@2x.png"; sourceTree = "<group>"; };
 		66E5060920C15E9E00D811C9 /* BannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
 		66E5060B20C15EFA00D811C9 /* Banner.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Banner.storyboard; sourceTree = "<group>"; };
 		66E5060D20C15F8600D811C9 /* InterstitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialViewController.swift; sourceTree = "<group>"; };
@@ -326,7 +324,6 @@
 		66E505FB20C15D2400D811C9 /* Banner */ = {
 			isa = PBXGroup;
 			children = (
-				66E5060720C15E5500D811C9 /* b320_50@2x.png */,
 				66E5060920C15E9E00D811C9 /* BannerViewController.swift */,
 				66E5060B20C15EFA00D811C9 /* Banner.storyboard */,
 			);
@@ -493,7 +490,6 @@
 				66E505F620C15CFF00D811C9 /* amoad_close_btn.png in Resources */,
 				66E505F120C15CFF00D811C9 /* amoad_link_btn_h.png in Resources */,
 				66E5060C20C15EFA00D811C9 /* Banner.storyboard in Resources */,
-				66E5060820C15E5500D811C9 /* b320_50@2x.png in Resources */,
 				66E505F720C15CFF00D811C9 /* amoad_panel_l.png in Resources */,
 				66E505F320C15CFF00D811C9 /* amoad_panel.png in Resources */,
 				665B830E20BFF9CA005964A5 /* LaunchScreen.storyboard in Resources */,

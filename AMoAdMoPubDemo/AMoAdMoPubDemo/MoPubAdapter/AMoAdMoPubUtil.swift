@@ -7,7 +7,22 @@ import Foundation
 import UIKit
 
 class AMoAdMoPubUtil {
-    
+
+    /// - Parameter info: MoPub CustomEventInfo Object
+    /// - Returns: BannerCustomEventClassData
+    static func extractBannerCustomEventClassData(info: [AnyHashable: Any]) -> BannerCustomEventClassData? {
+        
+        let decoder = JSONDecoder()
+        
+        do {
+            let jsonData = try JSONSerialization.data(withJSONObject: info, options: .prettyPrinted)
+            let customEventClassData = try decoder.decode(BannerCustomEventClassData.self, from: jsonData)
+            return customEventClassData
+        } catch {
+            return nil
+        }
+    }
+
     /// - Parameter info: MoPub CustomEventInfo Object
     /// - Returns: AMoAdCustomEventClassDataForDisplay
     static func extractCustomEventClassDataForDisplay(info: [AnyHashable: Any]) -> AMoAdCustomEventClassDataForDisplay? {
@@ -37,6 +52,10 @@ class AMoAdMoPubUtil {
             return nil
         }
     }
+}
+
+struct BannerCustomEventClassData: Codable {
+    var sid: String
 }
 
 struct AMoAdCustomEventClassDataForDisplay: Codable {

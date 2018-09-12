@@ -16,7 +16,7 @@ class AMoAdMoPubAdapterInfeedAfio: MPBannerCustomEvent, AMoAdNativeAppDelegate {
             return
         }
         
-        self.initInfeedAfio(size:size, customEventClassData: _customEventClassData)
+        initInfeedAfio(size:size, customEventClassData: _customEventClassData)
     }
     
     fileprivate func initInfeedAfio(size: CGSize, customEventClassData: AMoAdCustomEventClassDataForInfeedAfio) {
@@ -37,13 +37,13 @@ extension AMoAdMoPubAdapterInfeedAfio {
         switch state {
         case .success:
             print("広告ロード成功")
-            self.delegate.bannerCustomEvent(self, didLoadAd: view)
+            delegate.bannerCustomEvent(self, didLoadAd: view)
         case .failure:
             print("広告ロード失敗")
-            self.delegate.bannerCustomEvent(self, didFailToLoadAdWithError: nil)
+            delegate.bannerCustomEvent(self, didFailToLoadAdWithError: nil)
         case .empty:
             print("配信する広告がない")
-            self.delegate.bannerCustomEvent(self, didFailToLoadAdWithError: nil)
+            delegate.bannerCustomEvent(self, didFailToLoadAdWithError: nil)
         }
     }
     
@@ -71,6 +71,6 @@ extension AMoAdMoPubAdapterInfeedAfio {
     
     func amoadNativeDidClick(_ sid: String!, tag: String!, view: UIView!) {
         print("広告クリック")
-        self.delegate.bannerCustomEventWillLeaveApplication(self)
+        delegate.bannerCustomEventWillLeaveApplication(self)
     }
 }
