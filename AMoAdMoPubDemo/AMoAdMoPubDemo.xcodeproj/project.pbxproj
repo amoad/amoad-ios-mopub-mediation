@@ -24,6 +24,15 @@
 		665B833C20C00D25005964A5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833B20C00D25005964A5 /* CoreMedia.framework */; };
 		665B833E20C00D32005964A5 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833D20C00D32005964A5 /* AdSupport.framework */; };
 		665B834020C00D43005964A5 /* MoPub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665B833F20C00D43005964A5 /* MoPub.framework */; };
+		669E63EF2148D7E400A5F017 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669E63EE2148D7E400A5F017 /* CoreGraphics.framework */; };
+		669E63F12148D7F600A5F017 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669E63F02148D7F600A5F017 /* CoreLocation.framework */; };
+		669E63F32148D81B00A5F017 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669E63F22148D81B00A5F017 /* Foundation.framework */; };
+		669E63F52148D83100A5F017 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669E63F42148D83100A5F017 /* MediaPlayer.framework */; };
+		669E63F72148D83F00A5F017 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669E63F62148D83E00A5F017 /* MessageUI.framework */; };
+		669E63F92148D84D00A5F017 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669E63F82148D84D00A5F017 /* QuartzCore.framework */; };
+		669E63FB2148D86500A5F017 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669E63FA2148D86500A5F017 /* SystemConfiguration.framework */; };
+		669E63FD2148D87600A5F017 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669E63FC2148D87600A5F017 /* UIKit.framework */; };
+		669E63FF2148D89200A5F017 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669E63FE2148D89200A5F017 /* WebKit.framework */; };
 		66E505F120C15CFF00D811C9 /* amoad_link_btn_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E505DD20C15CFF00D811C9 /* amoad_link_btn_h.png */; };
 		66E505F220C15CFF00D811C9 /* amoad_link_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E505DF20C15CFF00D811C9 /* amoad_link_btn.png */; };
 		66E505F320C15CFF00D811C9 /* amoad_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E505E120C15CFF00D811C9 /* amoad_panel.png */; };
@@ -92,6 +101,15 @@
 		665B833B20C00D25005964A5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		665B833D20C00D32005964A5 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		665B833F20C00D43005964A5 /* MoPub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MoPub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		669E63EE2148D7E400A5F017 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		669E63F02148D7F600A5F017 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		669E63F22148D81B00A5F017 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		669E63F42148D83100A5F017 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		669E63F62148D83E00A5F017 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		669E63F82148D84D00A5F017 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		669E63FA2148D86500A5F017 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		669E63FC2148D87600A5F017 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		669E63FE2148D89200A5F017 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		66E505DB20C15C9C00D811C9 /* AMoAdMoPubDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMoAdMoPubDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		66E505DD20C15CFF00D811C9 /* amoad_link_btn_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoad_link_btn_h.png; sourceTree = "<group>"; };
 		66E505DE20C15CFF00D811C9 /* AMoAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMoAdView.h; sourceTree = "<group>"; };
@@ -144,6 +162,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				669E63FF2148D89200A5F017 /* WebKit.framework in Frameworks */,
+				669E63FD2148D87600A5F017 /* UIKit.framework in Frameworks */,
+				669E63FB2148D86500A5F017 /* SystemConfiguration.framework in Frameworks */,
+				669E63F92148D84D00A5F017 /* QuartzCore.framework in Frameworks */,
+				669E63F72148D83F00A5F017 /* MessageUI.framework in Frameworks */,
+				669E63F52148D83100A5F017 /* MediaPlayer.framework in Frameworks */,
+				669E63F32148D81B00A5F017 /* Foundation.framework in Frameworks */,
+				669E63F12148D7F600A5F017 /* CoreLocation.framework in Frameworks */,
+				669E63EF2148D7E400A5F017 /* CoreGraphics.framework in Frameworks */,
 				665B834020C00D43005964A5 /* MoPub.framework in Frameworks */,
 				665B833E20C00D32005964A5 /* AdSupport.framework in Frameworks */,
 				665B833C20C00D25005964A5 /* CoreMedia.framework in Frameworks */,
@@ -318,6 +345,15 @@
 		87BDDF37A2F2BC5C1AF4E3F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				669E63FE2148D89200A5F017 /* WebKit.framework */,
+				669E63FC2148D87600A5F017 /* UIKit.framework */,
+				669E63FA2148D86500A5F017 /* SystemConfiguration.framework */,
+				669E63F82148D84D00A5F017 /* QuartzCore.framework */,
+				669E63F62148D83E00A5F017 /* MessageUI.framework */,
+				669E63F42148D83100A5F017 /* MediaPlayer.framework */,
+				669E63F22148D81B00A5F017 /* Foundation.framework */,
+				669E63F02148D7F600A5F017 /* CoreLocation.framework */,
+				669E63EE2148D7E400A5F017 /* CoreGraphics.framework */,
 				665B833F20C00D43005964A5 /* MoPub.framework */,
 				665B833D20C00D32005964A5 /* AdSupport.framework */,
 				665B833B20C00D25005964A5 /* CoreMedia.framework */,
