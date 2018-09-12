@@ -5,15 +5,15 @@
 
 import UIKit
 
-class AfioViewController: UIViewController, MPAdViewDelegate {
+class AfioViewController: UIViewController {
     
+    var infeedAfio: MPAdView!
     let adUnitIDs = "管理画面から取得したAd unit IDを指定してください"
-    @IBOutlet weak var adView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        self.loadMPAdView()
+        infeedAfio = createAndLoadInfeedAfio()
     }
     
     override func didReceiveMemoryWarning() {
@@ -21,46 +21,52 @@ class AfioViewController: UIViewController, MPAdViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    func loadMPAdView() {
-        let view = MPAdView(adUnitId: self.adUnitIDs, size: self.adView.frame.size)
-        if let view = view {
-            view.delegate = self
-            // 自動更新をoffにする
-            view.stopAutomaticallyRefreshingContents()
-            adView.addSubview(view)
-            view.loadAd()
-        }
+    fileprivate func createAndLoadInfeedAfio() -> MPAdView {
+        
+        infeedAfio = MPAdView(adUnitId: self.adUnitIDs, size: self.view.frame.size)
+        infeedAfio.delegate = self
+        infeedAfio.loadAd()
+        return infeedAfio
     }
     
     func viewControllerForPresentingModalView() -> UIViewController {
         return self
     }
-
-    // Function for failed "loading" of an ad.
-    func adViewDidFail(toLoadAd view: MPAdView!) {
-        print("Failed to load ad")
-    }
     
-    // Function for successful loading of ad.
-    func adViewDidLoadAd(_ view: MPAdView!) {
-        print("The ad loaded")
-        if let mpAdView = view {
-            mpAdView.translatesAutoresizingMaskIntoConstraints = false
-            adView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-(1)-[view]-(1)-|", options:.alignAllCenterX, metrics: nil, views: ["view": mpAdView]))
-            adView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-(1)-[view]-(1)-|", options:.alignAllCenterY, metrics: nil, views: ["view": mpAdView]))
-        }
-    }
-    
-    @IBAction func buttonTapped(_ sender: Any) {
-        self.removeAllSubviews(parentView: adView)
-        self.loadMPAdView()
-    }
-    
-    func removeAllSubviews(parentView: UIView){
-        let subviews = parentView.subviews
-        for subview in subviews {
-            subview.removeFromSuperview()
-        }
+    fileprivate func addInfeedAfioToView(_ bannerView: MPAdView) {
+        bannerView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(bannerView)
+        view.addConstraints(
+            [NSLayoutConstraint(item: bannerView,
+                                attribute: .width,
+                                relatedBy: .equal,
+                                toItem: view,
+                                attribute: .width,
+                                multiplier: 1,
+                                constant: 0),
+             NSLayoutConstraint(item: bannerView,
+                                attribute: .height,
+                                relatedBy: .equal,
+                                toItem: view,
+                                attribute: .height,
+                                multiplier: 1,
+                                constant: 0),
+             NSLayoutConstraint(item: bannerView,
+                                attribute: .centerX,
+                                relatedBy: .equal,
+                                toItem: view,
+                                attribute: .centerX,
+                                multiplier: 1,
+                                constant: 0),
+             NSLayoutConstraint(item: bannerView,
+                                attribute: .centerY,
+                                relatedBy: .equal,
+                                toItem: view,
+                                attribute: .centerY,
+                                multiplier: 1,
+                                constant: 0)
+            ]
+        )
     }
 
     /*
@@ -73,4 +79,30 @@ class AfioViewController: UIViewController, MPAdViewDelegate {
      }
      */
     
+}
+
+extension AfioViewController: MPAdViewDelegate {
+
+    // Function for successful loading of ad.
+    func adViewDidLoadAd(_ view: MPAdView!) {
+        print("adViewDidLoadAd")
+        addInfeedAfioToView(view)
+    }
+
+    // Function for failed "loading" of an ad.
+    func adViewDidFail(toLoadAd view: MPAdView!) {
+        print("adViewDidFail")
+    }
+    
+    func willPresentModalView(forAd view: MPAdView!) {
+        print("willPresentModalViewForAd")
+    }
+    
+    func didDismissModalView(forAd view: MPAdView!) {
+        print("willPresentModalViewForAd")
+    }
+
+    func willLeaveApplication(fromAd view: MPAdView!) {
+        print("willPresentModalViewForAd")
+    }
 }
