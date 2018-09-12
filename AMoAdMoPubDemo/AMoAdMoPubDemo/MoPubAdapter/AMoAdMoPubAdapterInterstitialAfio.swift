@@ -7,26 +7,25 @@ import Foundation
 import UIKit
 
 @objc(AMoAdMoPubAdapterInterstitialAfio)
-class AMoAdMoPubAdapterInterstitialAfio: MPInterstitialCustomEvent, AMoAdInterstitialVideoDelegate {
+class AMoAdMoPubAdapterInterstitialAfio: MPInterstitialCustomEvent {
     
-    var customEventClassData: AMoAdCustomEventClassDataForDisplay?
+    var customEventClassData: InterstitialAfioCustomEventClassData?
     
     public override func requestInterstitial(withCustomEventInfo info: [AnyHashable: Any]!) {
         
-        self.customEventClassData = AMoAdMoPubUtil.extractCustomEventClassDataForDisplay(info: info)
+        self.customEventClassData = AMoAdMoPubUtil.extractInterstitialAfioCustomEventClassData(info: info)
         
         guard let _customEventClassData = self.customEventClassData else {
             return
         }
         
-        self.preparedInterstitialAfio(customEventClassData: _customEventClassData)
+        initInterstitialAfio(customEventClassData: _customEventClassData)
     }
     
-    fileprivate func preparedInterstitialAfio(customEventClassData: AMoAdCustomEventClassDataForDisplay) {
-        
+    fileprivate func initInterstitialAfio(customEventClassData: InterstitialAfioCustomEventClassData) {
+
         AMoAdInterstitialVideo.sharedInstance(withSid: customEventClassData.sid, tag: "").delegate = self
-        
-        // 広告ダウンロード
+//        AMoAdInterstitialVideo.sharedInstance(withSid: sid, tag: "").isCancellable = false // 任意でisCancellableの割り当てをしてください。
         AMoAdInterstitialVideo.sharedInstance(withSid: customEventClassData.sid, tag: "").load()
     }
     
@@ -34,11 +33,19 @@ class AMoAdMoPubAdapterInterstitialAfio: MPInterstitialCustomEvent, AMoAdInterst
         guard let _customEventClassData = self.customEventClassData else {
             return
         }
-        self.delegate.interstitialCustomEventWillAppear(self)
-        AMoAdInterstitialVideo.sharedInstance(withSid: _customEventClassData.sid, tag: "").show()
-        self.delegate.interstitialCustomEventDidAppear(self)
+        
+        if AMoAdInterstitialVideo.sharedInstance(withSid: _customEventClassData.sid, tag: "").isLoaded {
+            self.delegate.interstitialCustomEventWillAppear(self)
+            AMoAdInterstitialVideo.sharedInstance(withSid: _customEventClassData.sid, tag: "").show()
+            self.delegate.interstitialCustomEventDidAppear(self)
+        } else {
+            print("Interstitial Afio Ad wasn't loaded")
+        }
     }
-    
+}
+
+extension AMoAdMoPubAdapterInterstitialAfio: AMoAdInterstitialVideoDelegate {
+
     func amoadInterstitialVideo(_ amoadInterstitialVideo: AMoAdInterstitialVideo!, didLoadAd result: AMoAdResult) {
         // 広告ダウンロードが完了したら View を表示する
         switch result {
@@ -53,7 +60,7 @@ class AMoAdMoPubAdapterInterstitialAfio: MPInterstitialCustomEvent, AMoAdInterst
             self.delegate.interstitialCustomEvent(self, didFailToLoadAdWithError: nil)
         }
     }
-    
+
     func amoadInterstitialVideoDidStart(_ amoadInterstitialVideo: AMoAdInterstitialVideo!) {
         // 動画の再生を開始した
         print("amoadInterstitialVideoDidStart")
@@ -61,14 +68,10 @@ class AMoAdMoPubAdapterInterstitialAfio: MPInterstitialCustomEvent, AMoAdInterst
     func amoadInterstitialVideoDidComplete(_ amoadInterstitialVideo: AMoAdInterstitialVideo!) {
         // 動画を最後まで再生完了した
         print("amoadInterstitialVideoDidComplete")
-        self.delegate.interstitialCustomEventWillDisappear(self)
-        self.delegate.interstitialCustomEventDidDisappear(self)
     }
     func amoadInterstitialVideoDidFailToPlay(_ amoadInterstitialVideo: AMoAdInterstitialVideo!) {
         // 動画の再生に失敗した
         print("amoadInterstitialVideoDidFailToPlay")
-        self.delegate.interstitialCustomEventWillDisappear(self)
-        self.delegate.interstitialCustomEventDidDisappear(self)
     }
     func amoadInterstitialVideoDidShow(_ amoadInterstitialVideo: AMoAdInterstitialVideo!) {
         // 広告を表示した
@@ -83,7 +86,7 @@ class AMoAdMoPubAdapterInterstitialAfio: MPInterstitialCustomEvent, AMoAdInterst
     func amoadInterstitialVideoDidClickAd(_ amoadInterstitialVideo: AMoAdInterstitialVideo!) {
         // 広告がクリックされた
         print("amoadInterstitialVideoDidClickAd")
-        self.delegate.interstitialCustomEventWillDisappear(self)
-        self.delegate.interstitialCustomEventDidDisappear(self)
+        self.delegate.interstitialCustomEventDidReceiveTap(self)
+        self.delegate.interstitialCustomEventWillLeaveApplication(self)
     }
 }

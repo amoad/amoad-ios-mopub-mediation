@@ -54,14 +54,14 @@ class AMoAdMoPubUtil {
     }
 
     /// - Parameter info: MoPub CustomEventInfo Object
-    /// - Returns: AMoAdCustomEventClassDataForDisplay
-    static func extractCustomEventClassDataForDisplay(info: [AnyHashable: Any]) -> AMoAdCustomEventClassDataForDisplay? {
+    /// - Returns: InterstitialAfioCustomEventClassData
+    static func extractInterstitialAfioCustomEventClassData(info: [AnyHashable: Any]) -> InterstitialAfioCustomEventClassData? {
         
         let decoder = JSONDecoder()
         
         do {
             let jsonData = try JSONSerialization.data(withJSONObject: info, options: .prettyPrinted)
-            let customEventClassData = try decoder.decode(AMoAdCustomEventClassDataForDisplay.self, from: jsonData)
+            let customEventClassData = try decoder.decode(InterstitialAfioCustomEventClassData.self, from: jsonData)
             return customEventClassData
         } catch {
             return nil
@@ -82,6 +82,6 @@ struct InfeedAfioCustomEventClassData: Codable {
     var file: String
 }
 
-struct AMoAdCustomEventClassDataForDisplay: Codable {
+struct InterstitialAfioCustomEventClassData: Codable {
     var sid: String
 }
