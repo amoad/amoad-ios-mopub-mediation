@@ -15,7 +15,11 @@ class AMoAdMoPubAdapterInfeedAfio: MPBannerCustomEvent, AMoAdNativeAppDelegate {
         guard let _customEventClassData = customEventClassData else {
             return
         }
-        
+        if (_customEventClassData.file.isEmpty) {
+            print("Cannot find file")
+            return
+        }
+
         initInfeedAfio(size:size, customEventClassData: _customEventClassData)
     }
     
