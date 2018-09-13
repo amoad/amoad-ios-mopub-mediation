@@ -62,30 +62,24 @@ extension AMoAdMoPubAdapterInterstitialAfio: AMoAdInterstitialVideoDelegate {
     }
 
     func amoadInterstitialVideoDidStart(_ amoadInterstitialVideo: AMoAdInterstitialVideo!) {
-        // 動画の再生を開始した
-        print("amoadInterstitialVideoDidStart")
+        print("動画の再生を開始した")
     }
     func amoadInterstitialVideoDidComplete(_ amoadInterstitialVideo: AMoAdInterstitialVideo!) {
-        // 動画を最後まで再生完了した
-        print("amoadInterstitialVideoDidComplete")
+        print("動画を最後まで再生完了した")
     }
     func amoadInterstitialVideoDidFailToPlay(_ amoadInterstitialVideo: AMoAdInterstitialVideo!) {
-        // 動画の再生に失敗した
-        print("amoadInterstitialVideoDidFailToPlay")
+        print("動画の再生に失敗した")
     }
     func amoadInterstitialVideoDidShow(_ amoadInterstitialVideo: AMoAdInterstitialVideo!) {
-        // 広告を表示した
-        print("amoadInterstitialVideoDidShow")
+        print("広告を表示した")
     }
     func amoadInterstitialVideoWillDismiss(_ amoadInterstitialVideo: AMoAdInterstitialVideo!) {
-        // 広告を閉じた
-        print("amoadInterstitialVideoWillDismiss")
+        print("広告を閉じた")
         self.delegate.interstitialCustomEventWillDisappear(self)
         self.delegate.interstitialCustomEventDidDisappear(self)
     }
     func amoadInterstitialVideoDidClickAd(_ amoadInterstitialVideo: AMoAdInterstitialVideo!) {
-        // 広告がクリックされた
-        print("amoadInterstitialVideoDidClickAd")
+        print("広告がクリックされた")
         self.delegate.interstitialCustomEventDidReceiveTap(self)
         self.delegate.interstitialCustomEventWillLeaveApplication(self)
     }
