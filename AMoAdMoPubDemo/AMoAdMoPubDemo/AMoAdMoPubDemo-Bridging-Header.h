@@ -2,9 +2,6 @@
 //  AMoAdMoPubDemo-Bridging-Header.h
 //  AMoAdMoPubDemo
 //
-//  Created by 菅原 清吾 on 2018/06/01.
-//  Copyright © 2018年 AMoAd. All rights reserved.
-//
 
 #ifndef AMoAdMoPubDemo_Bridging_Header_h
 #define AMoAdMoPubDemo_Bridging_Header_h
