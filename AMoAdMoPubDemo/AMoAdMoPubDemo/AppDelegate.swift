@@ -13,6 +13,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let sdkConfig = MPMoPubConfiguration.init(adUnitIdForAppInitialization: "adUnitIdを指定してください")
+        sdkConfig.globalMediationSettings = [];
+        sdkConfig.mediatedNetworks = [];
+        sdkConfig.advancedBidders = nil;
+        MoPub.sharedInstance().initializeSdk(with: sdkConfig) {
+            print("SDK initialization complete")
+        }
         return true
     }
 
